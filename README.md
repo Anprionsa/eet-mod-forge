@@ -4,7 +4,7 @@
 
 Browse 498 mods and 3,500+ components. Build a WeiDU.log. Export for [mod_installer](https://github.com/dark0dave/mod_installer) or Project Infinity. Analyze debug logs. Check for updates.
 
-> [**Launch the app →**](#) <!-- Replace with your GitHub Pages URL -->
+> [**Launch the app →**](https://anprionsa.github.io/eet-mod-forge/)
 
 ## What it does
 
