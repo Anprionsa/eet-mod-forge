@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EET Mod Forge</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Fira+Code:wght@400;500&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0c0e14;--bg2:#141620;--bg3:#1a1e2e;--bgs:#10121a;--gold:#d4a843;--goldd:#8b7030;--goldb:#f0d060;--tx:#c8ccd8;--txd:#6b7084;--txb:#e8ecf4;--grn:#4ade80;--red:#f87171;--blu:#60a5fa;--pur:#a78bfa;--brd:#1e2234;--brd2:#2a3050;--org:#fb923c}
+html,body{height:100%}html{background:var(--bg);color:var(--tx);font-family:'Source Sans 3',sans-serif;font-size:14px}body{display:flex;flex-direction:column}
+::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--goldd);border-radius:3px}
+a{color:var(--blu);text-decoration:none}a:hover{text-decoration:underline}
+.ci{font-family:'Cinzel',serif}.fi{font-family:'Fira Code',monospace;font-size:.82em}
+.bd{display:inline-block;padding:1px 7px;border-radius:3px;font-size:.72rem;font-weight:600;letter-spacing:.02em}
+.bd1{background:#1e3a2f;color:var(--grn)}.bd2{background:#1e2a3a;color:var(--blu)}.bd3{background:#2a1e3a;color:var(--pur)}.bd4{background:#3a1e1e;color:var(--red)}
+.bdi{background:#1a2e1a;color:var(--grn);border:1px solid #2a4a2a}.bdo{background:#2a1a1a;color:var(--red);border:1px solid #4a2a2a}
+.gw{text-shadow:0 0 20px rgba(212,168,67,.3)}
+.tb{background:linear-gradient(180deg,#12141e,var(--bg));border-bottom:1px solid var(--brd);padding:10px 20px;position:sticky;top:0;z-index:50}
+.sb{width:250px;min-width:250px;background:var(--bgs);border-right:1px solid var(--brd);overflow-y:auto;position:sticky;top:52px;height:calc(100vh - 52px)}
+.si{padding:5px 12px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:all .15s;font-size:.83rem}
+.si:hover{background:var(--bg3)}.si.ac{background:var(--bg3);border-left:3px solid var(--gold);color:var(--gold)}.si .ct{color:var(--txd);font-size:.75rem}
+.sh{padding:8px 12px;font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--goldd);font-weight:700}
+.mc{background:var(--bg2);border:1px solid var(--brd);border-radius:6px;margin-bottom:4px;transition:border-color .15s}
+.mc:hover{border-color:var(--brd2)}.mc.ins{border-left:3px solid var(--grn)}.mc.sel{border-left:3px solid var(--gold)}
+.mh{padding:7px 12px;cursor:pointer;display:flex;align-items:flex-start;gap:8px}
+.mx{padding:0 12px 10px;border-top:1px solid var(--brd)}
+.cr{display:flex;align-items:flex-start;gap:8px;padding:4px 0;border-bottom:1px solid var(--brd)}
+.cr:last-child{border-bottom:none}.cr.xo{opacity:.5}.cr.xi{background:rgba(74,222,128,.04)}
+.ck{appearance:none;-webkit-appearance:none;width:16px;height:16px;min-width:16px;border:1.5px solid var(--brd2);border-radius:3px;cursor:pointer;position:relative;top:2px;transition:all .15s}
+.ck:checked{background:var(--gold);border-color:var(--gold)}.ck:checked::after{content:'\2713';position:absolute;top:-2px;left:2px;font-size:12px;color:var(--bg);font-weight:bold}
+.sx{background:var(--bg2);border:1px solid var(--brd);color:var(--txb);padding:7px 12px;border-radius:6px;width:100%;font-size:.88rem;outline:none;font-family:inherit}.sx:focus{border-color:var(--goldd)}
+.bt{padding:5px 14px;border-radius:5px;border:1px solid var(--brd2);background:var(--bg2);color:var(--tx);cursor:pointer;font-family:inherit;font-size:.82rem;transition:all .15s}
+.bt:hover{background:var(--bg3);border-color:var(--goldd)}.bg{background:linear-gradient(135deg,var(--goldd),var(--gold));color:var(--bg);border:none;font-weight:700}.bg:hover{background:linear-gradient(135deg,var(--gold),var(--goldb))}
+.bs{padding:3px 10px;font-size:.76rem}
+.st{text-align:center}.sn{font-size:1.4rem;font-weight:700;color:var(--gold);line-height:1}.sl{font-size:.66rem;color:var(--txd);text-transform:uppercase;letter-spacing:.08em}
+.ar{transition:transform .2s;color:var(--txd);font-size:.8rem}.ar.op{transform:rotate(90deg)}
+.nt{font-size:.76rem;color:var(--txd);line-height:1.4;white-space:pre-wrap;max-height:100px;overflow-y:auto;padding:3px 0}
+.bb{position:sticky;bottom:0;background:var(--bgs);border-top:1px solid var(--brd);padding:8px 20px;display:flex;align-items:center;justify-content:space-between;z-index:50;gap:8px;flex-wrap:wrap}
+.pl{padding:3px 10px;border-radius:12px;font-size:.72rem;cursor:pointer;border:1px solid var(--brd);color:var(--txd);transition:all .15s}
+.pl:hover{border-color:var(--goldd);color:var(--tx)}.pl.ac{background:var(--goldd);color:var(--bg);border-color:var(--gold)}
+@keyframes fi{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}.fin{animation:fi .15s ease-out}
+@keyframes spin{to{transform:rotate(360deg)}}.spin{animation:spin 1s linear infinite}
+.mo{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;display:flex;align-items:center;justify-content:center}
+.md{background:var(--bg2);border:1px solid var(--brd2);border-radius:8px;padding:20px;max-width:760px;width:95%;max-height:85vh;overflow-y:auto}
+.warn{background:#2a2010;border:1px solid #4a3820;border-radius:4px;padding:6px 12px;margin:3px 0;font-size:.78rem;color:#f0c050}
+.err{background:#2a1010;border:1px solid #4a2020;color:var(--red)}.info{background:#10202a;border:1px solid #204a60;color:var(--blu)}
+.drop-zone{border:2px dashed var(--brd2);border-radius:8px;padding:12px;text-align:center;transition:all .2s;cursor:pointer}
+.drop-zone:hover{border-color:var(--gold);background:rgba(212,168,67,.05)}
+.preset-card{background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:8px 10px;cursor:pointer;transition:all .15s}
+.preset-card:hover{border-color:var(--gold);background:var(--bg3)}
+.diff-add{color:var(--grn)}.diff-rem{color:var(--red)}
+.tab{padding:7px 14px;cursor:pointer;font-size:.82rem;color:var(--txd);border-bottom:2px solid transparent;transition:all .15s}
+.tab:hover{color:var(--tx)}.tab.ac{color:var(--gold);border-bottom-color:var(--gold)}
+.diag-card{background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:10px 14px;margin-bottom:6px}
+.diag-crit{border-left:3px solid var(--red)}.diag-warn{border-left:3px solid var(--org)}.diag-info{border-left:3px solid var(--blu)}.diag-ok{border-left:3px solid var(--grn)}
+.ver-badge{font-size:.68rem;padding:1px 6px;border-radius:3px;font-weight:600}
+.ver-ok{background:#1a2e1a;color:var(--grn)}.ver-up{background:#2a2010;color:var(--org)}
+.gh-btn{padding:4px 10px;border-radius:4px;border:1px solid var(--brd);background:var(--bg2);color:var(--txd);cursor:pointer;font-size:.75rem;transition:all .15s}
+.gh-btn:hover{border-color:var(--gold);color:var(--tx)}.gh-btn:disabled{opacity:.4;cursor:not-allowed}
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:16px}
+.loading-ring{width:40px;height:40px;border:3px solid var(--brd);border-top-color:var(--gold);border-radius:50%}
+/* Step 17: Detail panel */
+.detail{width:340px;min-width:340px;background:var(--bgs);border-left:1px solid var(--brd);overflow-y:auto;padding:14px;position:sticky;top:52px;height:calc(100vh - 52px)}
+.detail-section{margin-bottom:12px}
+.detail-section h4{font-size:.78rem;color:var(--goldd);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
+/* Step 20: Install order viz */
+.timeline{padding:14px;overflow-y:auto;flex:1}
+.tl-cat{margin-bottom:10px}
+.tl-cat-head{font-size:.82rem;font-weight:600;color:var(--gold);padding:4px 0;border-bottom:1px solid var(--brd);margin-bottom:4px}
+.tl-mod{display:inline-block;padding:2px 8px;margin:2px;border-radius:4px;font-size:.72rem;cursor:pointer;border:1px solid var(--brd);transition:all .15s}
+.tl-mod:hover{border-color:var(--gold)}.tl-mod.tl-sel{background:var(--goldd);color:var(--bg);border-color:var(--gold)}
+.tl-mod.tl-inst{background:#1a2e1a;border-color:#2a4a2a;color:var(--grn)}
+.tl-mod.tl-both{background:var(--goldd);border-color:var(--gold);color:var(--bg)}
+/* Step 22: Tag filters */
+.tag-row{display:flex;gap:3px;flex-wrap:wrap;padding:3px 12px}
+.tag{padding:2px 8px;border-radius:10px;font-size:.68rem;cursor:pointer;border:1px solid var(--brd);color:var(--txd);transition:all .15s}
+.tag:hover{border-color:var(--goldd)}.tag.ac{background:var(--pur);color:#fff;border-color:var(--pur)}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useMemo,useCallback,useRef,useEffect,memo,createContext,useContext}=React;
+
+// ═══ Data Context ═══
+const DC=createContext(null);const AC=createContext(null);
+
+function DataLoader({children}){
+  const[data,setData]=useState(null);const[err,setErr]=useState(null);const[prog,setProg]=useState('');
+  useEffect(()=>{async function load(){try{
+    const files=['mods','presets','compat','known_issues','github_mods','version_cache','recommendations'];
+    const r={};for(const f of files){setProg('Loading '+f+'...');try{const resp=await fetch('./data/'+f+'.json');if(resp.ok)r[f]=await resp.json();else r[f]=f==='version_cache'||f==='compat'?{}:[]}catch(e){r[f]=f==='version_cache'||f==='compat'?{}:[]}}
+    setData(r)}catch(e){setErr(e.message)}}load()},[]);
+  if(err)return(<div className="loading"><div className="ci" style={{color:'var(--red)',fontSize:'1.2rem'}}>Error</div><div style={{color:'var(--txd)'}}>{err}</div></div>);
+  if(!data)return(<div className="loading"><div className="loading-ring spin"></div><div className="ci" style={{color:'var(--gold)',fontSize:'1.1rem'}}>EET Mod Forge</div><div style={{color:'var(--txd)',fontSize:'.85rem'}}>{prog}</div></div>);
+  return <DC.Provider value={data}>{children}</DC.Provider>;
+}
+
+// ═══ Constants ═══
+const CL={'PRE EET BGEE MODS':'Pre-EET (BG1)','EET STARTS HERE':'EET Core','ENGINE':'Engine','INTERFACE':'Interface / UI','GRAPHICAL AND SOUND OVERWRITE MODS':'Graphics & Sound','RESTORATIONS':'Restorations','QUEST MODS BG1':'Quests \u2014 BG1','QUEST MODS BG2':'Quests \u2014 BG2','QUEST MODS ToB':'Quests \u2014 ToB','NEW NPC MODS':'New NPCs','AFTER NEW NPCS':'NPC Expansions','CREATURE MODS PRE SCS':'Creature Mods','EXPERIENCE TWEAKS':'XP Tweaks','ITEM ADDITION MODS':'Items','SPELL MODS':'Spells','KIT MODS':'Kits & Classes','POST SCS TWEAKS':'Post-SCS Tweaks'};
+const CO=Object.keys(CL);const PST={BG1:'bd1',SoD:'bd2',SoA:'bd3',ToB:'bd4'};
+
+// ═══ Utilities ═══
+function buildIdx(D,compat){
+  const CI={};Object.entries(compat||{}).forEach(([k,v])=>{CI[k]=v});
+  const WI={};const WF={};
+  D.forEach(mod=>{mod.co.forEach((c,ci)=>{const f=(c.wf||'').toLowerCase();const cn=c.wc!=null?c.wc:(c.cn!=null?c.cn:0);if(f){const k=f+":"+cn;if(!WI[k])WI[k]=[];WI[k].push({mi:mod.i,ci});if(!WF[f])WF[f]=[];WF[f].push({mi:mod.i,ci,comp:cn})}})});
+  return{CI,WI,WF};
+}
+function getC(CI,n){const l=n.toLowerCase();if(CI[l])return CI[l];for(const[k,v]of Object.entries(CI))if(l.includes(k)||k.includes(l))return v;return null}
+function genW(mod,comp){const f=comp.wf||mod.t.toUpperCase();const p=(comp.wp||f+"\\"+f+".TP2").replace(/\//g,"\\");const cn=comp.wc!=null?comp.wc:(comp.cn!=null?comp.cn:0);return"~"+p+"~ #0 #"+cn+" // "+(comp.n||mod.n)+(comp.v?": "+comp.v:"")}
+function genP(mod,comp){if(comp.pi)return comp.pi+";"+(comp.n||mod.n);const cn=comp.cn!=null?":"+comp.cn:(comp.wc!=null?":"+comp.wc:"");return mod.t+cn+";"+(comp.n||mod.n)}
+function parseLog(text){const e=[];const re=/~([^\\\/]+)[\\\/]([^~]+)~\s+#(\d+)\s+#(\d+)/;text.split("\n").forEach(l=>{const m=re.exec(l.trim());if(m)e.push({folder:m[1].toLowerCase(),comp:parseInt(m[4])})});return e}
+function validate(D,sel){const m=[];const s=new Set();D.forEach(mod=>{mod.co.forEach((c,ci)=>{if(sel[mod.i+"-"+ci])s.add(mod.t.toLowerCase())})});
+  if(!s.has('eefixpack'))m.push({t:'err',m:'EE Fixpack not selected'});if(!s.has('eet'))m.push({t:'err',m:'EET Core not selected'});
+  if(!s.has('eet_end')&&!s.has('eet_tweaks'))m.push({t:'warn',m:'EET_end not selected'});
+  m.push({t:'info',m:'mod_installer: eet --bg1-log-file WeiDU-BGEE.log --bg2-log-file WeiDU.log'});return m}
+
+function parseDebug(text,KI){
+  const lines=text.replace(/\r\n/g,"\n").replace(/\r/g,"\n").split("\n");
+  const r={ver:null,installed:[],errors:[],warnings:[],success:[],pathIssues:[],matched:[],unknown:[]};
+  const EP=[[/ERROR:\s*\[(.+?)\]\s*->\s*\[(.+?)\]\s*Patching Failed/,'critical','patch_failed'],[/ERROR Installing \[(.+?)\], rolling back/,'critical','rollback'],[/FATAL ERROR:\s*Failure\("(.+?)"\)/,'fatal','fatal'],[/PARSE ERROR at line (\d+)/,'critical','parse_error'],[/Stopping installation/,'critical','stopped'],[/DELETE_BYTES out of bounds/,'critical','delete_bounds'],[/ERROR:\s*processing \.D/,'critical','dialog_error'],[/NOT_INSTALLED/,'error','not_installed']];
+  const WP=[[/(.+?) file not found\. Skipping/,'warning','file_missing'],[/WARNING:\s*internal label/,'warning','dialog_label']];
+  lines.forEach((line,i)=>{line=line.trim();if(!line)return;
+    if(line.startsWith('WeiDU v')){const m=line.match(/WeiDU v\s*(\d+)/);if(m)r.ver=parseInt(m[1])}
+    const im=line.match(/^([A-Z0-9_\/\\-]+\.TP2)\s+(\d+)\s+(\d+)\s+(\w+)/i);
+    if(im){r.installed.push({tp2:im[1],comp:parseInt(im[3]),status:im[4]});if(im[4]==='NOT_INSTALLED')r.errors.push({ln:i+1,sev:'error',cat:'not_installed',msg:line.substring(0,200)});return}
+    if(/SUCCESSFULLY INSTALLED\s+(.+)/.test(line)){r.success.push(line.match(/SUCCESSFULLY INSTALLED\s+(.+)/)[1]);return}
+    const pi=line.match(/^([A-Z0-9_-]+)\/([^\s]+\.TP2)/i);if(pi)r.pathIssues.push(pi[0]);
+    for(const[re,sev,cat]of EP){if(re.test(line)){r.errors.push({ln:i+1,sev,cat,msg:line.substring(0,250)});return}}
+    for(const[re,sev,cat]of WP){if(re.test(line)){r.warnings.push({ln:i+1,sev,cat,msg:line.substring(0,250)});return}}
+  });
+  [...r.errors,...r.warnings].forEach(iss=>{let f=false;for(const ki of(KI||[])){try{if(new RegExp(ki.pattern,'i').test(iss.msg)){r.matched.push({issue:iss,known:ki});f=true;break}}catch(e){}}if(!f&&iss.sev!=='info')r.unknown.push(iss)});
+  if(r.ver&&r.ver>=24700&&r.ver<=24900)r.warnings.push({ln:0,sev:'warning',cat:'weidu_ver',msg:'WeiDU '+r.ver+' codepage bug'});
+  return r;
+}
+
+// Step 21: URL hash encode/decode selections
+function encodeSelection(sel){const keys=Object.keys(sel).filter(k=>sel[k]).sort();return btoa(keys.join(','))}
+function decodeSelection(hash){try{const s=atob(hash);const sel={};s.split(',').forEach(k=>{if(k)sel[k]=true});return sel}catch(e){return null}}
+
+// Step 18: Generate markdown report
+function genReport(D,sel,diff){
+  const lines=['# EET Mod Forge \u2014 Install Report','','Generated: '+new Date().toISOString().substring(0,10),''];
+  const selMods=[];D.forEach(mod=>{const comps=[];mod.co.forEach((c,ci)=>{if(sel[mod.i+"-"+ci])comps.push(c)});if(comps.length)selMods.push({mod,comps})});
+  lines.push('## Summary','',`- **${selMods.length}** mods, **${selMods.reduce((a,m)=>a+m.comps.length,0)}** components selected`);
+  if(diff.add||diff.rem)lines.push(`- **+${diff.add}** added, **-${diff.rem}** removed from baseline`);
+  lines.push('','## Selected Mods','');
+  let lastCat='';
+  selMods.forEach(({mod,comps})=>{
+    if(mod.c!==lastCat){lines.push('','### '+( CL[mod.c]||mod.c),'');lastCat=mod.c}
+    lines.push('**'+mod.n+'**'+(mod.u?' ([link]('+mod.u+'))':''));
+    comps.forEach(c=>{lines.push('- '+(c.cn!=null?'#'+c.cn+' ':'')+c.n+(c.v?' ('+c.v+')':''))});
+  });
+  lines.push('','---','*Generated by [EET Mod Forge](https://github.com/placeholder/eet-mod-forge)*');
+  return lines.join('\n');
+}
+
+// Step 19: Generate bug report template
+function genBugReport(debugResult,modName){
+  const lines=['## Bug Report'+(modName?' \u2014 '+modName:''),'','**WeiDU Version:** '+(debugResult.ver||'Unknown'),'','### Errors',''];
+  debugResult.errors.forEach(e=>{lines.push('- `'+e.msg.substring(0,150)+'`')});
+  if(!debugResult.errors.length)lines.push('No errors detected.');
+  lines.push('','### Warnings','');
+  debugResult.warnings.forEach(w=>{lines.push('- `'+w.msg.substring(0,150)+'`')});
+  if(!debugResult.warnings.length)lines.push('No warnings.');
+  lines.push('','### Installed Mods','','<details><summary>WeiDU.log ('+debugResult.installed.length+' entries)</summary>','','```');
+  debugResult.installed.slice(0,50).forEach(e=>{lines.push(e.tp2+' '+e.comp+' '+e.status)});
+  if(debugResult.installed.length>50)lines.push('... and '+(debugResult.installed.length-50)+' more');
+  lines.push('```','','</details>');
+  return lines.join('\n');
+}
+
+// Step 22: Fuzzy search
+function fuzzyMatch(query,text){if(!query)return true;const q=query.toLowerCase();const t=text.toLowerCase();if(t.includes(q))return true;
+  let qi=0;for(let ti=0;ti<t.length&&qi<q.length;ti++){if(t[ti]===q[qi])qi++}return qi===q.length&&q.length>=3}
+
+// ═══ Virtual List ═══
+const IH=50;const OV=8;
+function VL({items,sel,onTog,onTogAll,onDetail}){
+  const ref=useRef(null);const[st,setSt]=useState(0);const[ch,setCh]=useState(800);
+  useEffect(()=>{if(ref.current)setCh(ref.current.clientHeight);const ro=new ResizeObserver(()=>{if(ref.current)setCh(ref.current.clientHeight)});if(ref.current)ro.observe(ref.current);return()=>ro.disconnect()},[]);
+  const si=Math.max(0,Math.floor(st/IH)-OV);const ei=Math.min(items.length,Math.ceil((st+ch)/IH)+OV);
+  return(<div ref={ref} style={{flex:1,overflow:'auto',padding:'8px 12px'}} onScroll={e=>setSt(e.target.scrollTop)}><div style={{height:items.length*IH,position:'relative'}}><div style={{position:'absolute',top:si*IH,left:0,right:0}}>{items.slice(si,ei).map(mod=><MC key={mod.i} mod={mod} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={onDetail}/>)}</div></div></div>);
+}
+
+// ═══ Mod Card ═══
+const MC=memo(({mod,sel,onTog,onTogAll,onDetail})=>{
+  const{CI}=useContext(AC);const[exp,setExp]=useState(false);
+  const hasI=mod.co.some(c=>c.v!==undefined);const selCt=mod.co.filter((_,i)=>sel[mod.i+"-"+i]).length;
+  const compat=useMemo(()=>getC(CI,mod.n),[CI,mod.n]);
+  return(
+    <div className={"mc"+(hasI?" ins":"")+(selCt>0?" sel":"")}>
+      <div className="mh" onClick={()=>setExp(!exp)}>
+        <span className={"ar"+(exp?" op":"")}>&#9654;</span>
+        <div style={{flex:1,minWidth:0}}>
+          <div style={{display:'flex',alignItems:'center',gap:6,flexWrap:'wrap'}}>
+            <span style={{fontWeight:600,color:'var(--txb)',fontSize:'.9rem'}}>{mod.n}</span>
+            <span className="fi" style={{color:'var(--txd)',fontSize:'.66rem'}}>{mod.t}</span>
+            {hasI&&<span className="bd bdi" style={{fontSize:'.6rem'}}>INSTALLED</span>}
+            {compat&&compat.ver&&<span className="bd" style={{background:'#1a2a1a',color:'#80d0a0',fontSize:'.58rem',border:'1px solid #2a4a3a'}}>{"EET\u2265"+compat.ver}</span>}
+          </div>
+          <div style={{display:'flex',gap:3,marginTop:2,flexWrap:'wrap',alignItems:'center'}}>
+            {(mod.ph||[]).map(p=><span key={p} className={"bd "+PST[p]}>{p}</span>)}
+            <span style={{color:'var(--txd)',fontSize:'.73rem'}}>{mod.co.length+" comp"+(mod.co.length!==1?"s":"")}{selCt>0&&<span style={{color:'var(--gold)'}}>{" \u00b7 "+selCt}</span>}</span>
+          </div>
+        </div>
+        <div style={{display:'flex',gap:4}}>
+          {mod.u&&<a href={mod.u} target="_blank" rel="noopener" onClick={e=>e.stopPropagation()} style={{fontSize:'.7rem',padding:'2px 6px',border:'1px solid var(--brd)',borderRadius:4,color:'var(--blu)'}}>{"\u2197"}</a>}
+          <button className="bt bs" style={{fontSize:'.68rem',padding:'2px 6px'}} onClick={e=>{e.stopPropagation();onDetail(mod)}}>Info</button>
+        </div>
+      </div>
+      {exp&&(<div className="mx fin">
+        <div style={{marginTop:4,display:'flex',gap:5,marginBottom:5}}>
+          <button className="bt bs" onClick={e=>{e.stopPropagation();onTogAll(mod.i,true)}}>Select Active</button>
+          <button className="bt bs" onClick={e=>{e.stopPropagation();onTogAll(mod.i,false)}}>Deselect All</button>
+        </div>
+        {mod.co.map((c,ci)=>{const key=mod.i+"-"+ci;return(
+          <div key={ci} className={"cr"+(c.x?" xo":"")+(c.v!==undefined?" xi":"")}>
+            <input type="checkbox" className="ck" checked={!!sel[key]} onChange={()=>onTog(key)}/>
+            <div style={{flex:1,minWidth:0}}>
+              <div style={{display:'flex',gap:5,alignItems:'center',flexWrap:'wrap'}}>
+                {c.cn!=null&&<span className="fi" style={{color:'var(--goldd)',fontSize:'.66rem'}}>{"#"+c.cn}</span>}
+                <span style={{fontSize:'.82rem',color:c.x?'var(--txd)':'var(--tx)'}}>{c.n}</span>
+                {c.v!==undefined&&<span className="bd bdi" style={{fontSize:'.56rem'}}>{"\u2713 "+c.v}</span>}
+                {c.x&&<span className="bd bdo" style={{fontSize:'.56rem'}}>OPT</span>}
+              </div>
+              {c.no&&<div className="nt" style={{fontSize:'.7rem',maxHeight:40}}>{c.no}</div>}
+            </div>
+          </div>)})}
+      </div>)}
+    </div>);
+});
+
+// ═══ Step 17: Detail Panel ═══
+function DetailPanel({mod,onClose}){
+  const data=useContext(DC);const recs=(data.recommendations||[]).find(r=>mod.n.includes(r.mod)||r.mod.includes(mod.n));
+  const vc=(data.version_cache||{});const gh=Object.values(vc).find(v=>v.mod_id===mod.i);
+  return(
+    <div className="detail fin">
+      <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
+        <h3 style={{color:'var(--gold)',fontSize:'1rem'}}>{mod.n}</h3>
+        <button className="bt bs" onClick={onClose}>{"\u2715"}</button>
+      </div>
+      <div className="fi" style={{color:'var(--txd)',fontSize:'.72rem',marginBottom:8}}>{mod.t}</div>
+      {mod.a&&<div className="detail-section"><h4>Author</h4><div style={{fontSize:'.82rem'}}>{mod.a}</div></div>}
+      {mod.no&&<div className="detail-section"><h4>Notes</h4><div className="nt" style={{maxHeight:200}}>{mod.no}</div></div>}
+      {mod.rq&&<div className="detail-section"><h4>Requires</h4><div style={{fontSize:'.82rem'}}>{mod.rq}</div></div>}
+      {mod.ic&&<div className="detail-section"><h4>Conflicts</h4><div style={{fontSize:'.82rem',color:'var(--red)'}}>{mod.ic}</div></div>}
+      {gh&&<div className="detail-section"><h4>GitHub</h4>
+        {gh.stars!=null&&<div style={{fontSize:'.82rem'}}>{"\u2b50 "+gh.stars+" stars"}</div>}
+        {gh.pushed&&<div style={{fontSize:'.78rem',color:'var(--txd)'}}>Last push: {gh.pushed}</div>}
+        {gh.tag&&<div style={{fontSize:'.78rem'}}>Latest: <span className="ver-badge ver-up">{gh.tag}</span>{gh.release_date&&" ("+gh.release_date+")"}</div>}
+        {gh.archived&&<div style={{fontSize:'.78rem',color:'var(--red)'}}>This repo is archived.</div>}
+      </div>}
+      {/* Step 23: Recommendations */}
+      {recs&&<div className="detail-section"><h4>Recommendations</h4>
+        {recs.tip&&<div style={{fontSize:'.8rem',marginBottom:6,color:'var(--txb)'}}>{recs.tip}</div>}
+        {recs.goes_with&&recs.goes_with.length>0&&<div style={{marginBottom:4}}><span style={{fontSize:'.72rem',color:'var(--grn)'}}>Goes well with:</span>{recs.goes_with.map((g,i)=><span key={i} className="bd" style={{marginLeft:4,background:'#1a2e1a',color:'var(--grn)',fontSize:'.66rem'}}>{g}</span>)}</div>}
+        {recs.avoid&&recs.avoid.length>0&&<div><span style={{fontSize:'.72rem',color:'var(--org)'}}>Watch out:</span>{recs.avoid.map((a,i)=><span key={i} style={{display:'block',fontSize:'.76rem',color:'var(--org)',marginTop:2}}>{"\u26a0 "+a}</span>)}</div>}
+      </div>}
+      {mod.u&&<div className="detail-section"><h4>Links</h4><a href={mod.u} target="_blank" rel="noopener" style={{fontSize:'.82rem'}}>{mod.u}</a></div>}
+      <div className="detail-section"><h4>Components ({mod.co.length})</h4>
+        {mod.co.map((c,i)=><div key={i} style={{fontSize:'.78rem',padding:'2px 0',borderBottom:'1px solid var(--brd)'}}>
+          {c.cn!=null&&<span className="fi" style={{color:'var(--goldd)'}}>{"#"+c.cn+" "}</span>}
+          <span style={{color:c.x?'var(--txd)':'var(--tx)'}}>{c.n}</span>
+          {c.v!==undefined&&<span style={{color:'var(--grn)',fontSize:'.72rem'}}>{" \u2713"+c.v}</span>}
+        </div>)}
+      </div>
+    </div>);
+}
+
+// ═══ Step 20: Install Order Visualization ═══
+function Timeline({D,sel}){
+  const cats=useMemo(()=>{const c={};D.forEach(m=>{if(!c[m.c])c[m.c]=[];c[m.c].push(m)});return c},[D]);
+  return(
+    <div className="timeline">
+      <h3 className="ci" style={{color:'var(--gold)',marginBottom:10}}>Install Order Map</h3>
+      <div style={{fontSize:'.78rem',color:'var(--txd)',marginBottom:12}}>
+        <span style={{display:'inline-block',width:12,height:12,background:'#1a2e1a',border:'1px solid #2a4a2a',borderRadius:3,marginRight:4,verticalAlign:'middle'}}></span> Installed
+        <span style={{display:'inline-block',width:12,height:12,background:'var(--goldd)',border:'1px solid var(--gold)',borderRadius:3,marginLeft:12,marginRight:4,verticalAlign:'middle'}}></span> Selected
+        <span style={{display:'inline-block',width:12,height:12,border:'1px solid var(--brd)',borderRadius:3,marginLeft:12,marginRight:4,verticalAlign:'middle'}}></span> Available
+      </div>
+      {CO.filter(c=>cats[c]).map(cat=>(
+        <div key={cat} className="tl-cat">
+          <div className="tl-cat-head">{CL[cat]||cat} ({cats[cat].length})</div>
+          <div style={{display:'flex',flexWrap:'wrap'}}>
+            {cats[cat].map(mod=>{
+              const isSel=mod.co.some((_,ci)=>sel[mod.i+"-"+ci]);
+              const isInst=mod.co.some(c=>c.v!==undefined);
+              return <span key={mod.i} className={"tl-mod"+(isSel&&isInst?" tl-both":isSel?" tl-sel":isInst?" tl-inst":"")} title={mod.n+"\n"+mod.co.length+" components"+(isInst?" (installed)":"")+(isSel?" (selected)":"")}>{mod.n.length>25?mod.n.substring(0,23)+"\u2026":mod.n}</span>
+            })}
+          </div>
+        </div>
+      ))}
+    </div>);
+}
+
+// ═══ Diagnostics Panel ═══
+function DiagPanel(){
+  const data=useContext(DC);const[dbg,setDbg]=useState(null);const[ghRes,setGhRes]=useState(data.version_cache||{});
+  const[ghLoading,setGhLoading]=useState(false);const[ghN,setGhN]=useState(0);const fRef=useRef(null);
+  const handleDbg=useCallback(file=>{if(!file)return;const r=new FileReader();r.onload=e=>setDbg(parseDebug(e.target.result,data.known_issues));r.readAsText(file)},[data.known_issues]);
+  const checkVer=useCallback(async()=>{setGhLoading(true);setGhN(0);const res={...ghRes};const batch=(data.github_mods||[]).slice(0,50);
+    for(let i=0;i<batch.length;i++){const g=batch[i];try{const r=await fetch('https://api.github.com/repos/'+g.o+'/'+g.r+'/releases/latest');if(r.ok){const d=await r.json();res[g.o+"/"+g.r]={tag:d.tag_name,date:(d.published_at||'').substring(0,10),body:(d.body||'').substring(0,300),mod_id:g.i,installed:g.v}}}catch(e){}setGhN(i+1);if(i%10===9)await new Promise(r=>setTimeout(r,500))}
+    setGhRes(res);setGhLoading(false)},[data.github_mods,ghRes]);
+  const updates=useMemo(()=>Object.values(ghRes).filter(r=>r.installed&&r.tag&&r.installed.replace(/^v/i,'').trim()!==r.tag.replace(/^v/i,'').trim()),[ghRes]);
+  return(
+    <div style={{padding:'14px',overflow:'auto',flex:1}}>
+      <h3 className="ci" style={{color:'var(--gold)',marginBottom:12}}>Diagnostics</h3>
+      <div style={{marginBottom:16}}>
+        <div style={{fontWeight:600,marginBottom:6,fontSize:'.88rem'}}>Debug Log Analyzer</div>
+        <div className="drop-zone" onClick={()=>fRef.current?.click()} style={{marginBottom:8}}>
+          <div style={{fontSize:'.78rem',color:'var(--txd)'}}>Drop WSETUP.DEBUG or Setup-*.debug</div>
+          <input ref={fRef} type="file" accept=".debug,.log,.txt" style={{display:'none'}} onChange={e=>{if(e.target.files[0])handleDbg(e.target.files[0])}}/>
+        </div>
+        {dbg&&(<div className="fin">
+          <div style={{display:'flex',gap:14,marginBottom:8}}>
+            <div style={{fontSize:'.85rem'}}><span style={{color:'var(--red)',fontWeight:700}}>{dbg.errors.length}</span> errors</div>
+            <div style={{fontSize:'.85rem'}}><span style={{color:'var(--org)',fontWeight:700}}>{dbg.warnings.length}</span> warnings</div>
+            <div style={{fontSize:'.85rem'}}><span style={{color:'var(--grn)',fontWeight:700}}>{dbg.success.length}</span> ok</div>
+            {dbg.ver&&<div style={{fontSize:'.82rem',color:'var(--txd)'}}>WeiDU v{dbg.ver}</div>}
+          </div>
+          {dbg.errors.length===0&&dbg.warnings.length===0&&<div className="diag-card diag-ok"><span style={{color:'var(--grn)',fontWeight:600}}>{"\u2713 Clean"}</span></div>}
+          {dbg.matched.map((m,i)=>(<div key={'m'+i} className={"diag-card "+(m.issue.sev==='critical'?'diag-crit':'diag-warn')}><div style={{display:'flex',justifyContent:'space-between'}}><span style={{fontWeight:600,fontSize:'.83rem',color:m.issue.sev==='critical'?'var(--red)':'var(--org)'}}>{m.issue.cat}</span><span className="bd" style={{background:'#1a2a1a',color:'var(--grn)',fontSize:'.58rem'}}>KNOWN</span></div><div style={{fontSize:'.78rem',marginTop:3}}>{m.known.description}</div>{m.known.workaround&&<div style={{fontSize:'.76rem',marginTop:2,color:'var(--blu)'}}>{"Fix: "+m.known.workaround}</div>}</div>))}
+          {dbg.unknown.map((u,i)=>(<div key={'u'+i} className="diag-card diag-crit"><div style={{display:'flex',justifyContent:'space-between'}}><span style={{fontWeight:600,fontSize:'.83rem',color:'var(--red)'}}>{u.cat}</span><span className="bd" style={{background:'#2a1a1a',color:'var(--red)',fontSize:'.58rem'}}>NEW</span></div><div className="fi" style={{fontSize:'.7rem',color:'var(--txd)',marginTop:3,maxHeight:50,overflow:'auto'}}>{u.msg}</div></div>))}
+          {/* Step 19: Bug report generator */}
+          <div style={{marginTop:8,display:'flex',gap:6}}>
+            <button className="bt bs" onClick={()=>{const t=genBugReport(dbg);navigator.clipboard.writeText(t).catch(()=>{});const b=new Blob([t],{type:'text/markdown'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='bug-report.md';a.click()}}>Export Bug Report</button>
+          </div>
+        </div>)}
+      </div>
+      <div>
+        <div style={{fontWeight:600,marginBottom:6,fontSize:'.88rem'}}>Version Scanner</div>
+        <div style={{display:'flex',gap:8,alignItems:'center',marginBottom:8}}>
+          <button className="gh-btn" onClick={checkVer} disabled={ghLoading}>{ghLoading?"Checking "+ghN+"/50":"Check Updates ("+((data.github_mods||[]).length)+" repos)"}</button>
+        </div>
+        {updates.length>0&&<div><div style={{fontSize:'.82rem',color:'var(--org)',fontWeight:600,marginBottom:4}}>{updates.length} updates</div>
+          {updates.slice(0,15).map((u,i)=>(<div key={i} className="diag-card diag-warn" style={{padding:'7px 12px'}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontSize:'.83rem',fontWeight:600}}>{u.mod_id}</span><div><span className="ver-badge ver-ok">{u.installed}</span><span style={{color:'var(--txd)',margin:'0 4px'}}>{"\u2192"}</span><span className="ver-badge ver-up">{u.tag}</span></div></div>{u.date&&<div style={{fontSize:'.7rem',color:'var(--txd)'}}>Released: {u.date}</div>}</div>))}</div>}
+        {Object.keys(ghRes).length>0&&updates.length===0&&<div className="diag-card diag-ok">{"\u2713 All up to date"}</div>}
+      </div>
+    </div>);
+}
+
+// ═══ Main App ═══
+function AppInner(){
+  const data=useContext(DC);const D=data.mods||[];const PRESETS=data.presets||[];
+  const idx=useMemo(()=>buildIdx(D,data.compat),[D,data.compat]);
+
+  const[search,setSearch]=useState('');const[cat,setCat]=useState(null);const[sub,setSub]=useState(null);
+  const[fI,setFI]=useState(false);const[fS,setFS]=useState(false);const[fP,setFP]=useState(null);const[fTag,setFTag]=useState(null);
+  const[modal,setModal]=useState(null);const[importRes,setImportRes]=useState(null);const[dragOver,setDragOver]=useState(false);
+  const[activeTab,setActiveTab]=useState('mods');const[detailMod,setDetailMod]=useState(null);
+  const fileRef=useRef(null);const initSel=useRef(null);
+  const[sel,setSel]=useState(()=>{
+    // Step 21: Check URL hash for shared selection
+    const hash=window.location.hash.substring(1);
+    if(hash){const decoded=decodeSelection(hash);if(decoded&&Object.keys(decoded).length>0)return decoded}
+    const init={};D.forEach(m=>m.co.forEach((c,ci)=>{if(c.v!==undefined)init[m.i+"-"+ci]=true}));return init;
+  });
+  useEffect(()=>{if(!initSel.current)initSel.current={...sel}},[]);
+
+  const catCt=useMemo(()=>{const c={};D.forEach(m=>{c[m.c]=(c[m.c]||0)+1});return c},[D]);
+  const subCt=useMemo(()=>{if(!cat)return {};const c={};D.filter(m=>m.c===cat).forEach(m=>{if(m.s)c[m.s]=(c[m.s]||0)+1});return c},[D,cat]);
+  // Step 22: Tags
+  const allTags=useMemo(()=>{const t=new Set();D.forEach(m=>{if(m.c)t.add(m.c.includes('QUEST')?'quests':m.c.includes('NPC')?'npcs':m.c.includes('KIT')?'kits':m.c.includes('ITEM')?'items':m.c.includes('SPELL')?'spells':m.c.includes('TWEAK')?'tweaks':'')});t.delete('');return[...t]},[D]);
+  const tagMap={quests:['QUEST MODS BG1','QUEST MODS BG2','QUEST MODS ToB'],npcs:['NEW NPC MODS','AFTER NEW NPCS'],kits:['KIT MODS'],items:['ITEM ADDITION MODS'],spells:['SPELL MODS'],tweaks:['POST SCS TWEAKS','EXPERIENCE TWEAKS']};
+
+  const filt=useMemo(()=>{let r=D;if(cat)r=r.filter(m=>m.c===cat);if(sub)r=r.filter(m=>m.s===sub);if(fI)r=r.filter(m=>m.in);if(fS)r=r.filter(m=>m.co.some((_,ci)=>sel[m.i+"-"+ci]));if(fP)r=r.filter(m=>(m.ph||[]).includes(fP));if(fTag&&tagMap[fTag])r=r.filter(m=>tagMap[fTag].includes(m.c));
+    if(search){const q=search.toLowerCase();r=r.filter(m=>fuzzyMatch(q,m.n)||fuzzyMatch(q,m.t)||(m.a&&fuzzyMatch(q,m.a))||m.co.some(c=>c.n.toLowerCase().includes(q)))}
+    return r},[D,cat,sub,fI,fS,fP,fTag,search,sel]);
+
+  const onTog=useCallback(k=>setSel(p=>{const n={...p};if(n[k])delete n[k];else n[k]=true;return n}),[]);
+  const onTogAll=useCallback((id,on)=>{setSel(p=>{const n={...p};const mod=D.find(m=>m.i===id);if(mod)mod.co.forEach((c,ci)=>{const k=id+"-"+ci;if(on){if(!c.x)n[k]=true}else delete n[k]});return n})},[D]);
+  const stats=useMemo(()=>{let ms=new Set(),cs=0;Object.keys(sel).forEach(k=>{if(sel[k]){ms.add(parseInt(k));cs++}});return{m:ms.size,c:cs}},[sel]);
+  const diff=useMemo(()=>{if(!initSel.current)return{add:0,rem:0};const init=initSel.current;let add=0,rem=0;new Set([...Object.keys(sel),...Object.keys(init)]).forEach(k=>{if(sel[k]&&!init[k])add++;if(init[k]&&!sel[k])rem++});return{add,rem}},[sel]);
+
+  const handleImport=useCallback((text,fn)=>{const entries=parseLog(text);if(!entries.length){setImportRes({ok:false,msg:'No entries'});return}const ns={};let mt=0,um=0;const mi=[];entries.forEach(e=>{const k=e.folder+":"+e.comp;const h=idx.WI[k];if(h){h.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{const fh=idx.WF[e.folder];if(fh){fh.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{um++;if(mi.length<12)mi.push(e.folder+" #"+e.comp)}}});initSel.current={...ns};setSel(ns);setImportRes({ok:true,msg:mt+" matched, "+um+" missed"+(mi.length?"\n"+mi.join(", "):"")});},[idx]);
+  const handleFile=useCallback(f=>{if(!f)return;const r=new FileReader();r.onload=e=>handleImport(e.target.result,f.name);r.readAsText(f)},[handleImport]);
+  const doExport=useCallback(()=>{const bL=["// Log of Currently Installed WeiDU Mods","// The top of the file is the 'oldest' mod","// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]"];const mL=[...bL];const pL=["//Install order for EET - Generated by EET Mod Forge",""];let lc="";D.forEach(mod=>{mod.co.forEach((c,ci)=>{if(!sel[mod.i+"-"+ci])return;if(mod.c!==lc){pL.push("","//"+mod.c);lc=mod.c}pL.push(genP(mod,c));const wl=genW(mod,c);if(c.wb)bL.push(wl);else mL.push(wl)})});return{weidu:mL.join("\n"),bgee:bL.length>3?bL.join("\n"):null,pi:pL.join("\n"),msgs:validate(D,sel)}},[D,sel]);
+  const dl=useCallback((c,f)=>{const b=new Blob([c],{type:'text/plain'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download=f;a.click();URL.revokeObjectURL(u)},[]);
+
+  return(
+    <AC.Provider value={idx}>
+    <div style={{display:'flex',flexDirection:'column',height:'100vh'}} onDragOver={e=>{e.preventDefault();setDragOver(true)}} onDragLeave={()=>setDragOver(false)} onDrop={e=>{e.preventDefault();setDragOver(false);const f=e.dataTransfer.files[0];if(f)handleFile(f)}}>
+      {dragOver&&<div style={{position:'fixed',inset:0,background:'rgba(212,168,67,.12)',border:'3px dashed var(--gold)',zIndex:200,display:'flex',alignItems:'center',justifyContent:'center',pointerEvents:'none'}}><div style={{background:'var(--bg2)',padding:'30px 50px',borderRadius:12}}><div className="ci" style={{fontSize:'1.3rem',color:'var(--gold)'}}>Drop WeiDU.log</div></div></div>}
+
+      <div className="tb" style={{display:'flex',alignItems:'center',gap:12,flexWrap:'wrap'}}>
+        <h1 className="ci gw" style={{fontSize:'1.1rem',color:'var(--gold)',fontWeight:900}}>EET Mod Forge</h1>
+        <div style={{display:'flex',gap:0}}>
+          {['mods','timeline','diag'].map(t=><div key={t} className={"tab"+(activeTab===t?' ac':'')} onClick={()=>setActiveTab(t)}>{t==='mods'?'Mods':t==='timeline'?'Order':t==='diag'?'Diagnostics':t}</div>)}
+        </div>
+        {activeTab==='mods'&&<div style={{flex:1,maxWidth:340,minWidth:140}}><input className="sx" placeholder="Search (fuzzy)..." value={search} onChange={e=>setSearch(e.target.value)}/></div>}
+        <div style={{display:'flex',gap:12}}>
+          <div className="st"><div className="sn">{D.length}</div><div className="sl">Mods</div></div>
+          <div className="st"><div className="sn" style={{color:'var(--grn)'}}>{stats.c}</div><div className="sl">Sel</div></div>
+          {(diff.add>0||diff.rem>0)&&<div className="st"><div style={{fontSize:'.95rem',fontWeight:700,lineHeight:1}}><span className="diff-add">+{diff.add}</span>{" "}<span className="diff-rem">-{diff.rem}</span></div><div className="sl">{"\u0394"}</div></div>}
+        </div>
+      </div>
+
+      <div style={{display:'flex',flex:1,overflow:'hidden'}}>
+        {activeTab==='mods'&&<>
+          <div className="sb">
+            <div className="sh">Filters</div>
+            <div style={{padding:'3px 12px',display:'flex',gap:3,flexWrap:'wrap'}}>
+              <span className={"pl"+(fI?" ac":"")} onClick={()=>{setFI(!fI);setFS(false)}}>Installed</span>
+              <span className={"pl"+(fS?" ac":"")} onClick={()=>{setFS(!fS);setFI(false)}}>Selected</span>
+            </div>
+            <div style={{padding:'3px 12px',display:'flex',gap:3,flexWrap:'wrap'}}>
+              {['BG1','SoD','SoA','ToB'].map(p=><span key={p} className={"pl"+(fP===p?" ac":"")} onClick={()=>setFP(fP===p?null:p)}>{p}</span>)}
+            </div>
+            {/* Step 22: Tag filters */}
+            <div className="tag-row">
+              {allTags.map(t=><span key={t} className={"tag"+(fTag===t?" ac":"")} onClick={()=>setFTag(fTag===t?null:t)}>{t}</span>)}
+            </div>
+            <div className="sh" style={{marginTop:4}}>Presets</div>
+            {PRESETS.map(p=>(<div key={p.id} className="preset-card" style={{margin:'0 8px 4px',borderLeft:'3px solid '+p.color}} onClick={()=>{initSel.current={...sel};const ns={};p.keys.forEach(k=>{ns[k]=true});setSel(ns)}}><div style={{fontWeight:600,fontSize:'.8rem',color:p.color}}>{p.icon+" "+p.name}</div><div style={{fontSize:'.68rem',color:'var(--txd)'}}>{p.keys.length+" comps"}</div></div>))}
+            <div className="sh" style={{marginTop:4}}>Categories</div>
+            <div className={"si"+(!cat?" ac":"")} onClick={()=>{setCat(null);setSub(null)}}><span>All</span><span className="ct">{D.length}</span></div>
+            {CO.filter(c=>catCt[c]).map(ct=>(<React.Fragment key={ct}><div className={"si"+(cat===ct?" ac":"")} onClick={()=>{setCat(cat===ct?null:ct);setSub(null)}}><span>{CL[ct]||ct}</span><span className="ct">{catCt[ct]}</span></div>{cat===ct&&Object.entries(subCt).sort((a,b)=>b[1]-a[1]).map(([s,n])=><div key={s} className={"si"+(sub===s?" ac":"")} style={{paddingLeft:22,fontSize:'.76rem'}} onClick={()=>setSub(sub===s?null:s)}><span>{s}</span><span className="ct">{n}</span></div>)}</React.Fragment>))}
+            <div className="sh" style={{marginTop:4}}>Import</div>
+            <div style={{padding:'0 8px 8px'}}><div className="drop-zone" onClick={()=>fileRef.current?.click()}><div style={{fontSize:'.74rem',color:'var(--txd)'}}>Drop WeiDU.log</div><input ref={fileRef} type="file" accept=".log,.txt" style={{display:'none'}} onChange={e=>{if(e.target.files[0])handleFile(e.target.files[0])}}/></div>{importRes&&<div className={"warn "+(importRes.ok?"info":"err")} style={{marginTop:3,fontSize:'.68rem',whiteSpace:'pre-wrap'}}>{importRes.msg}</div>}</div>
+          </div>
+          <VL items={filt} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={setDetailMod}/>
+          {/* Step 17: Detail panel */}
+          {detailMod&&<DetailPanel mod={detailMod} onClose={()=>setDetailMod(null)}/>}
+        </>}
+        {activeTab==='timeline'&&<Timeline D={D} sel={sel}/>}
+        {activeTab==='diag'&&<DiagPanel/>}
+      </div>
+
+      <div className="bb">
+        <div style={{display:'flex',alignItems:'center',gap:8}}>
+          <span style={{color:'var(--gold)',fontWeight:700}}>{stats.m+" mods"}</span>
+          <span style={{color:'var(--txd)'}}>{"\u00b7"}</span><span>{stats.c+" comps"}</span>
+        </div>
+        <div style={{display:'flex',gap:5,flexWrap:'wrap'}}>
+          {/* Step 21: Share button */}
+          <button className="bt bs" onClick={()=>{const h=encodeSelection(sel);window.location.hash=h;navigator.clipboard.writeText(window.location.href).catch(()=>{});setModal('shared')}}>Share</button>
+          {/* Step 18: Report */}
+          <button className="bt bs" onClick={()=>{const md=genReport(D,sel,diff);const b=new Blob([md],{type:'text/markdown'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='install-report.md';a.click()}}>Report</button>
+          <button className="bt bg" onClick={()=>setModal('export')}>Export...</button>
+          <button className="bt" onClick={()=>{const init={};D.forEach(m=>m.co.forEach((c,ci)=>{if(c.v!==undefined)init[m.i+"-"+ci]=true}));initSel.current={...init};setSel(init)}}>Reset</button>
+        </div>
+      </div>
+
+      {modal==='export'&&(()=>{const ex=doExport();return(<div className="mo" onClick={()=>setModal(null)}><div className="md" onClick={e=>e.stopPropagation()}>
+        <h2 className="ci" style={{color:'var(--gold)',marginBottom:10,fontSize:'1rem'}}>Export</h2>
+        {ex.msgs.map((w,i)=><div key={i} className={"warn "+(w.t==='err'?'err':w.t==='info'?'info':'')}>{w.m}</div>)}
+        <div style={{display:'flex',flexDirection:'column',gap:6,marginTop:8}}>
+          <div style={{background:'var(--bg)',borderRadius:6,padding:10,display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontWeight:600}}>{"WeiDU.log ("+(ex.weidu.split("\n").length-3)+")"}</span><button className="bt bs" onClick={()=>dl(ex.weidu,'WeiDU.log')}>Download</button></div>
+          {ex.bgee&&<div style={{background:'var(--bg)',borderRadius:6,padding:10,display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontWeight:600}}>{"WeiDU-BGEE.log ("+(ex.bgee.split("\n").length-3)+")"}</span><button className="bt bs" onClick={()=>dl(ex.bgee,'WeiDU-BGEE.log')}>Download</button></div>}
+          <div style={{background:'var(--bg)',borderRadius:6,padding:10,display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontWeight:600}}>PI Format</span><button className="bt bs" onClick={()=>dl(ex.pi,'install-EET.txt')}>Download</button></div>
+        </div>
+        <div style={{marginTop:8,display:'flex',justifyContent:'flex-end'}}><button className="bt" onClick={()=>setModal(null)}>Close</button></div>
+      </div></div>)})()}
+
+      {modal==='shared'&&(<div className="mo" onClick={()=>setModal(null)}><div className="md" onClick={e=>e.stopPropagation()} style={{maxWidth:480}}>
+        <h2 className="ci" style={{color:'var(--gold)',marginBottom:10,fontSize:'1rem'}}>Selection Shared</h2>
+        <div style={{fontSize:'.85rem',marginBottom:8}}>URL updated with your selection. Share this link:</div>
+        <div style={{background:'var(--bg)',padding:10,borderRadius:6,wordBreak:'break-all'}} className="fi">{window.location.href}</div>
+        <div style={{fontSize:'.78rem',color:'var(--txd)',marginTop:6}}>Anyone who opens this URL will see your exact mod selection.</div>
+        <div style={{marginTop:8,display:'flex',justifyContent:'flex-end'}}><button className="bt" onClick={()=>setModal(null)}>Close</button></div>
+      </div></div>)}
+    </div>
+    </AC.Provider>);
+}
+
+function App(){return <DataLoader><AppInner/></DataLoader>}
+ReactDOM.render(<App/>,document.getElementById('root'));
+
+</script>
+</body>
+</html>

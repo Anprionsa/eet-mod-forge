@@ -1,0 +1,342 @@
+{
+  "bg1 unfinished business": {
+    "ver": "v14",
+    "place": "pre"
+  },
+  "drizzt saga": {
+    "ver": "v3",
+    "place": "pre"
+  },
+  "ee fixpack": {
+    "ver": "required",
+    "place": "pre",
+    "notes": "Must be installed on BOTH BGEE and BG2EE"
+  },
+  "margarita npc": {
+    "ver": "v1.0",
+    "place": "pre"
+  },
+  "rough world": {
+    "ver": "vBeta",
+    "place": "pre"
+  },
+  "sharteel npc mod for sod": {
+    "ver": "1.1",
+    "place": "pre"
+  },
+  "tenya thermidor": {
+    "ver": "v1.5",
+    "place": "pre"
+  },
+  "the stone of askavar": {
+    "ver": "v1.9",
+    "place": "pre"
+  },
+  "t'was a slow boat from kara-tur": {
+    "ver": "v.90",
+    "place": "pre"
+  },
+  "verr'sza npc": {
+    "ver": "v2.4",
+    "place": "pre"
+  },
+  "white npc": {
+    "ver": "v2.2",
+    "place": "pre"
+  },
+  "3.5e weapon style rebalance": {
+    "ver": "",
+    "place": "post"
+  },
+  "5e-style spellcasting": {
+    "ver": "v1.1",
+    "place": "post"
+  },
+  "ac's miscellaneous tweaks": {
+    "ver": "RC1",
+    "place": "post"
+  },
+  "achievements!": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "adalon's blood": {
+    "ver": "v1.4",
+    "place": "post"
+  },
+  "adrian npc": {
+    "ver": "V4.0",
+    "place": "post"
+  },
+  "aerie for bg:ee": {
+    "ver": "v2.0",
+    "place": "post"
+  },
+  "afaaq, the djinni companion": {
+    "ver": "v2.2",
+    "place": "post"
+  },
+  "ajantis bg1 expansion": {
+    "ver": "v10",
+    "place": "post"
+  },
+  "almateria's restoration project": {
+    "ver": "v8.2.7",
+    "place": "post"
+  },
+  "alternatives": {
+    "ver": "v12",
+    "place": "post"
+  },
+  "amber": {
+    "ver": "v5",
+    "place": "post"
+  },
+  "angelo npc": {
+    "ver": "v6",
+    "place": "post"
+  },
+  "another fine hell": {
+    "ver": "",
+    "place": "post"
+  },
+  "ascension": {
+    "ver": "v1.5",
+    "place": "post"
+  },
+  "assassinations": {
+    "ver": "v13",
+    "place": "post"
+  },
+  "alabaster sands": {
+    "ver": "v1.2",
+    "place": "post"
+  },
+  "bridge's block": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "ooze's lounge": {
+    "ver": "v2.3",
+    "place": "post"
+  },
+  "southern edge": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "atweaks": {
+    "ver": "v4.50",
+    "place": "post"
+  },
+  "aura npc": {
+    "ver": "v3.2",
+    "place": "post"
+  },
+  "auren aseph npc": {
+    "ver": "v10",
+    "place": "post"
+  },
+  "autoloot": {
+    "ver": "v1",
+    "place": "post"
+  },
+  "back to brynnlaw": {
+    "ver": "v7",
+    "place": "post"
+  },
+  "baldur's gate graphics overhaul": {
+    "ver": "v2.0",
+    "place": "post"
+  },
+  "baldur gate mini quests and encounters": {
+    "ver": "v15",
+    "place": "post"
+  },
+  "baldur's gate romantic encounters": {
+    "ver": "v2.0",
+    "place": "post"
+  },
+  "balduran's seatower": {
+    "ver": "vEAOB",
+    "place": "post"
+  },
+  "banter accelerator": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "banter packs": {
+    "ver": "v15",
+    "place": "post"
+  },
+  "bardic wonders": {
+    "ver": "",
+    "place": "post"
+  },
+  "better iwd pregen": {
+    "ver": "v0.6",
+    "place": "post"
+  },
+  "bg1 npc project": {
+    "ver": "v24.2",
+    "place": "post"
+  },
+  "bg:ee classic movies": {
+    "ver": "v2.3.0",
+    "place": "post"
+  },
+  "brandock the mage": {
+    "ver": "vBeta1",
+    "place": "post"
+  },
+  "branwen for bg2": {
+    "ver": "v4",
+    "place": "post"
+  },
+  "bubb's spell menu extended": {
+    "ver": "v2.2",
+    "notes": "Install after EET_gui, can install after EET_end",
+    "place": "post"
+  },
+  "butchery": {
+    "ver": "v4.0",
+    "place": "post"
+  },
+  "chaos sorcerer kit": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "chatty imoen": {
+    "ver": "v1.3",
+    "place": "post"
+  },
+  "convenient enhanced edition npcs": {
+    "ver": "v4",
+    "place": "post"
+  },
+  "coran for bg2": {
+    "ver": "v6",
+    "place": "post"
+  },
+  "crossmod banter pack": {
+    "ver": "v16",
+    "place": "post"
+  },
+  "the crucible": {
+    "ver": "v1",
+    "place": "post"
+  },
+  "d2-weapon": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "dark horizons bg:ee": {
+    "ver": "v3",
+    "place": "post"
+  },
+  "dark side of the sword coast": {
+    "ver": "vBETA",
+    "place": "post"
+  },
+  "deities of faerun": {
+    "ver": "v1.8.4",
+    "place": "post"
+  },
+  "drake npc": {
+    "ver": "v1.6",
+    "place": "post"
+  },
+  "eeex": {
+    "ver": "v0.2.0-alpha",
+    "notes": "Can install after EET_end",
+    "place": "post"
+  },
+  "eet tweaks": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "eeuitweaks": {
+    "ver": "v1.5",
+    "notes": "Can install after EET_end",
+    "place": "post"
+  },
+  "eilistraee's song": {
+    "ver": "v6.0",
+    "place": "post"
+  },
+  "endless bg1": {
+    "ver": "v1",
+    "place": "post"
+  },
+  "enhanced powergaming scripts": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "expanded thief stronghold": {
+    "ver": "v3.0.0",
+    "place": "post"
+  },
+  "extra expanded enhanced encounters": {
+    "ver": "v2.0",
+    "place": "post"
+  },
+  "faiths and powers": {
+    "ver": "v0.74g",
+    "place": "post"
+  },
+  "forgotten armament": {
+    "ver": "v0.4-beta",
+    "place": "post"
+  },
+  "gavin bg1 npc": {
+    "ver": "v12",
+    "place": "post"
+  },
+  "gavin bg2 npc": {
+    "ver": "v22",
+    "place": "post"
+  },
+  "golem construction for spellcasters": {
+    "ver": "v2.0",
+    "place": "post"
+  },
+  "grey the dog": {
+    "ver": "v1.0",
+    "place": "post"
+  },
+  "hidden adventures": {
+    "ver": "vBeta4",
+    "place": "post"
+  },
+  "house rules tweaks": {
+    "ver": "1.91",
+    "place": "post"
+  },
+  "i hate undead kitpack": {
+    "ver": "v2.4",
+    "place": "post"
+  },
+  "iep extended banters": {
+    "ver": "v5.4",
+    "place": "post"
+  },
+  "imoen 4 ever": {
+    "ver": "v1",
+    "place": "post"
+  },
+  "improved archer kit": {
+    "ver": "v2.2",
+    "place": "post"
+  },
+  "ascalon's questpack": {
+    "ver": "v2.02",
+    "place": "post"
+  },
+  "ascalon's breagar": {
+    "ver": "v7.0",
+    "place": "post"
+  },
+  "brage's redemption": {
+    "ver": "v0.1",
+    "place": "post"
+  }
+}

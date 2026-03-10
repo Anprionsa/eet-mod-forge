@@ -1,0 +1,92 @@
+[
+  {
+    "pattern": "ubsetup.tra file not found",
+    "mod": "UB",
+    "severity": "info",
+    "known": true,
+    "description": "Unfinished Business external translation file missing. Harmless — falls back to bundled translations.",
+    "workaround": "Can be ignored safely."
+  },
+  {
+    "pattern": "ARTISANS_MAZZYROM.*not found",
+    "mod": "ARTISANS_MAZZYROM",
+    "severity": "warning",
+    "known": true,
+    "description": "Mazzy Romance translation file missing. The mod may have been installed from an incomplete download or the file structure changed between versions.",
+    "workaround": "Re-download the mod from artisans-corner.com. If the mod works in-game, this can be ignored."
+  },
+  {
+    "pattern": "DELETE_BYTES out of bounds",
+    "mod": "*",
+    "severity": "critical",
+    "known": true,
+    "description": "A mod tried to modify a file that was a different size than expected, usually because another mod already changed it. Common with item-modifying mods installed in wrong order.",
+    "workaround": "Check install order. The mod that errored needs to be installed before the mod that changed the target file. Klatu components 2080/2090 are especially prone to this.",
+    "forum": "https://forums.beamdog.com/discussion/74335/"
+  },
+  {
+    "pattern": "internal label.*not found in processed DLG",
+    "mod": "*",
+    "severity": "warning",
+    "known": true,
+    "description": "A dialog state reference is broken. Another mod may have modified the dialog file and removed the state this mod expects. Can cause missing dialog options or broken conversations in-game.",
+    "workaround": "Check if the referenced DLG file is modified by multiple mods. Install order matters — the mod adding dialog states should go before mods that reference them."
+  },
+  {
+    "pattern": "INFINITY_UI/INFINITY_UI.TP2",
+    "mod": "INFINITY_UI",
+    "severity": "info",
+    "known": true,
+    "description": "Infinity UI++ writes forward slashes in WeiDU.log after its first component. This is a known quirk of the mod and does not affect gameplay.",
+    "workaround": "No action needed. mod_installer and WeiDU handle both path separators. Other tools may need the paths normalized to backslashes."
+  },
+  {
+    "pattern": "SPLSTATE.IDS.*limit\\|SPLSTATE",
+    "mod": "STRATAGEMS",
+    "severity": "critical",
+    "known": true,
+    "description": "SPLSTATE.IDS has a 256-entry limit. SCS adds ~40 entries, EE Fixpack ~20, Enhanced Powergaming Scripts ~20. Kit mods that add states can push over the limit.",
+    "workaround": "Reduce the number of kit mods, especially I Hate Undead, large kitpacks. Check SPLSTATE.IDS in your override folder — if it has >250 entries, you are at risk."
+  },
+  {
+    "pattern": "WeiDU version 247|WeiDU version 248|WeiDU version 249",
+    "mod": "*",
+    "severity": "warning",
+    "known": true,
+    "description": "WeiDU versions 247-249 have a character codepage bug that can cause crashes with mods containing non-ASCII characters (especially Infinity Animations). Version 246 or 250+ is recommended.",
+    "workaround": "Use WeiDU 250+ (from The-Mod-Elephant/weidu) or downgrade to 246.",
+    "forum": "https://www.shsforums.net/topic/61556-crashes-in-mega-mod-games-installed-with-weidu-247-248-and-249/"
+  },
+  {
+    "pattern": "cdtweaks.*after.*EET_End|EET_End.*cdtweaks",
+    "mod": "CDTWEAKS",
+    "severity": "error",
+    "known": true,
+    "description": "Tweaks Anthology installed after EET_end. Tweaks need to be installed BEFORE EET_end so they can affect all game content.",
+    "workaround": "Reinstall with Tweaks Anthology before EET_end in the install order."
+  },
+  {
+    "pattern": "SHADOWADEPT.*INFINITY_UI|INFINITY_UI.*SHADOWADEPT",
+    "mod": "SHADOWADEPT",
+    "severity": "critical",
+    "known": true,
+    "description": "Shadow Magic is incompatible with Infinity UI++. Shadow Magic uses ClassSpellTool to register custom UI elements that Infinity UI++ cannot render.",
+    "workaround": "Choose one: either Infinity UI++ or Shadow Magic. If using Shadow Magic, use LeUI instead."
+  },
+  {
+    "pattern": "NOT_INSTALLED",
+    "mod": "*",
+    "severity": "error",
+    "known": true,
+    "description": "A component that WeiDU expected to find installed is not present. This can happen if the mod was partially uninstalled, or if the install order caused a prerequisite to be missing.",
+    "workaround": "Check if the mod depends on another mod that was removed or failed to install. A clean reinstall may be needed."
+  },
+  {
+    "pattern": "Make Identify Scale.*UI|SubtleD.*Identify",
+    "mod": "SUBTLED_SPELL_TWEAKS",
+    "severity": "warning",
+    "known": true,
+    "description": "SubtleD's Make Identify Scale with Level does not work with any UI mods (LeUI, Infinity UI++, Dragonspear UI++).",
+    "workaround": "Remove this component if using any UI mod."
+  }
+]
