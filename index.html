@@ -10,26 +10,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Fira+Code:wght@400;500&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0c0e14;--bg2:#141620;--bg3:#1a1e2e;--bgs:#10121a;--gold:#d4a843;--goldd:#8b7030;--goldb:#f0d060;--tx:#c8ccd8;--txd:#6b7084;--txb:#e8ecf4;--grn:#4ade80;--red:#f87171;--blu:#60a5fa;--pur:#a78bfa;--brd:#1e2234;--brd2:#2a3050;--org:#fb923c}
-html,body{height:100%}html{background:var(--bg);color:var(--tx);font-family:'Source Sans 3',sans-serif;font-size:14px}body{display:flex;flex-direction:column}
+:root{--bg:#0c0e14;--bg2:#141620;--bg3:#1a1e2e;--bgs:#10121a;--gold:#d4a843;--goldd:#8b7030;--goldb:#f0d060;--tx:#c8ccd8;--txd:#6b7084;--txb:#e8ecf4;--grn:#4ade80;--red:#f87171;--blu:#60a5fa;--pur:#a78bfa;--brd:#1e2234;--brd2:#2a3050;--org:#fb923c;--bg-bd1:#1e3a2f;--bg-bd2:#1e2a3a;--bg-bd3:#2a1e3a;--bg-bd4:#3a1e1e;--bg-warn:#2a2010;--brd-warn:#4a3820;--tx-warn:#f0c050;--bg-err:#2a1010;--brd-err:#4a2020;--bg-info:#10202a;--brd-info:#204a60;--bg-alert:#1a1410;--brd-alert:#3a2820}
+html,body{height:100%}html{background:var(--bg);color:var(--tx);font-family:'Source Sans 3',sans-serif;font-size:14px;letter-spacing:.01em}body{display:flex;flex-direction:column}
 ::-webkit-scrollbar{width:6px;height:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--goldd);border-radius:3px}
 a{color:var(--blu);text-decoration:none}a:hover{text-decoration:underline}
 .ci{font-family:'Cinzel',serif}.fi{font-family:'Fira Code',monospace;font-size:.82em}
 .bd{display:inline-block;padding:1px 7px;border-radius:3px;font-size:.72rem;font-weight:600;letter-spacing:.02em}
-.bd1{background:#1e3a2f;color:var(--grn)}.bd2{background:#1e2a3a;color:var(--blu)}.bd3{background:#2a1e3a;color:var(--pur)}.bd4{background:#3a1e1e;color:var(--red)}
-.bdi{background:#1a2e1a;color:var(--grn);border:1px solid #2a4a2a}.bdo{background:#2a1a1a;color:var(--red);border:1px solid #4a2a2a}
+.bd1{background:var(--bg-bd1);color:var(--grn)}.bd2{background:var(--bg-bd2);color:var(--blu)}.bd3{background:var(--bg-bd3);color:var(--pur)}.bd4{background:var(--bg-bd4);color:var(--red)}
+.bdo{background:#2a1a1a;color:var(--red);border:1px solid #4a2a2a}
 .gw{text-shadow:0 0 20px rgba(212,168,67,.3)}
 .tb{background:linear-gradient(180deg,#12141e,var(--bg));border-bottom:1px solid var(--brd);padding:10px 20px;position:sticky;top:0;z-index:50}
-.sb{width:250px;min-width:250px;background:var(--bgs);border-right:1px solid var(--brd);overflow-y:auto;position:sticky;top:52px;height:calc(100vh - 52px)}
-.si{padding:5px 12px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:all .15s;font-size:.83rem}
+.sb{width:260px;min-width:260px;background:var(--bgs);border-right:1px solid var(--brd);overflow-y:auto;position:sticky;top:52px;height:calc(100vh - 52px);transition:left .25s}
+.si{padding:7px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:all .15s;font-size:.83rem}
 .si:hover{background:var(--bg3)}.si.ac{background:var(--bg3);border-left:3px solid var(--gold);color:var(--gold)}.si .ct{color:var(--txd);font-size:.75rem}
 .sh{padding:8px 12px;font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--goldd);font-weight:700}
-.mc{background:var(--bg2);border:1px solid var(--brd);border-radius:6px;margin-bottom:4px;transition:border-color .15s}
-.mc:hover{border-color:var(--brd2)}.mc.ins{border-left:3px solid var(--grn)}.mc.sel{border-left:3px solid var(--gold)}
-.mh{padding:7px 12px;cursor:pointer;display:flex;align-items:flex-start;gap:8px}
-.mx{padding:0 12px 10px;border-top:1px solid var(--brd)}
-.cr{display:flex;align-items:flex-start;gap:8px;padding:4px 0;border-bottom:1px solid var(--brd)}
-.cr:last-child{border-bottom:none}.cr.xo{opacity:.5}.cr.xi{background:rgba(74,222,128,.04)}
+.mc{background:var(--bg2);border:1px solid var(--brd);border-radius:8px;margin-bottom:4px;transition:all .15s}
+.mc:hover{border-color:var(--brd2);box-shadow:0 1px 6px rgba(212,168,67,.06)}.mc.sel{border-left:3px solid var(--gold)}.mc.cfl{border-color:#4a2020}
+.mh{padding:9px 14px;cursor:pointer;display:flex;align-items:flex-start;gap:8px}
+.mx{padding:0 14px 10px 32px;border-top:1px solid var(--brd)}
+.cr{display:flex;align-items:flex-start;gap:8px;padding:5px 0;border-bottom:1px solid var(--brd);transition:background .15s}
+.cr:last-child{border-bottom:none}.cr.xo{opacity:.5}.cr.ck-on{background:rgba(212,168,67,.08);border-radius:4px}
 .ck{appearance:none;-webkit-appearance:none;width:16px;height:16px;min-width:16px;border:1.5px solid var(--brd2);border-radius:3px;cursor:pointer;position:relative;top:2px;transition:all .15s}
 .ck:checked{background:var(--gold);border-color:var(--gold)}.ck:checked::after{content:'\2713';position:absolute;top:-2px;left:2px;font-size:12px;color:var(--bg);font-weight:bold}
 .sx{background:var(--bg2);border:1px solid var(--brd);color:var(--txb);padding:7px 12px;border-radius:6px;width:100%;font-size:.88rem;outline:none;font-family:inherit}.sx:focus{border-color:var(--goldd)}
@@ -46,11 +46,16 @@ a{color:var(--blu);text-decoration:none}a:hover{text-decoration:underline}
 @keyframes spin{to{transform:rotate(360deg)}}.spin{animation:spin 1s linear infinite}
 .mo{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;display:flex;align-items:center;justify-content:center}
 .md{background:var(--bg2);border:1px solid var(--brd2);border-radius:8px;padding:20px;max-width:760px;width:95%;max-height:85vh;overflow-y:auto}
-.warn{background:#2a2010;border:1px solid #4a3820;border-radius:4px;padding:6px 12px;margin:3px 0;font-size:.78rem;color:#f0c050}
-.err{background:#2a1010;border:1px solid #4a2020;color:var(--red)}.info{background:#10202a;border:1px solid #204a60;color:var(--blu)}
+.warn{background:var(--bg-warn);border:1px solid var(--brd-warn);border-radius:4px;padding:6px 12px;margin:3px 0;font-size:.78rem;color:var(--tx-warn)}
+.err{background:var(--bg-err);border:1px solid var(--brd-err);color:var(--red)}.info{background:var(--bg-info);border:1px solid var(--brd-info);color:var(--blu)}
+.sec-hdr{padding:6px 14px;font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;color:var(--goldd);font-weight:700;font-family:'Cinzel',serif;background:linear-gradient(90deg,rgba(212,168,67,.08),transparent);border-left:3px solid var(--goldd);display:flex;align-items:center;gap:8px;height:50px;box-sizing:border-box}
+.sec-hdr .sec-sub{font-family:'Source Sans 3',sans-serif;font-size:.62rem;color:var(--txd);letter-spacing:.04em;font-weight:400;text-transform:none}
+.split-bd{background:rgba(167,139,250,.12);color:var(--pur);border:1px solid rgba(167,139,250,.3);cursor:pointer}
+.split-bd:hover{background:rgba(167,139,250,.2)}
+.v-comment{font-size:.68rem;color:var(--txd);font-style:italic;opacity:.8}
 .drop-zone{border:2px dashed var(--brd2);border-radius:8px;padding:12px;text-align:center;transition:all .2s;cursor:pointer}
 .drop-zone:hover{border-color:var(--gold);background:rgba(212,168,67,.05)}
-.preset-card{background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:8px 10px;cursor:pointer;transition:all .15s}
+.preset-card{background:var(--bg);border:1px solid var(--brd);border-radius:6px;padding:10px 12px;cursor:pointer;transition:all .15s}
 .preset-card:hover{border-color:var(--gold);background:var(--bg3)}
 .diff-add{color:var(--grn)}.diff-rem{color:var(--red)}
 .tab{padding:7px 14px;cursor:pointer;font-size:.82rem;color:var(--txd);border-bottom:2px solid transparent;transition:all .15s}
@@ -63,22 +68,46 @@ a{color:var(--blu);text-decoration:none}a:hover{text-decoration:underline}
 .gh-btn:hover{border-color:var(--gold);color:var(--tx)}.gh-btn:disabled{opacity:.4;cursor:not-allowed}
 .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:16px}
 .loading-ring{width:40px;height:40px;border:3px solid var(--brd);border-top-color:var(--gold);border-radius:50%}
-/* Step 17: Detail panel */
 .detail{width:340px;min-width:340px;background:var(--bgs);border-left:1px solid var(--brd);overflow-y:auto;padding:14px;position:sticky;top:52px;height:calc(100vh - 52px)}
 .detail-section{margin-bottom:12px}
 .detail-section h4{font-size:.78rem;color:var(--goldd);text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
-/* Step 20: Install order viz */
 .timeline{padding:14px;overflow-y:auto;flex:1}
 .tl-cat{margin-bottom:10px}
 .tl-cat-head{font-size:.82rem;font-weight:600;color:var(--gold);padding:4px 0;border-bottom:1px solid var(--brd);margin-bottom:4px}
 .tl-mod{display:inline-block;padding:2px 8px;margin:2px;border-radius:4px;font-size:.72rem;cursor:pointer;border:1px solid var(--brd);transition:all .15s}
 .tl-mod:hover{border-color:var(--gold)}.tl-mod.tl-sel{background:var(--goldd);color:var(--bg);border-color:var(--gold)}
-.tl-mod.tl-inst{background:#1a2e1a;border-color:#2a4a2a;color:var(--grn)}
-.tl-mod.tl-both{background:var(--goldd);border-color:var(--gold);color:var(--bg)}
-/* Step 22: Tag filters */
 .tag-row{display:flex;gap:3px;flex-wrap:wrap;padding:3px 12px}
 .tag{padding:2px 8px;border-radius:10px;font-size:.68rem;cursor:pointer;border:1px solid var(--brd);color:var(--txd);transition:all .15s}
 .tag:hover{border-color:var(--goldd)}.tag.ac{background:var(--pur);color:#fff;border-color:var(--pur)}
+/* Phase 1D + 2: New styles */
+.alert-bar{background:#1a1410;border:1px solid #3a2820;border-radius:6px;padding:7px 12px;margin:3px 8px;display:flex;align-items:center;gap:8px;font-size:.8rem;animation:fi .15s ease-out}
+.alert-conflict{border-color:#4a2020;background:#1e0e0e;color:var(--red)}
+.alert-dep{border-color:#204a20;background:#0e1e0e;color:var(--grn)}
+.essential-badge{background:linear-gradient(135deg,#2a3a1a,#1a2a10);border:1px solid #4a6a2a;color:#a0d060;font-size:.6rem;padding:1px 6px;border-radius:3px;font-weight:700;letter-spacing:.04em}
+.updated-badge{background:#2a2a1a;border:1px solid #4a4a2a;color:var(--org);font-size:.6rem;padding:1px 5px;border-radius:3px;font-weight:600}
+.stars-badge{color:var(--goldb);font-size:.68rem}
+.conflict-dot{width:7px;height:7px;border-radius:50%;background:var(--red);display:inline-block;margin-right:3px;flex-shrink:0}
+.dep-dot{width:7px;height:7px;border-radius:50%;background:var(--grn);display:inline-block;margin-right:3px;flex-shrink:0}
+/* Wizard */
+.wiz-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:200;display:flex;align-items:center;justify-content:center}
+.wiz-card{background:var(--bg2);border:1px solid var(--gold);border-radius:12px;padding:28px;max-width:640px;width:95%;max-height:85vh;overflow-y:auto}
+.wiz-dots{display:flex;gap:6px;margin-bottom:16px;justify-content:center}
+.wiz-dot{width:10px;height:10px;border-radius:50%;background:var(--brd2);transition:all .2s}
+.wiz-dot.ac{background:var(--gold)}
+.wiz-opt{background:var(--bg);border:1px solid var(--brd);border-radius:8px;padding:12px 14px;cursor:pointer;transition:all .15s;margin-bottom:6px}
+.wiz-opt:hover{border-color:var(--gold);background:var(--bg3)}
+.wiz-opt.chosen{border-color:var(--gold);background:rgba(212,168,67,.1)}
+/* Mobile */
+.menu-toggle{display:none;background:none;border:1px solid var(--brd);color:var(--gold);font-size:1.1rem;padding:2px 8px;border-radius:4px;cursor:pointer}
+@media(max-width:900px){.sb{width:220px;min-width:220px}.detail{width:280px;min-width:280px}}
+@media(max-width:700px){
+  .menu-toggle{display:inline-block}
+  .sb{position:fixed;left:-270px;z-index:60;height:100vh;top:0;width:260px}
+  .sb.open{left:0}
+  .detail{position:fixed;right:-340px;z-index:60;top:52px;height:calc(100vh - 52px)}
+  .detail.open{right:0}
+  .mob-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:55}
+}
 </style>
 </head>
 <body>
@@ -89,11 +118,19 @@ const {useState,useMemo,useCallback,useRef,useEffect,memo,createContext,useConte
 // ═══ Data Context ═══
 const DC=createContext(null);const AC=createContext(null);
 
+// ═══ localStorage ═══
+const LS={
+  _p:'emf_',
+  get(k,d){try{const v=localStorage.getItem(this._p+k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(this._p+k,JSON.stringify(v))}catch(e){}},
+  del(k){try{localStorage.removeItem(this._p+k)}catch(e){}}
+};
+
 function DataLoader({children}){
   const[data,setData]=useState(null);const[err,setErr]=useState(null);const[prog,setProg]=useState('');
   useEffect(()=>{async function load(){try{
-    const files=['mods','presets','compat','known_issues','github_mods','version_cache','recommendations'];
-    const r={};for(const f of files){setProg('Loading '+f+'...');try{const resp=await fetch('./data/'+f+'.json');if(resp.ok)r[f]=await resp.json();else r[f]=f==='version_cache'||f==='compat'?{}:[]}catch(e){r[f]=f==='version_cache'||f==='compat'?{}:[]}}
+    const files=['mods','presets','compat','known_issues','github_mods','version_cache','recommendations','conflicts','tools'];
+    const r={};for(const f of files){setProg('Loading '+f+'...');try{const resp=await fetch('./data/'+f+'.json');if(resp.ok)r[f]=await resp.json();else r[f]=f==='version_cache'||f==='compat'||f==='conflicts'?{}:[]}catch(e){r[f]=f==='version_cache'||f==='compat'||f==='conflicts'?{}:[]}}
     setData(r)}catch(e){setErr(e.message)}}load()},[]);
   if(err)return(<div className="loading"><div className="ci" style={{color:'var(--red)',fontSize:'1.2rem'}}>Error</div><div style={{color:'var(--txd)'}}>{err}</div></div>);
   if(!data)return(<div className="loading"><div className="loading-ring spin"></div><div className="ci" style={{color:'var(--gold)',fontSize:'1.1rem'}}>EET Mod Forge</div><div style={{color:'var(--txd)',fontSize:'.85rem'}}>{prog}</div></div>);
@@ -101,8 +138,12 @@ function DataLoader({children}){
 }
 
 // ═══ Constants ═══
-const CL={'PRE EET BGEE MODS':'Pre-EET (BG1)','EET STARTS HERE':'EET Core','ENGINE':'Engine','INTERFACE':'Interface / UI','GRAPHICAL AND SOUND OVERWRITE MODS':'Graphics & Sound','RESTORATIONS':'Restorations','QUEST MODS BG1':'Quests \u2014 BG1','QUEST MODS BG2':'Quests \u2014 BG2','QUEST MODS ToB':'Quests \u2014 ToB','NEW NPC MODS':'New NPCs','AFTER NEW NPCS':'NPC Expansions','CREATURE MODS PRE SCS':'Creature Mods','EXPERIENCE TWEAKS':'XP Tweaks','ITEM ADDITION MODS':'Items','SPELL MODS':'Spells','KIT MODS':'Kits & Classes','POST SCS TWEAKS':'Post-SCS Tweaks'};
+const CL={'PRE EET BGEE MODS':'Pre-EET (BG1)','EET STARTS HERE':'EET Core','ENGINE':'Engine','INTERFACE':'Interface / UI','GRAPHICAL AND SOUND OVERWRITE MODS':'Graphics & Sound','RESTORATIONS':'Restorations','QUEST MODS BG1':'Quests \u2014 BG1','QUEST MODS BG2':'Quests \u2014 BG2','QUEST MODS ToB':'Quests \u2014 ToB','NEW NPC MODS':'New NPCs','AFTER NEW NPCS':'NPC Expansions','CREATURE MODS':'Creature Mods','EXPERIENCE TWEAKS':'XP Tweaks','ITEM ADDITION MODS':'Items','SPELL MODS':'Spells','KIT MODS':'Kits & Classes','PRE-TACTICAL TWEAKS':'Pre-Tactical Tweaks','TACTICAL MODS':'Tactical','POST-TACTICAL TWEAKS':'Post-Tactical Tweaks','EET FINALIZATION':'EET Finalization'};
 const CO=Object.keys(CL);const PST={BG1:'bd1',SoD:'bd2',SoA:'bd3',ToB:'bd4'};
+const CONFIG={EET_MOD_ID:12,DUAL_INSTALL:['eefixpack'],ITEM_HEIGHT:50,VL_OVERFLOW:8};
+
+// Category descriptions for tooltips
+const CAT_DESC={'PRE EET BGEE MODS':'Mods installed on BG1:EE before the EET merge. Must go on your BG1 game folder first.','EET STARTS HERE':'The EET core mod that merges BG1 into BG2. Everything after this installs on the merged game.','ENGINE':'Engine-level modifications (EEex). These extend what other mods can do.','INTERFACE':'UI overhauls and tweaks. Only pick ONE major UI overhaul.','GRAPHICAL AND SOUND OVERWRITE MODS':'Visual and audio replacements. Higher quality textures, portraits, sounds.','RESTORATIONS':'Content cut from the original games, restored by modders.','QUEST MODS BG1':'New quests and content for the Baldur\'s Gate 1 portion.','QUEST MODS BG2':'New quests and content for Shadows of Amn.','QUEST MODS ToB':'New quests and content for Throne of Bhaal.','NEW NPC MODS':'New companion characters with their own stories and dialogue.','AFTER NEW NPCS':'Mods that expand existing or new NPCs. Install after NPC mods.','CREATURE MODS':'Changes to enemy creatures and encounters. Install before tactical mods.','EXPERIENCE TWEAKS':'XP gain adjustments and level scaling modifications.','ITEM ADDITION MODS':'New items, weapons, armor, and equipment.','SPELL MODS':'New spells, spell changes, and magic system modifications.','KIT MODS':'New character kits, classes, and class modifications.','PRE-TACTICAL TWEAKS':'General tweaks that should be installed before SCS and other tactical mods. Proficiency changes, item tweaks, PnP fixes.','TACTICAL MODS':'Sword Coast Stratagems, Tactics Remix, The Crucible, and other AI/encounter overhauls. The tactical challenge layer.','POST-TACTICAL TWEAKS':'Final tweaks, portraits, voice packs, scripts, and patches. Install after tactical mods but before EET End.','EET FINALIZATION':'EET End \u2014 the final step. Must be installed after ALL other mods to finalize the EET merge.'};
 
 // ═══ Utilities ═══
 function buildIdx(D,compat){
@@ -112,7 +153,7 @@ function buildIdx(D,compat){
   return{CI,WI,WF};
 }
 function getC(CI,n){const l=n.toLowerCase();if(CI[l])return CI[l];for(const[k,v]of Object.entries(CI))if(l.includes(k)||k.includes(l))return v;return null}
-function genW(mod,comp){const f=comp.wf||mod.t.toUpperCase();const p=(comp.wp||f+"\\"+f+".TP2").replace(/\//g,"\\");const cn=comp.wc!=null?comp.wc:(comp.cn!=null?comp.cn:0);return"~"+p+"~ #0 #"+cn+" // "+(comp.n||mod.n)+(comp.v?": "+comp.v:"")}
+function genW(mod,comp){const f=comp.wf||mod.t.toUpperCase();const p=(comp.wp||f+"\\"+f+".TP2").replace(/\//g,"\\");const cn=comp.wc!=null?comp.wc:(comp.cn!=null?comp.cn:0);return"~"+p+"~ #0 #"+cn+" // "+(comp.n||mod.n)}
 function genP(mod,comp){if(comp.pi)return comp.pi+";"+(comp.n||mod.n);const cn=comp.cn!=null?":"+comp.cn:(comp.wc!=null?":"+comp.wc:"");return mod.t+cn+";"+(comp.n||mod.n)}
 function parseLog(text){const e=[];const re=/~([^\\\/]+)[\\\/]([^~]+)~\s+#(\d+)\s+#(\d+)/;text.split("\n").forEach(l=>{const m=re.exec(l.trim());if(m)e.push({folder:m[1].toLowerCase(),comp:parseInt(m[4])})});return e}
 function validate(D,sel){const m=[];const s=new Set();D.forEach(mod=>{mod.co.forEach((c,ci)=>{if(sel[mod.i+"-"+ci])s.add(mod.t.toLowerCase())})});
@@ -139,11 +180,9 @@ function parseDebug(text,KI){
   return r;
 }
 
-// Step 21: URL hash encode/decode selections
 function encodeSelection(sel){const keys=Object.keys(sel).filter(k=>sel[k]).sort();return btoa(keys.join(','))}
 function decodeSelection(hash){try{const s=atob(hash);const sel={};s.split(',').forEach(k=>{if(k)sel[k]=true});return sel}catch(e){return null}}
 
-// Step 18: Generate markdown report
 function genReport(D,sel,diff){
   const lines=['# EET Mod Forge \u2014 Install Report','','Generated: '+new Date().toISOString().substring(0,10),''];
   const selMods=[];D.forEach(mod=>{const comps=[];mod.co.forEach((c,ci)=>{if(sel[mod.i+"-"+ci])comps.push(c)});if(comps.length)selMods.push({mod,comps})});
@@ -154,13 +193,12 @@ function genReport(D,sel,diff){
   selMods.forEach(({mod,comps})=>{
     if(mod.c!==lastCat){lines.push('','### '+( CL[mod.c]||mod.c),'');lastCat=mod.c}
     lines.push('**'+mod.n+'**'+(mod.u?' ([link]('+mod.u+'))':''));
-    comps.forEach(c=>{lines.push('- '+(c.cn!=null?'#'+c.cn+' ':'')+c.n+(c.v?' ('+c.v+')':''))});
+    comps.forEach(c=>{lines.push('- '+(c.cn!=null?'#'+c.cn+' ':'')+c.n)});
   });
-  lines.push('','---','*Generated by [EET Mod Forge](https://github.com/placeholder/eet-mod-forge)*');
+  lines.push('','---','*Generated by [EET Mod Forge](https://github.com/Anprionsa/eet-mod-forge)*');
   return lines.join('\n');
 }
 
-// Step 19: Generate bug report template
 function genBugReport(debugResult,modName){
   const lines=['## Bug Report'+(modName?' \u2014 '+modName:''),'','**WeiDU Version:** '+(debugResult.ver||'Unknown'),'','### Errors',''];
   debugResult.errors.forEach(e=>{lines.push('- `'+e.msg.substring(0,150)+'`')});
@@ -175,38 +213,81 @@ function genBugReport(debugResult,modName){
   return lines.join('\n');
 }
 
-// Step 22: Fuzzy search
 function fuzzyMatch(query,text){if(!query)return true;const q=query.toLowerCase();const t=text.toLowerCase();if(t.includes(q))return true;
   let qi=0;for(let ti=0;ti<t.length&&qi<q.length;ti++){if(t[ti]===q[qi])qi++}return qi===q.length&&q.length>=3}
 
+// ═══ Conflict Index Builder ═══
+function buildConflictIdx(conflicts,D){
+  const tp2Id={};const nameId={};
+  D.forEach(m=>{tp2Id[m.t.toLowerCase()]=m.i;nameId[m.n.toLowerCase()]=m.i});
+  const byMod={};
+  (conflicts.conflicts||[]).forEach(c=>{
+    const aId=tp2Id[c.a.toLowerCase()]??nameId[(c.a||'').toLowerCase()];
+    const bId=tp2Id[c.b.toLowerCase()]??nameId[(c.b||'').toLowerCase()];
+    if(aId==null||bId==null)return;
+    if(!byMod[aId])byMod[aId]=[];if(!byMod[bId])byMod[bId]=[];
+    byMod[aId].push({severity:c.severity,reason:c.reason,comp_a:c.comp_a,comp_b:c.comp_b,other:bId});
+    byMod[bId].push({severity:c.severity,reason:c.reason,comp_a:c.comp_b,comp_b:c.comp_a,other:aId});
+  });
+  const deps={};
+  (conflicts.dependencies||[]).forEach(dep=>{
+    const modId=tp2Id[(dep.mod||'').toLowerCase()]??nameId[(dep.mod||'').toLowerCase()];
+    const targetId=tp2Id[(dep.requires||'').toLowerCase()]??nameId[(dep.requires||'').toLowerCase()];
+    if(modId==null||targetId==null)return;
+    if(!deps[modId])deps[modId]=[];
+    deps[modId].push({targetId,type:dep.type,reason:dep.reason});
+  });
+  const essentials=new Set((conflicts.essentials||[]).map(e=>e.id));
+  const metaC=conflicts.metaComponents||{};
+  return{byMod,deps,essentials,essentialsList:conflicts.essentials||[],metaC};
+}
+
 // ═══ Virtual List ═══
 const IH=50;const OV=8;
-function VL({items,sel,onTog,onTogAll,onDetail}){
+function VL({items,sel,onTog,onTogAll,onDetail,onNavSplit,externalRef}){
   const ref=useRef(null);const[st,setSt]=useState(0);const[ch,setCh]=useState(800);
   useEffect(()=>{if(ref.current)setCh(ref.current.clientHeight);const ro=new ResizeObserver(()=>{if(ref.current)setCh(ref.current.clientHeight)});if(ref.current)ro.observe(ref.current);return()=>ro.disconnect()},[]);
+  useEffect(()=>{if(externalRef)externalRef.current=ref.current},[externalRef]);
   const si=Math.max(0,Math.floor(st/IH)-OV);const ei=Math.min(items.length,Math.ceil((st+ch)/IH)+OV);
-  return(<div ref={ref} style={{flex:1,overflow:'auto',padding:'8px 12px'}} onScroll={e=>setSt(e.target.scrollTop)}><div style={{height:items.length*IH,position:'relative'}}><div style={{position:'absolute',top:si*IH,left:0,right:0}}>{items.slice(si,ei).map(mod=><MC key={mod.i} mod={mod} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={onDetail}/>)}</div></div></div>);
+  return(<div ref={ref} style={{flex:1,overflow:'auto',padding:'8px 4px 8px 12px'}} onScroll={e=>setSt(e.target.scrollTop)}><div style={{height:items.length*IH,position:'relative'}}>{items.slice(si,ei).map((item,vi)=>{const idx=si+vi;return(<div key={item._sec?"s-"+item.c:item.i} style={{position:'absolute',top:idx*IH,left:0,right:0,height:IH,overflow:'visible'}}>{item._sec?<div className="sec-hdr"><span>{item.c}</span>{item.s&&<span className="sec-sub">{"\u203a "+item.s}</span>}</div>:<MC mod={item} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={onDetail} onNavSplit={onNavSplit}/>}</div>)})}</div></div>);
 }
 
 // ═══ Mod Card ═══
-const MC=memo(({mod,sel,onTog,onTogAll,onDetail})=>{
-  const{CI}=useContext(AC);const[exp,setExp]=useState(false);
-  const hasI=mod.co.some(c=>c.v!==undefined);const selCt=mod.co.filter((_,i)=>sel[mod.i+"-"+i]).length;
+const MC=memo(({mod,sel,onTog,onTogAll,onDetail,onNavSplit})=>{
+  const{CI,byMod,essentials,metaC,splitModMap}=useContext(AC);const data=useContext(DC);const[exp,setExp]=useState(false);
+  const selCt=mod.co.filter((_,i)=>sel[mod.i+"-"+i]).length;
   const compat=useMemo(()=>getC(CI,mod.n),[CI,mod.n]);
+  const ghInfo=useMemo(()=>{const vc=data.version_cache||{};return Object.values(vc).find(v=>v.mod_id===mod.i)},[data.version_cache,mod.i]);
+  const isEssential=essentials&&essentials.has(mod.i);
+  const hasConflict=useMemo(()=>{
+    if(!byMod||!byMod[mod.i]||selCt===0)return false;
+    return byMod[mod.i].some(c=>{
+      const keys=Object.keys(sel);
+      return keys.some(k=>sel[k]&&parseInt(k.split('-')[0])===c.other);
+    });
+  },[byMod,mod.i,sel,selCt]);
+  const isRecent=ghInfo&&ghInfo.release_date&&((Date.now()-new Date(ghInfo.release_date).getTime())/(86400000))<90;
+  const splitInfo=splitModMap&&splitModMap[mod.i];
   return(
-    <div className={"mc"+(hasI?" ins":"")+(selCt>0?" sel":"")}>
+    <div className={"mc"+(selCt>0?" sel":"")+(hasConflict?" cfl":"")} style={exp?{position:'relative',zIndex:10}:undefined}>
       <div className="mh" onClick={()=>setExp(!exp)}>
         <span className={"ar"+(exp?" op":"")}>&#9654;</span>
         <div style={{flex:1,minWidth:0}}>
           <div style={{display:'flex',alignItems:'center',gap:6,flexWrap:'wrap'}}>
-            <span style={{fontWeight:600,color:'var(--txb)',fontSize:'.9rem'}}>{mod.n}</span>
+            {hasConflict&&<span className="conflict-dot" title="Conflicts with another selected mod"/>}
+            <span style={{fontWeight:600,color:'var(--txb)',fontSize:'.92rem'}}>{mod.n}</span>
             <span className="fi" style={{color:'var(--txd)',fontSize:'.66rem'}}>{mod.t}</span>
-            {hasI&&<span className="bd bdi" style={{fontSize:'.6rem'}}>INSTALLED</span>}
+            {isEssential&&<span className="essential-badge">ESSENTIAL</span>}
+            {mod.t.toLowerCase()==='eefixpack'&&<span className="bd" style={{fontSize:'.56rem',background:'rgba(251,146,60,.12)',color:'var(--org)',border:'1px solid rgba(251,146,60,.3)'}} title="Must be installed on both BGEE and BG2EE">DUAL INSTALL</span>}
+            {isRecent&&<span className="updated-badge">UPDATED</span>}
             {compat&&compat.ver&&<span className="bd" style={{background:'#1a2a1a',color:'#80d0a0',fontSize:'.58rem',border:'1px solid #2a4a3a'}}>{"EET\u2265"+compat.ver}</span>}
+            {ghInfo&&ghInfo.stars>5&&<span className="stars-badge">{"\u2b50"+ghInfo.stars}</span>}
+            {splitInfo&&<span className="bd split-bd" style={{fontSize:'.56rem'}} onClick={e=>{e.stopPropagation();onNavSplit&&onNavSplit(mod.sg,mod.i)}} title={"This mod has components in "+(splitInfo.all.length)+" sections. Click to jump to next."}>{"SPLIT "+(splitInfo.idx+1)+"/"+splitInfo.all.length}</span>}
           </div>
           <div style={{display:'flex',gap:3,marginTop:2,flexWrap:'wrap',alignItems:'center'}}>
             {(mod.ph||[]).map(p=><span key={p} className={"bd "+PST[p]}>{p}</span>)}
             <span style={{color:'var(--txd)',fontSize:'.73rem'}}>{mod.co.length+" comp"+(mod.co.length!==1?"s":"")}{selCt>0&&<span style={{color:'var(--gold)'}}>{" \u00b7 "+selCt}</span>}</span>
+            {mod.a&&<span style={{color:'var(--txd)',fontSize:'.68rem'}}>{"\u00b7 "+mod.a}</span>}
           </div>
         </div>
         <div style={{display:'flex',gap:4}}>
@@ -218,28 +299,36 @@ const MC=memo(({mod,sel,onTog,onTogAll,onDetail})=>{
         <div style={{marginTop:4,display:'flex',gap:5,marginBottom:5}}>
           <button className="bt bs" onClick={e=>{e.stopPropagation();onTogAll(mod.i,true)}}>Select Active</button>
           <button className="bt bs" onClick={e=>{e.stopPropagation();onTogAll(mod.i,false)}}>Deselect All</button>
+          {splitInfo&&splitInfo.all.length>1&&<button className="bt bs" style={{marginLeft:'auto',color:'var(--pur)'}} onClick={e=>{e.stopPropagation();onNavSplit&&onNavSplit(mod.sg,mod.i)}}>Next split →</button>}
         </div>
-        {mod.co.map((c,ci)=>{const key=mod.i+"-"+ci;return(
-          <div key={ci} className={"cr"+(c.x?" xo":"")+(c.v!==undefined?" xi":"")}>
-            <input type="checkbox" className="ck" checked={!!sel[key]} onChange={()=>onTog(key)}/>
-            <div style={{flex:1,minWidth:0}}>
-              <div style={{display:'flex',gap:5,alignItems:'center',flexWrap:'wrap'}}>
-                {c.cn!=null&&<span className="fi" style={{color:'var(--goldd)',fontSize:'.66rem'}}>{"#"+c.cn}</span>}
-                <span style={{fontSize:'.82rem',color:c.x?'var(--txd)':'var(--tx)'}}>{c.n}</span>
-                {c.v!==undefined&&<span className="bd bdi" style={{fontSize:'.56rem'}}>{"\u2713 "+c.v}</span>}
-                {c.x&&<span className="bd bdo" style={{fontSize:'.56rem'}}>OPT</span>}
+        {mod.co.map((c,ci)=>{const key=mod.i+"-"+ci;const isOn=!!sel[key];const vLine=c.no?(c.no.split('\n').find(l=>l.trim().startsWith('v '))||null):null;const noteText=c.no?c.no.split('\n').filter(l=>!l.trim().startsWith('v ')).join('\n').trim():'';return(
+          <div key={ci} className={"cr"+(c.x&&c.no?" xo":"")+(isOn?" ck-on":"")}>
+            <input type="checkbox" className="ck" checked={isOn} onChange={()=>onTog(key)}/>
+            <div style={{flex:1,minWidth:0,display:'flex',gap:5,alignItems:'flex-start'}}>
+              <span className="fi" style={{color:'var(--goldd)',fontSize:'.66rem',background:'rgba(139,112,48,.15)',padding:'0 4px',borderRadius:3,flexShrink:0,marginTop:2}}>{c.cn!=null?"#"+c.cn:"N/A"}</span>
+              <div style={{flex:1,minWidth:0}}>
+                <div style={{display:'flex',gap:5,alignItems:'center',flexWrap:'wrap'}}>
+                  <span style={{fontSize:'.84rem',color:isOn?'var(--txb)':c.x&&c.no?'var(--txd)':'var(--tx)',fontWeight:isOn?600:400}}>{c.n}</span>
+                  {c.x&&c.no&&<span className="bd bdo" style={{fontSize:'.56rem'}} title="Optional \u2014 see note below for details">OPT</span>}
+                  {metaC&&metaC[mod.i+"-"+ci]&&<span className="bd" style={{fontSize:'.56rem',background:'rgba(96,165,250,.15)',color:'#60a5fa',border:'1px solid rgba(96,165,250,.3)'}}>{"SELECTS "+metaC[mod.i+"-"+ci].length}</span>}
+                  {vLine&&<span className="v-comment">{"// "+vLine.trim().substring(2)}</span>}
+                </div>
+                {noteText&&<div className="nt" style={{fontSize:'.7rem',maxHeight:40}}>{noteText.charAt(0).toUpperCase()+noteText.slice(1)}</div>}
               </div>
-              {c.no&&<div className="nt" style={{fontSize:'.7rem',maxHeight:40}}>{c.no}</div>}
             </div>
           </div>)})}
       </div>)}
     </div>);
 });
 
-// ═══ Step 17: Detail Panel ═══
-function DetailPanel({mod,onClose}){
-  const data=useContext(DC);const recs=(data.recommendations||[]).find(r=>mod.n.includes(r.mod)||r.mod.includes(mod.n));
+// ═══ Detail Panel ═══
+function DetailPanel({mod,sel,onClose}){
+  const data=useContext(DC);const{byMod,deps}=useContext(AC);
+  const recs=(data.recommendations||[]).find(r=>mod.n.includes(r.mod)||r.mod.includes(mod.n));
   const vc=(data.version_cache||{});const gh=Object.values(vc).find(v=>v.mod_id===mod.i);
+  const D=data.mods||[];
+  const modConflicts=(byMod&&byMod[mod.i])||[];
+  const modDeps=(deps&&deps[mod.i])||[];
   return(
     <div className="detail fin">
       <div style={{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:10}}>
@@ -249,15 +338,36 @@ function DetailPanel({mod,onClose}){
       <div className="fi" style={{color:'var(--txd)',fontSize:'.72rem',marginBottom:8}}>{mod.t}</div>
       {mod.a&&<div className="detail-section"><h4>Author</h4><div style={{fontSize:'.82rem'}}>{mod.a}</div></div>}
       {mod.no&&<div className="detail-section"><h4>Notes</h4><div className="nt" style={{maxHeight:200}}>{mod.no}</div></div>}
-      {mod.rq&&<div className="detail-section"><h4>Requires</h4><div style={{fontSize:'.82rem'}}>{mod.rq}</div></div>}
-      {mod.ic&&<div className="detail-section"><h4>Conflicts</h4><div style={{fontSize:'.82rem',color:'var(--red)'}}>{mod.ic}</div></div>}
+      {/* Structured dependencies */}
+      {modDeps.length>0&&<div className="detail-section"><h4>Requires</h4>
+        {modDeps.map((dep,i)=>{const target=D.find(m=>m.i===dep.targetId);const isMet=target&&target.co.some((_,ci)=>sel[target.i+'-'+ci]);
+          return <div key={i} style={{padding:'3px 0',fontSize:'.82rem',display:'flex',alignItems:'center',gap:4}}>
+            <span style={{color:isMet?'var(--grn)':'var(--org)'}}>{isMet?'\u2713':'\u26a0'}</span>
+            <span>{target?target.n:dep.requires}</span>
+            {dep.reason&&<span style={{color:'var(--txd)',fontSize:'.72rem'}}>{' \u2014 '+dep.reason}</span>}
+          </div>})}
+      </div>}
+      {/* Structured conflicts */}
+      {modConflicts.length>0&&<div className="detail-section"><h4>Known Conflicts ({modConflicts.length})</h4>
+        {modConflicts.map((c,i)=>{const other=D.find(m=>m.i===c.other);const isActive=other&&other.co.some((_,ci)=>sel[other.i+'-'+ci]);
+          return <div key={i} style={{padding:'4px 0',borderBottom:'1px solid var(--brd)'}}>
+            <div style={{display:'flex',alignItems:'center',gap:4}}>
+              {isActive&&<span className="conflict-dot"/>}
+              <span className={"bd "+(c.severity==='hard'?'bd4':c.severity==='partial'?'bd3':'bd2')} style={{fontSize:'.58rem'}}>{c.severity.toUpperCase()}</span>
+              <span style={{fontSize:'.82rem',color:isActive?'var(--red)':'var(--tx)'}}>{other?other.n:'Unknown'}</span>
+            </div>
+            <div style={{fontSize:'.74rem',color:'var(--txd)',marginTop:1}}>{c.reason}</div>
+          </div>})}
+      </div>}
+      {/* Fallback to text fields if no structured data */}
+      {modConflicts.length===0&&mod.ic&&<div className="detail-section"><h4>Conflicts</h4><div style={{fontSize:'.82rem',color:'var(--red)'}}>{mod.ic}</div></div>}
+      {modDeps.length===0&&mod.rq&&<div className="detail-section"><h4>Requires</h4><div style={{fontSize:'.82rem'}}>{mod.rq}</div></div>}
       {gh&&<div className="detail-section"><h4>GitHub</h4>
         {gh.stars!=null&&<div style={{fontSize:'.82rem'}}>{"\u2b50 "+gh.stars+" stars"}</div>}
         {gh.pushed&&<div style={{fontSize:'.78rem',color:'var(--txd)'}}>Last push: {gh.pushed}</div>}
         {gh.tag&&<div style={{fontSize:'.78rem'}}>Latest: <span className="ver-badge ver-up">{gh.tag}</span>{gh.release_date&&" ("+gh.release_date+")"}</div>}
         {gh.archived&&<div style={{fontSize:'.78rem',color:'var(--red)'}}>This repo is archived.</div>}
       </div>}
-      {/* Step 23: Recommendations */}
       {recs&&<div className="detail-section"><h4>Recommendations</h4>
         {recs.tip&&<div style={{fontSize:'.8rem',marginBottom:6,color:'var(--txb)'}}>{recs.tip}</div>}
         {recs.goes_with&&recs.goes_with.length>0&&<div style={{marginBottom:4}}><span style={{fontSize:'.72rem',color:'var(--grn)'}}>Goes well with:</span>{recs.goes_with.map((g,i)=><span key={i} className="bd" style={{marginLeft:4,background:'#1a2e1a',color:'var(--grn)',fontSize:'.66rem'}}>{g}</span>)}</div>}
@@ -265,24 +375,61 @@ function DetailPanel({mod,onClose}){
       </div>}
       {mod.u&&<div className="detail-section"><h4>Links</h4><a href={mod.u} target="_blank" rel="noopener" style={{fontSize:'.82rem'}}>{mod.u}</a></div>}
       <div className="detail-section"><h4>Components ({mod.co.length})</h4>
-        {mod.co.map((c,i)=><div key={i} style={{fontSize:'.78rem',padding:'2px 0',borderBottom:'1px solid var(--brd)'}}>
-          {c.cn!=null&&<span className="fi" style={{color:'var(--goldd)'}}>{"#"+c.cn+" "}</span>}
+        {mod.co.map((c,i)=><div key={i} style={{fontSize:'.78rem',padding:'3px 0',borderBottom:'1px solid var(--brd)',display:'flex',gap:5,alignItems:'center'}}>
+          <span className="fi" style={{color:'var(--goldd)',fontSize:'.66rem',background:'rgba(139,112,48,.15)',padding:'0 4px',borderRadius:3,flexShrink:0}}>{c.cn!=null?"#"+c.cn:"N/A"}</span>
           <span style={{color:c.x?'var(--txd)':'var(--tx)'}}>{c.n}</span>
-          {c.v!==undefined&&<span style={{color:'var(--grn)',fontSize:'.72rem'}}>{" \u2713"+c.v}</span>}
+          {c.x&&<span style={{color:'var(--txd)',fontSize:'.68rem',flexShrink:0}}>{"(opt)"}</span>}
         </div>)}
       </div>
     </div>);
 }
 
-// ═══ Step 20: Install Order Visualization ═══
-function Timeline({D,sel}){
+// ═══ Tools Panel ═══
+const TOOL_CATS={installer:'Installers & Managers',editor:'Editors & Browsers',utility:'Utilities',dev:'Development',reference:'Reference'};
+function ToolsPanel(){
+  const data=useContext(DC);const tools=data.tools||[];
+  const grouped=useMemo(()=>{const g={};tools.forEach(t=>{const c=t.cat||'utility';if(!g[c])g[c]=[];g[c].push(t)});return g},[tools]);
+  return(
+    <div style={{flex:1,overflow:'auto',padding:'20px 16px'}}>
+      <h3 className="ci" style={{color:'var(--gold)',marginBottom:4}}>Modding Tools</h3>
+      <p style={{fontSize:'.8rem',color:'var(--txd)',marginBottom:16,maxWidth:700}}>Essential utilities for installing, editing, and managing Infinity Engine mods. These are separate programs, not WeiDU mods.</p>
+      {Object.entries(TOOL_CATS).map(([k,label])=>{const items=grouped[k];if(!items||!items.length)return null;return(
+        <div key={k} style={{marginBottom:16}}>
+          <div style={{fontSize:'.82rem',fontWeight:700,color:'var(--goldd)',textTransform:'uppercase',letterSpacing:'.06em',marginBottom:6,paddingBottom:4,borderBottom:'1px solid var(--brd)'}}>{label}</div>
+          {items.map(t=>(
+            <div key={t.id} className="mc" style={{marginBottom:4,padding:'10px 14px',borderRadius:8,border:'1px solid var(--brd)',background:'var(--bg2)'}}>
+              <div style={{display:'flex',alignItems:'center',gap:8,marginBottom:4}}>
+                <span className="ci" style={{fontSize:'.92rem',color:'var(--tx)'}}>{t.n}</span>
+                {t.essential&&<span className="bd" style={{fontSize:'.56rem',background:'rgba(212,168,67,.15)',color:'var(--gold)',border:'1px solid rgba(212,168,67,.3)'}}>ESSENTIAL</span>}
+              </div>
+              <div style={{fontSize:'.78rem',color:'var(--txd)',marginBottom:6}}>{t.desc}</div>
+              <div style={{display:'flex',gap:12,alignItems:'center',fontSize:'.74rem'}}>
+                {t.a&&<span style={{color:'var(--txd)'}}>by {t.a}</span>}
+                {t.u&&<a href={t.u} target="_blank" rel="noopener" style={{color:'var(--blue)'}}>Download {"\u2197"}</a>}
+              </div>
+            </div>
+          ))}
+        </div>
+      )})}
+    </div>
+  );
+}
+
+// ═══ Install Order Visualization ═══
+function Timeline({D,sel,essentialsList}){
   const cats=useMemo(()=>{const c={};D.forEach(m=>{if(!c[m.c])c[m.c]=[];c[m.c].push(m)});return c},[D]);
+  const missingEss=useMemo(()=>{if(!essentialsList)return[];return essentialsList.filter(e=>{const mod=D.find(m=>m.i===e.id);return !mod||!mod.co.some((_,ci)=>sel[mod.i+'-'+ci])});},[essentialsList,D,sel]);
   return(
     <div className="timeline">
       <h3 className="ci" style={{color:'var(--gold)',marginBottom:10}}>Install Order Map</h3>
+      {missingEss.length>0&&<div style={{marginBottom:12}}>{missingEss.map(e=>(
+        <div key={e.id} className="warn" style={{display:'flex',alignItems:'center',gap:8,marginBottom:4}}>
+          <span style={{fontSize:'1rem'}}>{"\u26a0"}</span>
+          <span><b>{e.label}</b> is not selected. {e.reason}</span>
+        </div>
+      ))}</div>}
       <div style={{fontSize:'.78rem',color:'var(--txd)',marginBottom:12}}>
-        <span style={{display:'inline-block',width:12,height:12,background:'#1a2e1a',border:'1px solid #2a4a2a',borderRadius:3,marginRight:4,verticalAlign:'middle'}}></span> Installed
-        <span style={{display:'inline-block',width:12,height:12,background:'var(--goldd)',border:'1px solid var(--gold)',borderRadius:3,marginLeft:12,marginRight:4,verticalAlign:'middle'}}></span> Selected
+        <span style={{display:'inline-block',width:12,height:12,background:'var(--goldd)',border:'1px solid var(--gold)',borderRadius:3,marginRight:4,verticalAlign:'middle'}}></span> Selected
         <span style={{display:'inline-block',width:12,height:12,border:'1px solid var(--brd)',borderRadius:3,marginLeft:12,marginRight:4,verticalAlign:'middle'}}></span> Available
       </div>
       {CO.filter(c=>cats[c]).map(cat=>(
@@ -291,8 +438,7 @@ function Timeline({D,sel}){
           <div style={{display:'flex',flexWrap:'wrap'}}>
             {cats[cat].map(mod=>{
               const isSel=mod.co.some((_,ci)=>sel[mod.i+"-"+ci]);
-              const isInst=mod.co.some(c=>c.v!==undefined);
-              return <span key={mod.i} className={"tl-mod"+(isSel&&isInst?" tl-both":isSel?" tl-sel":isInst?" tl-inst":"")} title={mod.n+"\n"+mod.co.length+" components"+(isInst?" (installed)":"")+(isSel?" (selected)":"")}>{mod.n.length>25?mod.n.substring(0,23)+"\u2026":mod.n}</span>
+              return <span key={mod.i} className={"tl-mod"+(isSel?" tl-sel":"")} title={mod.n+"\n"+mod.co.length+" components"+(isSel?" (selected)":"")}>{mod.n.length>25?mod.n.substring(0,23)+"\u2026":mod.n}</span>
             })}
           </div>
         </div>
@@ -306,9 +452,9 @@ function DiagPanel(){
   const[ghLoading,setGhLoading]=useState(false);const[ghN,setGhN]=useState(0);const fRef=useRef(null);
   const handleDbg=useCallback(file=>{if(!file)return;const r=new FileReader();r.onload=e=>setDbg(parseDebug(e.target.result,data.known_issues));r.readAsText(file)},[data.known_issues]);
   const checkVer=useCallback(async()=>{setGhLoading(true);setGhN(0);const res={...ghRes};const batch=(data.github_mods||[]).slice(0,50);
-    for(let i=0;i<batch.length;i++){const g=batch[i];try{const r=await fetch('https://api.github.com/repos/'+g.o+'/'+g.r+'/releases/latest');if(r.ok){const d=await r.json();res[g.o+"/"+g.r]={tag:d.tag_name,date:(d.published_at||'').substring(0,10),body:(d.body||'').substring(0,300),mod_id:g.i,installed:g.v}}}catch(e){}setGhN(i+1);if(i%10===9)await new Promise(r=>setTimeout(r,500))}
+    for(let i=0;i<batch.length;i++){const g=batch[i];try{const r=await fetch('https://api.github.com/repos/'+g.o+'/'+g.r+'/releases/latest');if(r.ok){const d=await r.json();res[g.o+"/"+g.r]={tag:d.tag_name,date:(d.published_at||'').substring(0,10),body:(d.body||'').substring(0,300),mod_id:g.i,repo:g.o+'/'+g.r}}}catch(e){}setGhN(i+1);if(i%10===9)await new Promise(r=>setTimeout(r,500))}
     setGhRes(res);setGhLoading(false)},[data.github_mods,ghRes]);
-  const updates=useMemo(()=>Object.values(ghRes).filter(r=>r.installed&&r.tag&&r.installed.replace(/^v/i,'').trim()!==r.tag.replace(/^v/i,'').trim()),[ghRes]);
+  const releases=useMemo(()=>Object.values(ghRes).filter(r=>r.tag).sort((a,b)=>(b.date||'').localeCompare(a.date||'')),[ghRes]);
   return(
     <div style={{padding:'14px',overflow:'auto',flex:1}}>
       <h3 className="ci" style={{color:'var(--gold)',marginBottom:12}}>Diagnostics</h3>
@@ -328,7 +474,6 @@ function DiagPanel(){
           {dbg.errors.length===0&&dbg.warnings.length===0&&<div className="diag-card diag-ok"><span style={{color:'var(--grn)',fontWeight:600}}>{"\u2713 Clean"}</span></div>}
           {dbg.matched.map((m,i)=>(<div key={'m'+i} className={"diag-card "+(m.issue.sev==='critical'?'diag-crit':'diag-warn')}><div style={{display:'flex',justifyContent:'space-between'}}><span style={{fontWeight:600,fontSize:'.83rem',color:m.issue.sev==='critical'?'var(--red)':'var(--org)'}}>{m.issue.cat}</span><span className="bd" style={{background:'#1a2a1a',color:'var(--grn)',fontSize:'.58rem'}}>KNOWN</span></div><div style={{fontSize:'.78rem',marginTop:3}}>{m.known.description}</div>{m.known.workaround&&<div style={{fontSize:'.76rem',marginTop:2,color:'var(--blu)'}}>{"Fix: "+m.known.workaround}</div>}</div>))}
           {dbg.unknown.map((u,i)=>(<div key={'u'+i} className="diag-card diag-crit"><div style={{display:'flex',justifyContent:'space-between'}}><span style={{fontWeight:600,fontSize:'.83rem',color:'var(--red)'}}>{u.cat}</span><span className="bd" style={{background:'#2a1a1a',color:'var(--red)',fontSize:'.58rem'}}>NEW</span></div><div className="fi" style={{fontSize:'.7rem',color:'var(--txd)',marginTop:3,maxHeight:50,overflow:'auto'}}>{u.msg}</div></div>))}
-          {/* Step 19: Bug report generator */}
           <div style={{marginTop:8,display:'flex',gap:6}}>
             <button className="bt bs" onClick={()=>{const t=genBugReport(dbg);navigator.clipboard.writeText(t).catch(()=>{});const b=new Blob([t],{type:'text/markdown'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='bug-report.md';a.click()}}>Export Bug Report</button>
           </div>
@@ -337,11 +482,123 @@ function DiagPanel(){
       <div>
         <div style={{fontWeight:600,marginBottom:6,fontSize:'.88rem'}}>Version Scanner</div>
         <div style={{display:'flex',gap:8,alignItems:'center',marginBottom:8}}>
-          <button className="gh-btn" onClick={checkVer} disabled={ghLoading}>{ghLoading?"Checking "+ghN+"/50":"Check Updates ("+((data.github_mods||[]).length)+" repos)"}</button>
+          <button className="gh-btn" onClick={checkVer} disabled={ghLoading}>{ghLoading?"Checking "+ghN+"/50":"Check Latest Releases ("+((data.github_mods||[]).length)+" repos)"}</button>
         </div>
-        {updates.length>0&&<div><div style={{fontSize:'.82rem',color:'var(--org)',fontWeight:600,marginBottom:4}}>{updates.length} updates</div>
-          {updates.slice(0,15).map((u,i)=>(<div key={i} className="diag-card diag-warn" style={{padding:'7px 12px'}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontSize:'.83rem',fontWeight:600}}>{u.mod_id}</span><div><span className="ver-badge ver-ok">{u.installed}</span><span style={{color:'var(--txd)',margin:'0 4px'}}>{"\u2192"}</span><span className="ver-badge ver-up">{u.tag}</span></div></div>{u.date&&<div style={{fontSize:'.7rem',color:'var(--txd)'}}>Released: {u.date}</div>}</div>))}</div>}
-        {Object.keys(ghRes).length>0&&updates.length===0&&<div className="diag-card diag-ok">{"\u2713 All up to date"}</div>}
+        {releases.length>0&&<div><div style={{fontSize:'.82rem',color:'var(--blu)',fontWeight:600,marginBottom:4}}>{releases.length} mods with releases</div>
+          {releases.slice(0,20).map((u,i)=>(<div key={i} className="diag-card" style={{padding:'7px 12px',background:'var(--crd)',border:'1px solid var(--brd)',borderRadius:6,marginBottom:4}}><div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}><span style={{fontSize:'.83rem',fontWeight:600}}>{u.repo}</span><span className="ver-badge ver-up">{u.tag}</span></div>{u.date&&<div style={{fontSize:'.7rem',color:'var(--txd)'}}>Released: {u.date}</div>}</div>))}</div>}
+      </div>
+    </div>);
+}
+
+// ═══ Conflict Alerts ═══
+function ConflictAlerts({conflicts,depsMissing,onAddDep,onNavigate}){
+  if(!conflicts.length&&!depsMissing.length)return null;
+  const navStyle={cursor:'pointer',textDecoration:'underline',textDecorationStyle:'dotted'};
+  return(
+    <div style={{padding:'2px 4px',borderBottom:'1px solid var(--brd)',maxHeight:140,overflowY:'auto'}}>
+      {conflicts.map((c,i)=>(
+        <div key={'c'+i} className="alert-bar alert-conflict">
+          <span className="conflict-dot"/>
+          <span style={{flex:1}}>{c.comp_a?<span>Comp <b>{c.comp_a}</b> of </span>:null}<b style={navStyle} onClick={()=>onNavigate(c.a)}>{c.a.n}</b> {c.severity==='hard'?'is incompatible with':'may conflict with'} {c.comp_b?<span>comp <b>{c.comp_b}</b> of </span>:null}<b style={navStyle} onClick={()=>onNavigate(c.b)}>{c.b.n}</b></span>
+          <span style={{color:'var(--txd)',fontSize:'.72rem',flexShrink:0}}>{c.reason}</span>
+        </div>
+      ))}
+      {depsMissing.map((d,i)=>(
+        <div key={'d'+i} className="alert-bar alert-dep">
+          <span className="dep-dot"/>
+          <span style={{flex:1}}><b style={navStyle} onClick={()=>onNavigate(d.mod)}>{d.mod.n}</b> requires <b style={navStyle} onClick={()=>onNavigate(d.target)}>{d.target.n}</b></span>
+          <button className="bt bs" style={{flexShrink:0}} onClick={()=>onAddDep(d.target)}>+ Add</button>
+        </div>
+      ))}
+    </div>);
+}
+
+// ═══ Onboarding Wizard ═══
+function WizardOverlay({presets,essentialsList,D,onComplete}){
+  const[step,setStep]=useState(0);const[chosen,setChosen]=useState(null);
+  const steps=['Welcome','Playthrough','Essentials','Tips','Ready'];
+  const presetDescs={minimal:'Just the critical bugfixes and the EET merge. The vanilla experience, minus the bugs.',enhanced:'Bugfixes plus restored content, better UI, and graphical upgrades. The game as it was meant to be.',story:'All of Enhanced Vanilla plus new quests, NPCs, and story content across BG1, SoD, and BG2.',full:'Everything recommended. Hundreds of quests, dozens of NPCs, items, kits, and tweaks. The mega install.',tactical:'Enhanced Vanilla plus Sword Coast Stratagems for smarter enemy AI. For players who want a challenge.'};
+  return(
+    <div className="wiz-overlay">
+      <div className="wiz-card">
+        <div className="wiz-dots">{steps.map((_,i)=><div key={i} className={"wiz-dot"+(i<=step?" ac":"")}/>)}</div>
+
+        {step===0&&<div style={{textAlign:'center'}}>
+          <h2 className="ci gw" style={{color:'var(--gold)',fontSize:'1.4rem',marginBottom:12}}>Welcome to EET Mod Forge</h2>
+          <p style={{color:'var(--txd)',marginBottom:6,lineHeight:1.6,maxWidth:480,margin:'0 auto 16px'}}>
+            {"Build your Enhanced Edition Trilogy mod install from a catalog of "+D.length+" mods and 3,500+ components. Choose a starting preset or build from scratch."}
+          </p>
+          <div style={{display:'flex',gap:8,justifyContent:'center'}}>
+            <button className="bt bg" onClick={()=>setStep(1)}>Get Started</button>
+            <button className="bt" onClick={()=>onComplete(null)}>{"Skip \u2014 I know what I\u2019m doing"}</button>
+          </div>
+        </div>}
+
+        {step===1&&<div>
+          <h3 className="ci" style={{color:'var(--gold)',marginBottom:12,textAlign:'center'}}>What kind of playthrough?</h3>
+          {presets.map(p=><div key={p.id} className={"wiz-opt"+(chosen===p.id?" chosen":"")} onClick={()=>setChosen(p.id)}>
+            <div style={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+              <span style={{fontWeight:700,color:p.color,fontSize:'.95rem'}}>{p.name}</span>
+              <span style={{color:'var(--txd)',fontSize:'.78rem'}}>{p.keys.length+" components"}</span>
+            </div>
+            <div style={{fontSize:'.8rem',color:'var(--txd)',marginTop:3}}>{presetDescs[p.id]||p.desc||''}</div>
+          </div>)}
+          <div className={"wiz-opt"+(chosen==='custom'?" chosen":"")} onClick={()=>setChosen('custom')}>
+            <span style={{fontWeight:700,color:'var(--txb)',fontSize:'.95rem'}}>Custom (empty)</span>
+            <div style={{fontSize:'.8rem',color:'var(--txd)',marginTop:3}}>Start from scratch and hand-pick every mod.</div>
+          </div>
+          <div style={{display:'flex',justifyContent:'space-between',marginTop:12}}>
+            <button className="bt" onClick={()=>setStep(0)}>Back</button>
+            <button className="bt bg" disabled={!chosen} onClick={()=>setStep(2)}>Next</button>
+          </div>
+        </div>}
+
+        {step===2&&<div>
+          <h3 className="ci" style={{color:'var(--gold)',marginBottom:8,textAlign:'center'}}>Essential Mods</h3>
+          <p style={{color:'var(--txd)',fontSize:'.82rem',marginBottom:12,textAlign:'center'}}>These are the foundation of every EET install. All presets include them.</p>
+          {essentialsList.map(e=>{const mod=D.find(m=>m.i===e.id);return(
+            <div key={e.id} style={{background:'var(--bg)',border:'1px solid var(--brd)',borderRadius:6,padding:'10px 12px',marginBottom:4,display:'flex',alignItems:'center',gap:8}}>
+              <span className="essential-badge">{e.label}</span>
+              <div style={{flex:1}}>
+                <div style={{fontWeight:600,fontSize:'.88rem',color:'var(--txb)'}}>{mod?mod.n:e.tp2}</div>
+                <div style={{fontSize:'.76rem',color:'var(--txd)'}}>{e.reason}</div>
+              </div>
+              <span style={{color:'var(--grn)',fontSize:'.9rem'}}>{"\u2713"}</span>
+            </div>
+          )})}
+          <div style={{display:'flex',justifyContent:'space-between',marginTop:12}}>
+            <button className="bt" onClick={()=>setStep(1)}>Back</button>
+            <button className="bt bg" onClick={()=>setStep(3)}>Next</button>
+          </div>
+        </div>}
+
+        {step===3&&<div>
+          <h3 className="ci" style={{color:'var(--gold)',marginBottom:12,textAlign:'center'}}>Quick Tips</h3>
+          <div style={{display:'flex',flexDirection:'column',gap:8}}>
+            {[
+              ['Install Order Matters','Mods are organized in '+Object.keys(CL).length+' categories from Pre-EET through Post-SCS. The order in the catalog is the order they get installed.'],
+              ['Save Your Work','Use "Save As..." to save your build as a custom preset. It persists across browser sessions.'],
+              ['Check for Conflicts','The app warns you in real-time when selected mods conflict. Look for red alerts at the top of the mod list.'],
+              ['Diagnostics Tab','Upload a WeiDU debug log to analyze errors. The app matches against a known issues database and tells you if there\'s a workaround.'],
+              ['Keyboard Shortcuts','Press / to search, Escape to close panels, j/k to navigate mods.'],
+            ].map(([t,d],i)=><div key={i} style={{background:'var(--bg)',border:'1px solid var(--brd)',borderRadius:6,padding:'8px 12px'}}>
+              <div style={{fontWeight:600,fontSize:'.85rem',color:'var(--gold)',marginBottom:2}}>{t}</div>
+              <div style={{fontSize:'.78rem',color:'var(--txd)'}}>{d}</div>
+            </div>)}
+          </div>
+          <div style={{display:'flex',justifyContent:'space-between',marginTop:12}}>
+            <button className="bt" onClick={()=>setStep(2)}>Back</button>
+            <button className="bt bg" onClick={()=>setStep(4)}>Next</button>
+          </div>
+        </div>}
+
+        {step===4&&<div style={{textAlign:'center'}}>
+          <h3 className="ci gw" style={{color:'var(--gold)',fontSize:'1.2rem',marginBottom:12}}>You're Ready</h3>
+          <p style={{color:'var(--txd)',marginBottom:16}}>
+            {chosen&&chosen!=='custom'?'Your '+((presets.find(p=>p.id===chosen)||{}).name||'')+' preset will be loaded. Customize it from there.':'You\'ll start with a blank slate. Browse categories or search to find mods.'}
+          </p>
+          <button className="bt bg" style={{fontSize:'1rem',padding:'8px 28px'}} onClick={()=>onComplete(chosen)}>Start Building</button>
+        </div>}
       </div>
     </div>);
 }
@@ -350,86 +607,196 @@ function DiagPanel(){
 function AppInner(){
   const data=useContext(DC);const D=data.mods||[];const PRESETS=data.presets||[];
   const idx=useMemo(()=>buildIdx(D,data.compat),[D,data.compat]);
+  const cidx=useMemo(()=>buildConflictIdx(data.conflicts||{},D),[data.conflicts,D]);
 
   const[search,setSearch]=useState('');const[cat,setCat]=useState(null);const[sub,setSub]=useState(null);
-  const[fI,setFI]=useState(false);const[fS,setFS]=useState(false);const[fP,setFP]=useState(null);const[fTag,setFTag]=useState(null);
+  const[fS,setFS]=useState(false);const[fP,setFP]=useState(null);const[fTag,setFTag]=useState(null);const[fAuthor,setFAuthor]=useState(null);const[authorSearch,setAuthorSearch]=useState('');
   const[modal,setModal]=useState(null);const[importRes,setImportRes]=useState(null);const[dragOver,setDragOver]=useState(false);
   const[activeTab,setActiveTab]=useState('mods');const[detailMod,setDetailMod]=useState(null);
-  const fileRef=useRef(null);const initSel=useRef(null);
+  const[sidebarOpen,setSidebarOpen]=useState(false);const[showAll,setShowAll]=useState(false);
+  const[customPresets,setCustomPresets]=useState(()=>LS.get('presets',[]));
+  const[saveName,setSaveName]=useState('');
+  const fileRef=useRef(null);const initSel=useRef(null);const searchRef=useRef(null);
   const[sel,setSel]=useState(()=>{
-    // Step 21: Check URL hash for shared selection
     const hash=window.location.hash.substring(1);
     if(hash){const decoded=decodeSelection(hash);if(decoded&&Object.keys(decoded).length>0)return decoded}
-    const init={};D.forEach(m=>m.co.forEach((c,ci)=>{if(c.v!==undefined)init[m.i+"-"+ci]=true}));return init;
+    const saved=LS.get('sel');
+    if(saved&&Object.keys(saved).length>0)return saved;
+    return {};
   });
-  useEffect(()=>{if(!initSel.current)initSel.current={...sel}},[]);
+  const[showWizard,setShowWizard]=useState(()=>!LS.get('onboarded')&&Object.keys(LS.get('sel')||{}).length===0&&!window.location.hash.substring(1));
 
+  useEffect(()=>{if(!initSel.current)initSel.current={...sel}},[]);
+  useEffect(()=>{LS.set('sel',sel)},[sel]);
+
+  // Keyboard shortcuts
+  useEffect(()=>{
+    const handler=(e)=>{
+      if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;
+      if(e.key==='/'){e.preventDefault();searchRef.current?.focus()}
+      if(e.key==='Escape'){setDetailMod(null);setModal(null);setSidebarOpen(false)}
+    };
+    window.addEventListener('keydown',handler);return()=>window.removeEventListener('keydown',handler);
+  },[]);
+
+  const splitModMap=useMemo(()=>{const byG={};D.forEach(m=>{if(!m.sg)return;if(!byG[m.sg])byG[m.sg]=[];byG[m.sg].push(m)});const sm={};Object.values(byG).forEach(arr=>{if(arr.length>1)arr.forEach((m,i)=>{sm[m.i]={all:arr,idx:i}})});return sm},[D]);
+  const ctxValue=useMemo(()=>({...idx,...cidx,splitModMap}),[idx,cidx,splitModMap]);
+
+  const DSec=useMemo(()=>{const items=[];let lastC=null;D.forEach(m=>{if(m.c!==lastC){items.push({_sec:true,c:m.c,s:''});lastC=m.c}items.push(m)});return items},[D]);
   const catCt=useMemo(()=>{const c={};D.forEach(m=>{c[m.c]=(c[m.c]||0)+1});return c},[D]);
   const subCt=useMemo(()=>{if(!cat)return {};const c={};D.filter(m=>m.c===cat).forEach(m=>{if(m.s)c[m.s]=(c[m.s]||0)+1});return c},[D,cat]);
-  // Step 22: Tags
-  const allTags=useMemo(()=>{const t=new Set();D.forEach(m=>{if(m.c)t.add(m.c.includes('QUEST')?'quests':m.c.includes('NPC')?'npcs':m.c.includes('KIT')?'kits':m.c.includes('ITEM')?'items':m.c.includes('SPELL')?'spells':m.c.includes('TWEAK')?'tweaks':'')});t.delete('');return[...t]},[D]);
-  const tagMap={quests:['QUEST MODS BG1','QUEST MODS BG2','QUEST MODS ToB'],npcs:['NEW NPC MODS','AFTER NEW NPCS'],kits:['KIT MODS'],items:['ITEM ADDITION MODS'],spells:['SPELL MODS'],tweaks:['POST SCS TWEAKS','EXPERIENCE TWEAKS']};
+  const allTags=useMemo(()=>{const t=new Set();D.forEach(m=>{if(m.c)t.add(m.c.includes('QUEST')?'quests':m.c.includes('NPC')?'npcs':m.c.includes('KIT')?'kits':m.c.includes('ITEM')?'items':m.c.includes('SPELL')?'spells':m.c==='TACTICAL MODS'?'tactical':m.c.includes('TWEAK')?'tweaks':'')});t.delete('');return[...t]},[D]);
+  const tagMap={quests:['QUEST MODS BG1','QUEST MODS BG2','QUEST MODS ToB'],npcs:['NEW NPC MODS','AFTER NEW NPCS'],kits:['KIT MODS'],items:['ITEM ADDITION MODS'],spells:['SPELL MODS'],tweaks:['PRE-TACTICAL TWEAKS','POST-TACTICAL TWEAKS','EXPERIENCE TWEAKS'],tactical:['TACTICAL MODS']};
+  const allAuthors=useMemo(()=>{const ac={};D.forEach(m=>{if(m.a)ac[m.a]=(ac[m.a]||0)+1});return Object.entries(ac).sort((a,b)=>b[1]-a[1])},[D]);
 
-  const filt=useMemo(()=>{let r=D;if(cat)r=r.filter(m=>m.c===cat);if(sub)r=r.filter(m=>m.s===sub);if(fI)r=r.filter(m=>m.in);if(fS)r=r.filter(m=>m.co.some((_,ci)=>sel[m.i+"-"+ci]));if(fP)r=r.filter(m=>(m.ph||[]).includes(fP));if(fTag&&tagMap[fTag])r=r.filter(m=>tagMap[fTag].includes(m.c));
+  const filt=useMemo(()=>{let r=D;if(cat)r=r.filter(m=>m.c===cat);if(sub)r=r.filter(m=>m.s===sub);if(fS)r=r.filter(m=>m.co.some((_,ci)=>sel[m.i+"-"+ci]));if(fP)r=r.filter(m=>(m.ph||[]).includes(fP));if(fTag&&tagMap[fTag])r=r.filter(m=>tagMap[fTag].includes(m.c));if(fAuthor)r=r.filter(m=>m.a===fAuthor);
     if(search){const q=search.toLowerCase();r=r.filter(m=>fuzzyMatch(q,m.n)||fuzzyMatch(q,m.t)||(m.a&&fuzzyMatch(q,m.a))||m.co.some(c=>c.n.toLowerCase().includes(q)))}
-    return r},[D,cat,sub,fI,fS,fP,fTag,search,sel]);
+    return r},[D,cat,sub,fS,fP,fTag,fAuthor,search,sel]);
 
-  const onTog=useCallback(k=>setSel(p=>{const n={...p};if(n[k])delete n[k];else n[k]=true;return n}),[]);
-  const onTogAll=useCallback((id,on)=>{setSel(p=>{const n={...p};const mod=D.find(m=>m.i===id);if(mod)mod.co.forEach((c,ci)=>{const k=id+"-"+ci;if(on){if(!c.x)n[k]=true}else delete n[k]});return n})},[D]);
+  const filtSec=useMemo(()=>{const items=[];let lastC=null;filt.forEach(m=>{if(m.c!==lastC){items.push({_sec:true,c:m.c,s:''});lastC=m.c}items.push(m)});return items},[filt]);
+  const onNavSplit=useCallback((modSg,curId)=>{const instances=D.filter(m=>m.sg===modSg);const ci=instances.findIndex(m=>m.i===curId);const ni=(ci+1)%instances.length;const next=instances[ni];setCat(null);setSub(null);setSearch('');setFAuthor(null);setFTag(null);setFP(null);setFS(false);setActiveTab('mods');setTimeout(()=>{const idx2=D.findIndex(m=>m.i===next.i);if(idx2>=0&&listRef.current)listRef.current.scrollTop=idx2*50},50)},[D]);
+  const onTog=useCallback(k=>setSel(p=>{const n={...p};const on=!n[k];if(on)n[k]=true;else delete n[k];const subs=cidx.metaC[k];if(subs)subs.forEach(s=>{if(on)n[s]=true;else delete n[s]});if(on&&k.startsWith(CONFIG.EET_MOD_ID+'-')&&cidx.essentialsList){cidx.essentialsList.forEach(e=>{const em=D.find(m=>m.i===e.id);if(em)em.co.forEach((c,ci)=>{if(!c.x)n[em.i+'-'+ci]=true})})}return n}),[cidx.metaC,cidx.essentialsList,D]);
+  const onTogAll=useCallback((id,on)=>{setSel(p=>{const n={...p};const mod=D.find(m=>m.i===id);if(mod)mod.co.forEach((c,ci)=>{const k=id+"-"+ci;if(on){if(!c.x)n[k]=true}else delete n[k]});if(on&&id===CONFIG.EET_MOD_ID&&cidx.essentialsList){cidx.essentialsList.forEach(e=>{const em=D.find(m=>m.i===e.id);if(em)em.co.forEach((c,ci)=>{if(!c.x)n[em.i+'-'+ci]=true})})}return n})},[D,cidx.essentialsList]);
+  const onAddDep=useCallback(mod=>{setSel(p=>{const n={...p};mod.co.forEach((c,ci)=>{if(!c.x)n[mod.i+'-'+ci]=true});return n})},[]);
+  const listRef=useRef(null);
+  const navigateToMod=useCallback(mod=>{
+    // Clear filters so mod is visible, find its index, scroll to it, open detail
+    setCat(null);setSub(null);setSearch('');setFAuthor(null);setFTag(null);setFP(null);setFS(false);
+    setActiveTab('mods');
+    setTimeout(()=>{
+      const idx=D.findIndex(m=>m.i===mod.i);
+      if(idx>=0&&listRef.current){listRef.current.scrollTop=idx*50;setDetail(mod)}
+    },50);
+  },[D]);
   const stats=useMemo(()=>{let ms=new Set(),cs=0;Object.keys(sel).forEach(k=>{if(sel[k]){ms.add(parseInt(k));cs++}});return{m:ms.size,c:cs}},[sel]);
   const diff=useMemo(()=>{if(!initSel.current)return{add:0,rem:0};const init=initSel.current;let add=0,rem=0;new Set([...Object.keys(sel),...Object.keys(init)]).forEach(k=>{if(sel[k]&&!init[k])add++;if(init[k]&&!sel[k])rem++});return{add,rem}},[sel]);
 
-  const handleImport=useCallback((text,fn)=>{const entries=parseLog(text);if(!entries.length){setImportRes({ok:false,msg:'No entries'});return}const ns={};let mt=0,um=0;const mi=[];entries.forEach(e=>{const k=e.folder+":"+e.comp;const h=idx.WI[k];if(h){h.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{const fh=idx.WF[e.folder];if(fh){fh.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{um++;if(mi.length<12)mi.push(e.folder+" #"+e.comp)}}});initSel.current={...ns};setSel(ns);setImportRes({ok:true,msg:mt+" matched, "+um+" missed"+(mi.length?"\n"+mi.join(", "):"")});},[idx]);
+  // Active conflict detection
+  const activeConflicts=useMemo(()=>{
+    const selMods=new Set();Object.keys(sel).forEach(k=>{if(sel[k])selMods.add(parseInt(k.split('-')[0]))});
+    const conflicts=[];const depsMissing=[];const seen=new Set();
+    selMods.forEach(modId=>{
+      (cidx.byMod[modId]||[]).forEach(c=>{
+        if(selMods.has(c.other)){const pk=Math.min(modId,c.other)+'-'+Math.max(modId,c.other);
+          if(!seen.has(pk)){seen.add(pk);const modA=D.find(m=>m.i===modId);const modB=D.find(m=>m.i===c.other);if(modA&&modB)conflicts.push({a:modA,b:modB,severity:c.severity,reason:c.reason,comp_a:c.comp_a,comp_b:c.comp_b})}}
+      });
+      (cidx.deps[modId]||[]).forEach(dep=>{
+        if(!selMods.has(dep.targetId)){const mod=D.find(m=>m.i===modId);const target=D.find(m=>m.i===dep.targetId);if(mod&&target)depsMissing.push({mod,target,...dep})}
+      });
+    });
+    return{conflicts,depsMissing};
+  },[sel,cidx,D]);
+
+  const handleImport=useCallback((text,fn)=>{const entries=parseLog(text);if(!entries.length){setImportRes({ok:false,msg:'No entries'});return}const ns={};let mt=0,um=0;const mi=[];const missed=[];entries.forEach(e=>{const k=e.folder+":"+e.comp;const h=idx.WI[k];if(h){h.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{const fh=idx.WF[e.folder];if(fh){fh.forEach(x=>{ns[x.mi+"-"+x.ci]=true});mt++}else{um++;const label=e.folder+(e.name?" - "+e.name:"")+" #"+e.comp;if(missed.length<20)missed.push(label);mi.push(e)}}});initSel.current={...ns};setSel(ns);setImportRes({ok:true,msg:mt+" matched, "+um+" uncatalogued"+(missed.length?"\n\nUncatalogued mods (not in database):\n"+missed.join("\n")+(um>20?"\n... and "+(um-20)+" more":""):""),missed:mi});},[idx]);
   const handleFile=useCallback(f=>{if(!f)return;const r=new FileReader();r.onload=e=>handleImport(e.target.result,f.name);r.readAsText(f)},[handleImport]);
-  const doExport=useCallback(()=>{const bL=["// Log of Currently Installed WeiDU Mods","// The top of the file is the 'oldest' mod","// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]"];const mL=[...bL];const pL=["//Install order for EET - Generated by EET Mod Forge",""];let lc="";D.forEach(mod=>{mod.co.forEach((c,ci)=>{if(!sel[mod.i+"-"+ci])return;if(mod.c!==lc){pL.push("","//"+mod.c);lc=mod.c}pL.push(genP(mod,c));const wl=genW(mod,c);if(c.wb)bL.push(wl);else mL.push(wl)})});return{weidu:mL.join("\n"),bgee:bL.length>3?bL.join("\n"):null,pi:pL.join("\n"),msgs:validate(D,sel)}},[D,sel]);
+  const doExport=useCallback(()=>{const bL=["// Log of Currently Installed WeiDU Mods","// The top of the file is the 'oldest' mod","// ~TP2_File~ #language_number #component_number // [Subcomponent Name -> ] Component Name [ : Version]"];const mL=[...bL];const pL=["//Install order for EET - Generated by EET Mod Forge",""];let lc="";D.forEach(mod=>{mod.co.forEach((c,ci)=>{if(!sel[mod.i+"-"+ci])return;if(mod.c!==lc){pL.push("","//"+mod.c);lc=mod.c}pL.push(genP(mod,c));const wl=genW(mod,c);const isDual=CONFIG.DUAL_INSTALL.includes(mod.t.toLowerCase());if(c.wb){bL.push(wl);if(isDual)mL.push(wl)}else mL.push(wl)})});return{weidu:mL.join("\n"),bgee:bL.length>3?bL.join("\n"):null,pi:pL.join("\n"),msgs:validate(D,sel)}},[D,sel]);
   const dl=useCallback((c,f)=>{const b=new Blob([c],{type:'text/plain'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download=f;a.click();URL.revokeObjectURL(u)},[]);
 
+  const savePreset=useCallback(()=>{
+    if(!saveName.trim())return;
+    const keys=Object.keys(sel).filter(k=>sel[k]);
+    const preset={id:'custom_'+Date.now(),name:saveName.trim(),keys,color:'#d4a843',created:Date.now()};
+    const updated=[...customPresets,preset];
+    setCustomPresets(updated);LS.set('presets',updated);setSaveName('');setModal(null);
+  },[sel,saveName,customPresets]);
+  const deletePreset=useCallback(id=>{
+    const updated=customPresets.filter(p=>p.id!==id);
+    setCustomPresets(updated);LS.set('presets',updated);
+  },[customPresets]);
+
+  const selCount=Object.keys(sel).filter(k=>sel[k]).length;
+
   return(
-    <AC.Provider value={idx}>
+    <AC.Provider value={ctxValue}>
+    {/* Wizard */}
+    {showWizard&&<WizardOverlay presets={PRESETS} essentialsList={cidx.essentialsList} D={D} onComplete={(chosen)=>{
+      if(chosen&&chosen!=='custom'){const preset=PRESETS.find(p=>p.id===chosen);if(preset){const ns={};preset.keys.forEach(k=>{ns[k]=true});setSel(ns);initSel.current={...ns}}}
+      LS.set('onboarded',true);setShowWizard(false);
+    }}/>}
     <div style={{display:'flex',flexDirection:'column',height:'100vh'}} onDragOver={e=>{e.preventDefault();setDragOver(true)}} onDragLeave={()=>setDragOver(false)} onDrop={e=>{e.preventDefault();setDragOver(false);const f=e.dataTransfer.files[0];if(f)handleFile(f)}}>
       {dragOver&&<div style={{position:'fixed',inset:0,background:'rgba(212,168,67,.12)',border:'3px dashed var(--gold)',zIndex:200,display:'flex',alignItems:'center',justifyContent:'center',pointerEvents:'none'}}><div style={{background:'var(--bg2)',padding:'30px 50px',borderRadius:12}}><div className="ci" style={{fontSize:'1.3rem',color:'var(--gold)'}}>Drop WeiDU.log</div></div></div>}
 
       <div className="tb" style={{display:'flex',alignItems:'center',gap:12,flexWrap:'wrap'}}>
+        <button className="menu-toggle" onClick={()=>setSidebarOpen(!sidebarOpen)}>{"\u2630"}</button>
         <h1 className="ci gw" style={{fontSize:'1.1rem',color:'var(--gold)',fontWeight:900}}>EET Mod Forge</h1>
         <div style={{display:'flex',gap:0}}>
-          {['mods','timeline','diag'].map(t=><div key={t} className={"tab"+(activeTab===t?' ac':'')} onClick={()=>setActiveTab(t)}>{t==='mods'?'Mods':t==='timeline'?'Order':t==='diag'?'Diagnostics':t}</div>)}
+          {['mods','tools','timeline','diag'].map(t=><div key={t} className={"tab"+(activeTab===t?' ac':'')} onClick={()=>setActiveTab(t)}>{t==='mods'?'Mods':t==='tools'?'Tools':t==='timeline'?'Order':t==='diag'?'Diagnostics':t}</div>)}
         </div>
-        {activeTab==='mods'&&<div style={{flex:1,maxWidth:340,minWidth:140}}><input className="sx" placeholder="Search (fuzzy)..." value={search} onChange={e=>setSearch(e.target.value)}/></div>}
-        <div style={{display:'flex',gap:12}}>
+        {activeTab==='mods'&&<div style={{flex:1,maxWidth:340,minWidth:140}}><input ref={searchRef} className="sx" placeholder="Search mods... ( / )" value={search} onChange={e=>setSearch(e.target.value)}/></div>}
+        <div style={{display:'flex',gap:12,alignItems:'center'}}>
           <div className="st"><div className="sn">{D.length}</div><div className="sl">Mods</div></div>
           <div className="st"><div className="sn" style={{color:'var(--grn)'}}>{stats.c}</div><div className="sl">Sel</div></div>
+          {stats.c>0&&<button className="bt" style={{fontSize:'.65rem',padding:'2px 8px',color:'var(--red)',borderColor:'var(--red)',opacity:.8}} onClick={()=>setModal('confirmClear')} title="Clear all selected mods">{"\u2715 Clear"}</button>}
           {(diff.add>0||diff.rem>0)&&<div className="st"><div style={{fontSize:'.95rem',fontWeight:700,lineHeight:1}}><span className="diff-add">+{diff.add}</span>{" "}<span className="diff-rem">-{diff.rem}</span></div><div className="sl">{"\u0394"}</div></div>}
+          <a href="https://github.com/Anprionsa/eet-mod-forge/issues" target="_blank" rel="noopener" style={{fontSize:'.72rem',color:'var(--txd)',textDecoration:'none',padding:'2px 6px',border:'1px solid var(--brd)',borderRadius:4}} title="Report issues, suggest mods, or submit conflict data">{"\ud83d\udce2 Contribute"}</a>
         </div>
       </div>
 
+      {/* Conflict alerts */}
+      {activeTab==='mods'&&<ConflictAlerts conflicts={activeConflicts.conflicts} depsMissing={activeConflicts.depsMissing} onAddDep={onAddDep} onNavigate={navigateToMod}/>}
+
       <div style={{display:'flex',flex:1,overflow:'hidden'}}>
         {activeTab==='mods'&&<>
-          <div className="sb">
+          {sidebarOpen&&<div className="mob-overlay" onClick={()=>setSidebarOpen(false)}/>}
+          <div className={"sb"+(sidebarOpen?" open":"")}>
             <div className="sh">Filters</div>
             <div style={{padding:'3px 12px',display:'flex',gap:3,flexWrap:'wrap'}}>
-              <span className={"pl"+(fI?" ac":"")} onClick={()=>{setFI(!fI);setFS(false)}}>Installed</span>
-              <span className={"pl"+(fS?" ac":"")} onClick={()=>{setFS(!fS);setFI(false)}}>Selected</span>
+              <span className={"pl"+(fS?" ac":"")} onClick={()=>setFS(!fS)}>Selected</span>
             </div>
             <div style={{padding:'3px 12px',display:'flex',gap:3,flexWrap:'wrap'}}>
               {['BG1','SoD','SoA','ToB'].map(p=><span key={p} className={"pl"+(fP===p?" ac":"")} onClick={()=>setFP(fP===p?null:p)}>{p}</span>)}
             </div>
-            {/* Step 22: Tag filters */}
             <div className="tag-row">
               {allTags.map(t=><span key={t} className={"tag"+(fTag===t?" ac":"")} onClick={()=>setFTag(fTag===t?null:t)}>{t}</span>)}
             </div>
             <div className="sh" style={{marginTop:4}}>Presets</div>
-            {PRESETS.map(p=>(<div key={p.id} className="preset-card" style={{margin:'0 8px 4px',borderLeft:'3px solid '+p.color}} onClick={()=>{initSel.current={...sel};const ns={};p.keys.forEach(k=>{ns[k]=true});setSel(ns)}}><div style={{fontWeight:600,fontSize:'.8rem',color:p.color}}>{p.icon+" "+p.name}</div><div style={{fontSize:'.68rem',color:'var(--txd)'}}>{p.keys.length+" comps"}</div></div>))}
+            {PRESETS.map(p=>{const pm=new Set(p.keys.map(k=>parseInt(k.split('-')[0])));return(<div key={p.id} className="preset-card" style={{margin:'0 8px 4px',borderLeft:'3px solid '+p.color}} onClick={()=>{initSel.current={...sel};const ns={};p.keys.forEach(k=>{ns[k]=true});setSel(ns)}}><div style={{fontWeight:600,fontSize:'.8rem',color:p.color}}>{p.name}</div><div style={{fontSize:'.68rem',color:'var(--txd)'}}>{pm.size+" mods "+p.keys.length+" comps"}</div></div>)})}
+            {/* Custom presets */}
+            {customPresets.length>0&&<>
+              <div className="sh" style={{marginTop:4}}>My Presets</div>
+              {customPresets.map(p=>{const pm=new Set(p.keys.map(k=>parseInt(k.split('-')[0])));return(<div key={p.id} className="preset-card" style={{margin:'0 8px 4px',borderLeft:'3px solid var(--gold)',display:'flex',justifyContent:'space-between',alignItems:'center'}} onClick={()=>{initSel.current={...sel};const ns={};p.keys.forEach(k=>{ns[k]=true});setSel(ns)}}>
+                <div><div style={{fontWeight:600,fontSize:'.8rem',color:'var(--gold)'}}>{p.name}</div><div style={{fontSize:'.68rem',color:'var(--txd)'}}>{pm.size+" mods "+p.keys.length+" comps"}</div></div>
+                <button className="bt bs" style={{fontSize:'.6rem',padding:'1px 5px',color:'var(--red)'}} onClick={e=>{e.stopPropagation();deletePreset(p.id)}}>{"\u2715"}</button>
+              </div>)})}
+            </>}
+            {/* Authors */}
+            <div className="sh" style={{marginTop:4}}>Authors</div>
+            <div style={{padding:'0 12px 4px'}}><input className="sx" placeholder="Filter authors..." style={{fontSize:'.76rem',padding:'4px 8px'}} value={authorSearch} onChange={e=>setAuthorSearch(e.target.value)}/></div>
+            {allAuthors.filter(([a])=>!authorSearch||a.toLowerCase().includes(authorSearch.toLowerCase())).slice(0,12).map(([a,ct])=>(
+              <div key={a} className={"si"+(fAuthor===a?" ac":"")} onClick={()=>{setFAuthor(fAuthor===a?null:a);setSidebarOpen(false)}}><span style={{fontSize:'.78rem'}}>{a}</span><span className="ct">{ct}</span></div>
+            ))}
+            {fAuthor&&<div style={{padding:'2px 12px'}}><span className="pl ac" onClick={()=>setFAuthor(null)} style={{fontSize:'.68rem'}}>Clear: {fAuthor}</span></div>}
             <div className="sh" style={{marginTop:4}}>Categories</div>
-            <div className={"si"+(!cat?" ac":"")} onClick={()=>{setCat(null);setSub(null)}}><span>All</span><span className="ct">{D.length}</span></div>
-            {CO.filter(c=>catCt[c]).map(ct=>(<React.Fragment key={ct}><div className={"si"+(cat===ct?" ac":"")} onClick={()=>{setCat(cat===ct?null:ct);setSub(null)}}><span>{CL[ct]||ct}</span><span className="ct">{catCt[ct]}</span></div>{cat===ct&&Object.entries(subCt).sort((a,b)=>b[1]-a[1]).map(([s,n])=><div key={s} className={"si"+(sub===s?" ac":"")} style={{paddingLeft:22,fontSize:'.76rem'}} onClick={()=>setSub(sub===s?null:s)}><span>{s}</span><span className="ct">{n}</span></div>)}</React.Fragment>))}
+            <div className={"si"+(!cat?" ac":"")} onClick={()=>{setCat(null);setSub(null);setSidebarOpen(false)}}><span>All</span><span className="ct">{D.length}</span></div>
+            {CO.filter(c=>catCt[c]).map(ct=>(<React.Fragment key={ct}><div className={"si"+(cat===ct?" ac":"")} onClick={()=>{setCat(cat===ct?null:ct);setSub(null);setSidebarOpen(false)}} title={CAT_DESC[ct]||''}><span>{CL[ct]||ct}</span><span className="ct">{catCt[ct]}</span></div>{cat===ct&&Object.entries(subCt).sort((a,b)=>b[1]-a[1]).map(([s,n])=><div key={s} className={"si"+(sub===s?" ac":"")} style={{paddingLeft:22,fontSize:'.76rem'}} onClick={()=>setSub(sub===s?null:s)}><span>{s}</span><span className="ct">{n}</span></div>)}</React.Fragment>))}
             <div className="sh" style={{marginTop:4}}>Import</div>
             <div style={{padding:'0 8px 8px'}}><div className="drop-zone" onClick={()=>fileRef.current?.click()}><div style={{fontSize:'.74rem',color:'var(--txd)'}}>Drop WeiDU.log</div><input ref={fileRef} type="file" accept=".log,.txt" style={{display:'none'}} onChange={e=>{if(e.target.files[0])handleFile(e.target.files[0])}}/></div>{importRes&&<div className={"warn "+(importRes.ok?"info":"err")} style={{marginTop:3,fontSize:'.68rem',whiteSpace:'pre-wrap'}}>{importRes.msg}</div>}</div>
           </div>
-          <VL items={filt} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={setDetailMod}/>
-          {/* Step 17: Detail panel */}
-          {detailMod&&<DetailPanel mod={detailMod} onClose={()=>setDetailMod(null)}/>}
+          {/* Empty state */}
+          {selCount===0&&!search&&!cat&&!fAuthor&&!fTag&&!fP&&!showAll?
+            <div style={{flex:1,overflow:'auto',padding:'20px 12px'}}>
+              <div className="ci gw" style={{color:'var(--gold)',fontSize:'1.2rem',marginBottom:8}}>Getting Started</div>
+              <p style={{color:'var(--txd)',marginBottom:20,maxWidth:600,lineHeight:1.5}}>
+                Choose a preset from the sidebar to start with a curated mod list, or browse categories to build your own. You can also drag-and-drop a WeiDU.log to import an existing install.
+              </p>
+              <div>
+                <div style={{fontSize:'.82rem',color:'var(--goldd)',fontWeight:600,marginBottom:6,textTransform:'uppercase',letterSpacing:'.08em'}}>Essential Mods</div>
+                {cidx.essentialsList.map(e=>{const mod=D.find(m=>m.i===e.id);return mod?<MC key={mod.i} mod={mod} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={setDetailMod} onNavSplit={onNavSplit}/>:null})}
+                <div style={{fontSize:'.82rem',color:'var(--goldd)',fontWeight:600,marginBottom:6,marginTop:16,textTransform:'uppercase',letterSpacing:'.08em'}}>Browse All {D.length} Mods</div>
+                <p style={{color:'var(--txd)',fontSize:'.82rem',marginBottom:10}}>Use the <b>Categories</b> in the sidebar, <b>search bar</b>, or select a <b>preset</b> to explore the full mod catalog.</p>
+                <div style={{display:'flex',gap:6,flexWrap:'wrap'}}>
+                  {Object.entries(CL).slice(0,8).map(([k,v])=><span key={k} className="pl" onClick={()=>{setCat(k);setSidebarOpen(false)}} style={{fontSize:'.76rem'}}>{v+" ("+(catCt[k]||0)+")"}</span>)}
+                  <span className="pl" onClick={()=>setShowAll(true)} style={{fontSize:'.76rem',color:'var(--gold)'}}>{"View all \u2192"}</span>
+                </div>
+              </div>
+            </div>
+          :
+            <VL items={filtSec} sel={sel} onTog={onTog} onTogAll={onTogAll} onDetail={setDetailMod} onNavSplit={onNavSplit} externalRef={listRef}/>
+          }
+          {detailMod&&<DetailPanel mod={detailMod} sel={sel} onClose={()=>setDetailMod(null)}/>}
         </>}
-        {activeTab==='timeline'&&<Timeline D={D} sel={sel}/>}
+        {activeTab==='tools'&&<ToolsPanel/>}
+        {activeTab==='timeline'&&<Timeline D={D} sel={sel} essentialsList={cidx.essentialsList}/>}
         {activeTab==='diag'&&<DiagPanel/>}
       </div>
 
@@ -437,16 +804,27 @@ function AppInner(){
         <div style={{display:'flex',alignItems:'center',gap:8}}>
           <span style={{color:'var(--gold)',fontWeight:700}}>{stats.m+" mods"}</span>
           <span style={{color:'var(--txd)'}}>{"\u00b7"}</span><span>{stats.c+" comps"}</span>
+          {activeConflicts.conflicts.length>0&&<span style={{color:'var(--red)',fontSize:'.78rem'}}>{"\u26a0 "+activeConflicts.conflicts.length+" conflict"+(activeConflicts.conflicts.length!==1?"s":"")}</span>}
         </div>
         <div style={{display:'flex',gap:5,flexWrap:'wrap'}}>
-          {/* Step 21: Share button */}
+          <button className="bt bs" onClick={()=>setModal('save')}>Save As...</button>
           <button className="bt bs" onClick={()=>{const h=encodeSelection(sel);window.location.hash=h;navigator.clipboard.writeText(window.location.href).catch(()=>{});setModal('shared')}}>Share</button>
-          {/* Step 18: Report */}
           <button className="bt bs" onClick={()=>{const md=genReport(D,sel,diff);const b=new Blob([md],{type:'text/markdown'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='install-report.md';a.click()}}>Report</button>
           <button className="bt bg" onClick={()=>setModal('export')}>Export...</button>
-          <button className="bt" onClick={()=>{const init={};D.forEach(m=>m.co.forEach((c,ci)=>{if(c.v!==undefined)init[m.i+"-"+ci]=true}));initSel.current={...init};setSel(init)}}>Reset</button>
+          <button className="bt" style={{color:'var(--red)',borderColor:'var(--red)'}} onClick={()=>setModal('confirmClear')}>Reset</button>
         </div>
       </div>
+
+      {/* Save preset modal */}
+      {modal==='save'&&(<div className="mo" onClick={()=>setModal(null)}><div className="md" onClick={e=>e.stopPropagation()} style={{maxWidth:420}}>
+        <h2 className="ci" style={{color:'var(--gold)',marginBottom:10,fontSize:'1rem'}}>Save Custom Preset</h2>
+        <div style={{fontSize:'.82rem',color:'var(--txd)',marginBottom:8}}>{selCount} components will be saved.</div>
+        <input className="sx" placeholder="Preset name..." value={saveName} onChange={e=>setSaveName(e.target.value)} onKeyDown={e=>{if(e.key==='Enter')savePreset()}} autoFocus/>
+        <div style={{marginTop:10,display:'flex',justifyContent:'flex-end',gap:6}}>
+          <button className="bt" onClick={()=>setModal(null)}>Cancel</button>
+          <button className="bt bg" disabled={!saveName.trim()||selCount===0} onClick={savePreset}>Save</button>
+        </div>
+      </div></div>)}
 
       {modal==='export'&&(()=>{const ex=doExport();return(<div className="mo" onClick={()=>setModal(null)}><div className="md" onClick={e=>e.stopPropagation()}>
         <h2 className="ci" style={{color:'var(--gold)',marginBottom:10,fontSize:'1rem'}}>Export</h2>
@@ -465,6 +843,15 @@ function AppInner(){
         <div style={{background:'var(--bg)',padding:10,borderRadius:6,wordBreak:'break-all'}} className="fi">{window.location.href}</div>
         <div style={{fontSize:'.78rem',color:'var(--txd)',marginTop:6}}>Anyone who opens this URL will see your exact mod selection.</div>
         <div style={{marginTop:8,display:'flex',justifyContent:'flex-end'}}><button className="bt" onClick={()=>setModal(null)}>Close</button></div>
+      </div></div>)}
+
+      {modal==='confirmClear'&&(<div className="mo" onClick={()=>setModal(null)}><div className="md" onClick={e=>e.stopPropagation()} style={{maxWidth:380}}>
+        <h2 className="ci" style={{color:'var(--red)',marginBottom:10,fontSize:'1rem'}}>Clear Selection?</h2>
+        <div style={{fontSize:'.85rem',marginBottom:12}}>This will deselect all <b>{stats.c}</b> components across <b>{stats.m}</b> mods. This cannot be undone.</div>
+        <div style={{display:'flex',justifyContent:'flex-end',gap:6}}>
+          <button className="bt" onClick={()=>setModal(null)}>Cancel</button>
+          <button className="bt" style={{background:'var(--red)',color:'#fff',borderColor:'var(--red)'}} onClick={()=>{initSel.current={};setSel({});setModal(null)}}>Clear All</button>
+        </div>
       </div></div>)}
     </div>
     </AC.Provider>);

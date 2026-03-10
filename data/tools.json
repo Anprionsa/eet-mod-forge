@@ -1,0 +1,119 @@
+[
+  {
+    "id": "weidu",
+    "n": "WeiDU",
+    "desc": "The standard mod installer for Infinity Engine games. Required to install virtually all IE mods.",
+    "a": "WeiDU Team",
+    "u": "https://github.com/WeiDU/weidu/releases",
+    "cat": "installer",
+    "essential": true
+  },
+  {
+    "id": "nearinfinity",
+    "n": "Near Infinity",
+    "desc": "Comprehensive resource browser and editor for Infinity Engine games. View and edit game files, scripts, dialogues, and more.",
+    "a": "Jon Olav Hauglid, Argent77",
+    "u": "https://github.com/Argent77/NearInfinity/releases",
+    "cat": "editor",
+    "essential": true
+  },
+  {
+    "id": "eekeeper",
+    "n": "EE Keeper",
+    "desc": "Save game editor for Enhanced Edition games. Edit characters, stats, items, spells, and more.",
+    "a": "troodon80",
+    "u": "https://github.com/Argent77/EEKeeper/releases",
+    "cat": "editor",
+    "essential": true
+  },
+  {
+    "id": "dltcep",
+    "n": "DLTCEP",
+    "desc": "Dragonlance Total Conversion Editor Pro. Advanced modding tool for creating and editing IE game resources.",
+    "a": "Avenger",
+    "u": "https://github.com/Argent77/DLTCEP/releases",
+    "cat": "editor"
+  },
+  {
+    "id": "infinity_auto_packager",
+    "n": "Infinity Auto Packager",
+    "desc": "Automates packaging of WeiDU mods for distribution. Creates standardized mod archives.",
+    "a": "ALIENQuake",
+    "u": "https://github.com/ALIENQuake/InfinityAutoPackager",
+    "cat": "dev"
+  },
+  {
+    "id": "ielib",
+    "n": "IE Mod Setup Tool",
+    "desc": "Graphical batch installer for WeiDU mods. Queue and install multiple mods with a GUI.",
+    "a": "ALIENQuake",
+    "u": "https://github.com/ALIENQuake/ModSetupTool",
+    "cat": "installer"
+  },
+  {
+    "id": "projectinfinity",
+    "n": "Project Infinity",
+    "desc": "Mod manager with install-order awareness and conflict detection. Manages large mod setups with dependency tracking.",
+    "a": "ALIENQuake",
+    "u": "https://github.com/ALIENQuake/ProjectInfinity/releases",
+    "cat": "installer",
+    "essential": true
+  },
+  {
+    "id": "gideon_install",
+    "n": "Gideon's Install Tool",
+    "desc": "Automated EET installation framework. Handles mod downloading, ordering, and batch installation.",
+    "a": "Gideon",
+    "u": "https://github.com/Gibberlings3/GideonInstall",
+    "cat": "installer"
+  },
+  {
+    "id": "generalized_biffing",
+    "n": "Generalized Biffing",
+    "desc": "Compresses game override files into BIFF archives, greatly reducing load times for heavily-modded installs.",
+    "a": "the bigg",
+    "u": "https://github.com/Gibberlings3/GeneralizedBiffing/releases",
+    "cat": "utility",
+    "essential": true
+  },
+  {
+    "id": "infinityexplorer",
+    "n": "Infinity Explorer",
+    "desc": "Lightweight resource viewer for Infinity Engine games. Quick browsing of game files without full editing capabilities.",
+    "a": "Dmitry Jemerov",
+    "u": "https://github.com/InfinityExplorer/InfinityExplorer",
+    "cat": "editor"
+  },
+  {
+    "id": "bamworkshop",
+    "n": "BAM Workshop",
+    "desc": "Editor for BAM (animation) files used in Infinity Engine games. Create and modify sprite animations, icons, and cursors.",
+    "a": "Sam.",
+    "u": "https://forums.beamdog.com/discussion/50441",
+    "cat": "editor"
+  },
+  {
+    "id": "tisunpack",
+    "n": "TIS Unpack",
+    "desc": "Tool for unpacking and repacking TIS (tileset) files. Essential for area visual modding.",
+    "a": "Argent77",
+    "u": "https://github.com/Argent77/TisUnpack",
+    "cat": "dev"
+  },
+  {
+    "id": "mod_installer",
+    "n": "Mod Installer",
+    "desc": "Cross-platform command-line WeiDU mod installer. Automates mod installation from a weidu.log file.",
+    "a": "dark0dave",
+    "u": "https://github.com/dark0dave/mod_installer",
+    "cat": "installer"
+  },
+  {
+    "id": "iesdp",
+    "n": "IESDP",
+    "desc": "Infinity Engine Structures Description Project. The reference documentation for all IE file formats.",
+    "a": "Community",
+    "u": "https://gibberlings3.github.io/iesdp/",
+    "cat": "reference"
+  }
+]
