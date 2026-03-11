@@ -302,6 +302,510 @@
       "b": "Magic_Battles_Revised",
       "severity": "soft",
       "reason": "Maybe incompatible"
+    },
+    {
+      "a": "adventurer's miscellany",
+      "b": "HTAM",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "NTOTSC",
+      "b": "Unfinished Business BG1",
+      "severity": "soft",
+      "reason": "Functionality provided by Unfinished Business BG1 (per II install notes)"
+    },
+    {
+      "a": "Ascension",
+      "b": "SCS Improved Fiends",
+      "severity": "soft",
+      "reason": "Overridden by SCS Improved Fiends (per II install notes)"
+    },
+    {
+      "a": "questpack",
+      "b": "SCS",
+      "severity": "soft",
+      "reason": "Overridden by SCS (per II install notes)"
+    },
+    {
+      "a": "hiddenadventure",
+      "b": "Tweaks Anthology - Multiple Strongholds",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "tactics-remix",
+      "b": "MIH:EQ",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "a7-testyourmettle",
+      "b": "EET Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by EET Tweaks (per II install notes)"
+    },
+    {
+      "a": "bg1npc",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "sniff",
+      "b": "Spell Revisions",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "eldritch_magic",
+      "b": "EET Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by EET Tweaks (per II install notes)"
+    },
+    {
+      "a": "eldritch_magic",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "mih_ip",
+      "b": "Tweaks and Tricks",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
+    },
+    {
+      "a": "mih_ip",
+      "b": "A7#Golem Construction",
+      "severity": "soft",
+      "reason": "Functionality provided by A7#Golem Construction (per II install notes)"
+    },
+    {
+      "a": "spell_rev",
+      "b": "Celestials",
+      "severity": "soft",
+      "reason": "Functionality provided by Celestials (per II install notes)"
+    },
+    {
+      "a": "iwdification",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "iwdification",
+      "b": "House Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by House Tweaks (per II install notes)"
+    },
+    {
+      "a": "iwdification",
+      "b": "Might & Guile",
+      "severity": "soft",
+      "reason": "Functionality provided by Might & Guile (per II install notes)"
+    },
+    {
+      "a": "a7-totlm-bg2ee",
+      "b": "EET Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by EET Tweaks (per II install notes)"
+    },
+    {
+      "a": "mih_sp",
+      "b": "Iwdification",
+      "severity": "soft",
+      "reason": "Functionality provided by Iwdification (per II install notes)"
+    },
+    {
+      "a": "mih_sp",
+      "b": "Olvyn Spells",
+      "severity": "soft",
+      "reason": "Functionality provided by Olvyn Spells (per II install notes)"
+    },
+    {
+      "a": "mih_sp",
+      "b": "EET Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by EET Tweaks (per II install notes)"
+    },
+    {
+      "a": "mih_sp",
+      "b": "Spell Revisions",
+      "severity": "soft",
+      "reason": "Functionality provided by Spell Revisions (per II install notes)"
+    },
+    {
+      "a": "shadowadept",
+      "b": "MIH Tweaks",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "MESpells",
+      "b": "Spell Revisions",
+      "severity": "soft",
+      "reason": "Functionality provided by Spell Revisions (per II install notes)"
+    },
+    {
+      "a": "MESpells",
+      "b": "MIH SP",
+      "severity": "soft",
+      "reason": "Functionality provided by MIH SP (per II install notes)"
+    },
+    {
+      "a": "SubtleD_Spell_Tweaks",
+      "b": "Tweaks and Tricks and Olvyn Spells",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks and Olvyn Spells (per II install notes)"
+    },
+    {
+      "a": "SubtleD_Spell_Tweaks",
+      "b": "Skills and Abilities",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "SubtleD_Spell_Tweaks",
+      "b": "Tweaks and Tricks",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Iwdification",
+      "severity": "soft",
+      "reason": "Functionality provided by Iwdification (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "FnP Sphere System",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Olvyn Spells, Klatu Tweaks and Tricks and Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by Olvyn Spells, Klatu Tweaks and Tricks and Tweaks (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Spell Revisions",
+      "severity": "soft",
+      "reason": "Functionality provided by Spell Revisions (per II install notes)"
+    },
+    {
+      "a": "ArtisansKitpack",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "rr",
+      "b": "Tweaks and Tricks",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
+    },
+    {
+      "a": "TomeAndBlood",
+      "b": "5E spellcasting",
+      "severity": "soft",
+      "reason": "Functionality provided by 5E spellcasting (per II install notes)"
+    },
+    {
+      "a": "BardicWonders",
+      "b": "Might & Guile",
+      "severity": "soft",
+      "reason": "Functionality provided by Might & Guile (per II install notes)"
+    },
+    {
+      "a": "EpicThieving",
+      "b": "Tweaks and Tricks",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
+    },
+    {
+      "a": "might_and_guile",
+      "b": "Improved Archers",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "s9BGEENPCTweaks",
+      "b": "NPC EE",
+      "severity": "soft",
+      "reason": "Functionality provided by NPC EE (per II install notes)"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "More Style for Mages",
+      "severity": "soft",
+      "reason": "Functionality provided by More Style for Mages (per II install notes)"
+    },
+    {
+      "a": "HouseTweaks",
+      "b": "Artisans Kitpack",
+      "severity": "soft",
+      "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
+    },
+    {
+      "a": "c#sodtweaks",
+      "b": "EET Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by EET Tweaks (per II install notes)"
+    },
+    {
+      "a": "c#sodtweaks",
+      "b": "Another Fine Hell",
+      "severity": "soft",
+      "reason": "Functionality provided by Another Fine Hell (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "Artisans Kitpack",
+      "severity": "soft",
+      "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "Spell Revisions",
+      "severity": "soft",
+      "reason": "Functionality provided by Spell Revisions (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "SCS",
+      "severity": "soft",
+      "reason": "Functionality provided by SCS (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "Tweaks and Tricks",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "Olvyn Spells",
+      "severity": "soft",
+      "reason": "Functionality provided by Olvyn Spells (per II install notes)"
+    },
+    {
+      "a": "jtweaks",
+      "b": "Imoen Forever",
+      "severity": "soft",
+      "reason": "Functionality provided by Imoen Forever (per II install notes)"
+    },
+    {
+      "a": "mih_fr",
+      "b": "Infinity Sounds",
+      "severity": "soft",
+      "reason": "Functionality provided by Infinity Sounds (per II install notes)"
+    },
+    {
+      "a": "mih_fr",
+      "b": "SR, Iwdification, MIH_SP",
+      "severity": "soft",
+      "reason": "Functionality provided by SR, Iwdification, MIH_SP (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "Iwdification",
+      "severity": "soft",
+      "reason": "Functionality provided by Iwdification (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "Artisans Kitpack",
+      "severity": "soft",
+      "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "S9 BGEENPC Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by S9 BGEENPC Tweaks (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "Refinements",
+      "severity": "soft",
+      "reason": "Functionality provided by Refinements (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "MIH Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by MIH Tweaks (per II install notes)"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "BGEE Leveled Spawns",
+      "severity": "soft",
+      "reason": "Functionality provided by BGEE Leveled Spawns (per II install notes)"
+    },
+    {
+      "a": "d0tweak",
+      "b": "SummonsFoW",
+      "severity": "soft",
+      "reason": "Functionality provided by SummonsFoW (per II install notes)"
+    },
+    {
+      "a": "themed_tweaks",
+      "b": "Transitions",
+      "severity": "soft",
+      "reason": "Functionality provided by Transitions (per II install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "Tome & Blood Familiars",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "Trap Overhaul",
+      "severity": "soft",
+      "reason": "Functionality provided by Trap Overhaul (per II install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "Trap Overhaul - Manually Added",
+      "severity": "soft",
+      "reason": "Functionality provided by Trap Overhaul - Manually Added (per II install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "Olvyn Spells",
+      "severity": "soft",
+      "reason": "Functionality provided by Olvyn Spells (per II install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "MIH Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by MIH Tweaks (per II install notes)"
+    },
+    {
+      "a": "tnt",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "butchery",
+      "b": "Angelo NPC",
+      "severity": "hard",
+      "reason": "Incompatible (per Infinity Insanity install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Artisans Kitpack",
+      "severity": "soft",
+      "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "NPC EE",
+      "severity": "soft",
+      "reason": "Functionality provided by NPC EE (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Tome and Blood",
+      "severity": "soft",
+      "reason": "Functionality provided by Tome and Blood (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Enhanced Powergaming Scripts",
+      "severity": "soft",
+      "reason": "Functionality provided by Enhanced Powergaming Scripts (per II install notes)"
+    },
+    {
+      "a": "stratagems",
+      "b": "Shadow Magic",
+      "severity": "soft",
+      "reason": "Functionality provided by Shadow Magic (per II install notes)"
+    },
+    {
+      "a": "skills-and-abilities",
+      "b": "Might & Guile",
+      "severity": "soft",
+      "reason": "Functionality provided by Might & Guile (per II install notes)"
+    },
+    {
+      "a": "skills-and-abilities",
+      "b": "Improved Archer",
+      "severity": "soft",
+      "reason": "Functionality provided by Improved Archer (per II install notes)"
+    },
+    {
+      "a": "KLATU",
+      "b": "Tweaks Anthology",
+      "severity": "soft",
+      "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
+    },
+    {
+      "a": "KLATU",
+      "b": "Spell Revisions",
+      "severity": "soft",
+      "reason": "Functionality provided by Spell Revisions (per II install notes)"
+    },
+    {
+      "a": "KLATU",
+      "b": "Refinements",
+      "severity": "soft",
+      "reason": "Functionality provided by Refinements (per II install notes)"
+    },
+    {
+      "a": "KLATU",
+      "b": "Enhanced Powergaming Scripts",
+      "severity": "soft",
+      "reason": "Functionality provided by Enhanced Powergaming Scripts (per II install notes)"
+    },
+    {
+      "a": "KLATU",
+      "b": "More Style For Mages",
+      "severity": "soft",
+      "reason": "Functionality provided by More Style For Mages (per II install notes)"
+    },
+    {
+      "a": "sodrtd",
+      "b": "Themed Tweaks",
+      "severity": "soft",
+      "reason": "Functionality provided by Themed Tweaks (per II install notes)"
+    },
+    {
+      "a": "METweaks",
+      "b": "Improved Shamanic Dance",
+      "severity": "soft",
+      "reason": "Functionality provided by Improved Shamanic Dance (per II install notes)"
+    },
+    {
+      "a": "METweaks",
+      "b": "Olvyn Spells",
+      "severity": "soft",
+      "reason": "Functionality provided by Olvyn Spells (per II install notes)"
+    },
+    {
+      "a": "METweaks",
+      "b": "Might & Guile",
+      "severity": "soft",
+      "reason": "Functionality provided by Might & Guile (per II install notes)"
+    },
+    {
+      "a": "METweaks",
+      "b": "Skills and Abilities",
+      "severity": "soft",
+      "reason": "Functionality provided by Skills and Abilities (per II install notes)"
     }
   ],
   "dependencies": [

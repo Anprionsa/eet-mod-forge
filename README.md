@@ -2,19 +2,19 @@
 
 **Master install order builder for Baldur's Gate: Enhanced Edition Trilogy**
 
-Browse 490+ mods and 3,500+ components. Build a WeiDU.log. Export for [mod_installer](https://github.com/dark0dave/mod_installer) or Project Infinity. Analyze debug logs. Check for updates.
+Browse 635 mods and 4,000+ components. Build a WeiDU.log. Export for [mod_installer](https://github.com/dark0dave/mod_installer) or Project Infinity. Analyze debug logs. Check for updates.
 
 > [**Launch the app →**](https://anprionsa.github.io/eet-mod-forge/)
 
 ## What it does
 
-- **Browse the full EET mod catalog** — 490+ mods organized by install order category (20 sections from Pre-EET through EET Finalization), with search, game phase filters (BG1/SoD/SoA/ToB), and author filtering.
+- **Browse the full EET mod catalog** — 635 mods organized by install order across 21 categories (Pre-EET through Post-EET), with search, game phase filters (BG1/SoD/SoA/ToB), and author filtering.
 
 - **Build a WeiDU.log** — Select components with checkboxes, then export a valid `WeiDU.log` and `WeiDU-BGEE.log` pair. The format is compatible with [mod_installer](https://github.com/dark0dave/mod_installer) (`eet --bg1-log-file WeiDU-BGEE.log --bg2-log-file WeiDU.log`).
 
 - **Import your existing install** — Drag-and-drop a WeiDU.log onto the app. It matches entries against the catalog and auto-selects everything.
 
-- **Start from presets** — Five curated starting points: Minimal Fixes, Enhanced Vanilla, Story Expansion, Quest Megamod, SCS Tactical. Customize from there.
+- **Start from presets** — Seven curated starting points: Minimal Fixes, Enhanced Vanilla, Story Expansion, Quest Megamod, SCS Tactical, and two Cross-Platform presets for Mac/Linux users. Customize from there.
 
 - **Essential auto-selection** — Selecting EET Core automatically selects all essential mods (DLC Merger, EE Fixpack, EET End). Dual-install mods like EE Fixpack are exported to both WeiDU logs.
 
@@ -32,7 +32,7 @@ Browse 490+ mods and 3,500+ components. Build a WeiDU.log. Export for [mod_insta
 
 ## Data sources
 
-The catalog is built by merging four sources:
+The catalog is built by merging five sources:
 
 | Source | What it provides |
 |---|---|
@@ -40,13 +40,14 @@ The catalog is built by merging four sources:
 | [EET Mod Install Order Guide (Google Sheet)](https://docs.google.com/spreadsheets/d/1tt4f-rKqkbk8ds694eJ1YcOjraZ2pISkkobqZ5yRcvI/edit?gid=676921267#gid=676921267) | Mod-level metadata: authors, URLs, game phases, tags |
 | WeiDU.log | Actual installed components with real tp2 paths and versions |
 | [EET Compatibility List](https://k4thos.github.io/EET-Compatibility-List/) | Minimum versions and placement requirements |
+| [Infinity Insanity Guide](https://docs.google.com/document/d/1hy38KD0bS2qJCaOeWz0F-50z7GkZcCH7QWjDsheKPrA/edit) | 170+ additional mods, conflict annotations, and mod URLs from Endarire's mega-install |
 
 ## Repo structure
 
 ```
 data/
   mods.json            # Mod catalog with components, install order, and split groups
-  presets.json         # 5 curated install profiles
+  presets.json         # 7 curated install profiles
   conflicts.json       # Mod/component conflicts, dependencies, essentials, meta-components
   known_issues.json    # Community-maintained issue database
   compat.json          # EET compatibility data
@@ -123,6 +124,7 @@ Edit `data/mods.json` and add an entry to the array. Place it in the correct ins
 | `ph` | No | Game phases array: `["BG1","SoD","SoA","ToB"]` |
 | `no` | No | Mod-level install notes |
 | `sg` | No | Split group ID (see below) |
+| `cl` | No | Install order changelog array (see below) |
 | `co` | Yes | Array of components |
 
 **Component fields:**
@@ -152,6 +154,19 @@ Example — BuTcHeRy has components in two categories:
 ```
 
 Do **not** add `sg` to mods that share a tp2 prefix but are different mods (e.g., `A7` covers DLC Merger, Golem Construction, etc. — these are separate mods, not splits).
+
+### Install order changelog
+
+Mods can have a `cl` array tracking install-order-related changes (category moves, positioning updates, compatibility-driven reordering). This is not a general mod changelog; it only records changes relevant to install order.
+
+```json
+"cl": [
+  {"d": "2026-03-10", "m": "Added from Infinity Insanity WeiDU logs"},
+  {"d": "2026-03-15", "m": "Moved from QUEST MODS BG2 to AFTER NEW NPCS per EET compat update"}
+]
+```
+
+The changelog is shown as a collapsible dropdown in the mod detail panel.
 
 ### Adding a conflict
 
@@ -248,9 +263,39 @@ This regenerates all `data/*.json` files.
 
 - **Install order guide**: [install-EET-4.txt](https://www.scribd.com/document/777087788/install-EET-4) — the most comprehensive EET install order with 9,380 lines of component entries and compatibility notes
 - **EET Mod Install Order Guide**: [Google Sheets](https://docs.google.com/spreadsheets/d/1tt4f-rKqkbk8ds694eJ1YcOjraZ2pISkkobqZ5yRcvI/edit?gid=676921267#gid=676921267) — the community-maintained spreadsheet that inspired this project and provided mod-level metadata
+- **Infinity Insanity**: Endarire (Greg Campbell) — the [Infinity Insanity Guide](https://docs.google.com/document/d/1hy38KD0bS2qJCaOeWz0F-50z7GkZcCH7QWjDsheKPrA/edit) (Unreleased) provided WeiDU logs, conflict data, and mod URLs that contributed 170+ mod entries to the catalog
 - **EET**: [K4thos](https://github.com/Gibberlings3/EET) and the Gibberlings Three community
 - **mod_installer**: [dark0dave](https://github.com/dark0dave/mod_installer) — open source WeiDU log-based installer
 - **Mod authors**: The hundreds of people who build and maintain BG mods across Gibberlings3, Spellhold Studios, Weaselmods, Artisan's Corner, Pocket Plane Group, and beyond
+
+## Changelog
+
+### v1.2.0 (2026-03-11)
+- Cross-platform presets for Mac/Linux users (excludes EEex and Windows-only mods)
+- Collapsible sidebar sections (Filters, Presets, Authors, Categories)
+- Category ordering fix — mods now sort correctly by install order
+- Expand button fix in non-virtual-list contexts
+- URL hover tooltips on mod links
+- Recovered missing mod URLs from Infinity Insanity guide
+
+### v1.1.0 (2026-03-10)
+- Post-EET install order category (21 categories total)
+- Sidebar scroll fix for long category lists
+- Component collapse fix in mod detail panels
+- Dead link sweep — verified and updated 46 mod URLs
+- Deities of Faerun placement correction
+- Aura NPC mod URL update
+
+### v1.0.0 (2026-03-09)
+- Initial release with 630+ mods and 3,500+ components
+- WeiDU.log import/export for mod_installer and Project Infinity
+- Five install presets (Minimal Fixes, Enhanced Vanilla, Story Expansion, Quest Megamod, SCS Tactical)
+- Debug log analyzer with known issues database
+- GitHub version checker for 320 mods
+- EET compatibility badges
+- Install Order Map
+- Conflict detection with component-level detail
+- Split mod navigation
 
 ## License
 
