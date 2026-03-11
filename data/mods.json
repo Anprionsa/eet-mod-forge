@@ -10563,8 +10563,8 @@
       "ToB"
     ],
     "u": "https://github.com/Endarire/Throne-of-Bhaal-Revisited",
-    "a": "Endarire",
-    "no": "Beta 4 with BWP Fix. Many components reported as broken. May conflict with Ascension and Wheels of Prophecy."
+    "a": "WildGirl (EE: Austin87)",
+    "no": "Unfinished alpha EE adaptation. Most components untested on EE/EET. Not on EET compat list. May conflict with Ascension and Wheels of Prophecy."
   },
   {
     "i": 123,
@@ -15201,8 +15201,8 @@
   {
     "i": 628,
     "t": "sniff",
-    "n": "Sniff NPC",
-    "c": "NEW NPC MODS",
+    "n": "Sniff",
+    "c": "POST-TACTICAL TWEAKS",
     "co": [
       {
         "n": "Sniff",
@@ -15225,7 +15225,7 @@
         "m": "Added from Infinity Insanity WeiDU logs"
       }
     ],
-    "no": "Temnix mod. May have compatibility issues with other mods.",
+    "no": "Gives dogs and wolves tracking abilities. Temnix mod — may have compatibility issues. Not on EET compat list.",
     "ph": [
       "SoA",
       "ToB"
