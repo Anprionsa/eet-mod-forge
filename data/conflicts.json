@@ -311,19 +311,19 @@
     },
     {
       "a": "NTOTSC",
-      "b": "Unfinished Business BG1",
+      "b": "bg1ub",
       "severity": "soft",
       "reason": "Functionality provided by Unfinished Business BG1 (per II install notes)"
     },
     {
       "a": "Ascension",
-      "b": "SCS Improved Fiends",
+      "b": "stratagems",
       "severity": "soft",
       "reason": "Overridden by SCS Improved Fiends (per II install notes)"
     },
     {
       "a": "questpack",
-      "b": "SCS",
+      "b": "stratagems",
       "severity": "soft",
       "reason": "Overridden by SCS (per II install notes)"
     },
@@ -341,43 +341,43 @@
     },
     {
       "a": "a7-testyourmettle",
-      "b": "EET Tweaks",
+      "b": "EET_Tweaks",
       "severity": "soft",
       "reason": "Functionality provided by EET Tweaks (per II install notes)"
     },
     {
       "a": "bg1npc",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "sniff",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "hard",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
       "a": "eldritch_magic",
-      "b": "EET Tweaks",
+      "b": "EET_Tweaks",
       "severity": "soft",
       "reason": "Functionality provided by EET Tweaks (per II install notes)"
     },
     {
       "a": "eldritch_magic",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "mih_ip",
-      "b": "Tweaks and Tricks",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
     },
     {
       "a": "mih_ip",
-      "b": "A7#Golem Construction",
+      "b": "A7-GolemConstruction",
       "severity": "soft",
       "reason": "Functionality provided by A7#Golem Construction (per II install notes)"
     },
@@ -389,25 +389,25 @@
     },
     {
       "a": "iwdification",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "iwdification",
-      "b": "House Tweaks",
+      "b": "HouseTweaks",
       "severity": "soft",
       "reason": "Functionality provided by House Tweaks (per II install notes)"
     },
     {
       "a": "iwdification",
-      "b": "Might & Guile",
+      "b": "might_and_guile",
       "severity": "soft",
       "reason": "Functionality provided by Might & Guile (per II install notes)"
     },
     {
       "a": "a7-totlm-bg2ee",
-      "b": "EET Tweaks",
+      "b": "EET_Tweaks",
       "severity": "soft",
       "reason": "Functionality provided by EET Tweaks (per II install notes)"
     },
@@ -419,55 +419,55 @@
     },
     {
       "a": "mih_sp",
-      "b": "Olvyn Spells",
+      "b": "MESpells",
       "severity": "soft",
       "reason": "Functionality provided by Olvyn Spells (per II install notes)"
     },
     {
       "a": "mih_sp",
-      "b": "EET Tweaks",
+      "b": "EET_Tweaks",
       "severity": "soft",
       "reason": "Functionality provided by EET Tweaks (per II install notes)"
     },
     {
       "a": "mih_sp",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "soft",
       "reason": "Functionality provided by Spell Revisions (per II install notes)"
     },
     {
       "a": "shadowadept",
-      "b": "MIH Tweaks",
+      "b": "mih_eq",
       "severity": "hard",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
       "a": "MESpells",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "soft",
       "reason": "Functionality provided by Spell Revisions (per II install notes)"
     },
     {
       "a": "MESpells",
-      "b": "MIH SP",
+      "b": "mih_sp",
       "severity": "soft",
       "reason": "Functionality provided by MIH SP (per II install notes)"
     },
     {
       "a": "SubtleD_Spell_Tweaks",
-      "b": "Tweaks and Tricks and Olvyn Spells",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks and Olvyn Spells (per II install notes)"
     },
     {
       "a": "SubtleD_Spell_Tweaks",
-      "b": "Skills and Abilities",
+      "b": "skills_and_abilities",
       "severity": "hard",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
       "a": "SubtleD_Spell_Tweaks",
-      "b": "Tweaks and Tricks",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
     },
@@ -485,43 +485,43 @@
     },
     {
       "a": "stratagems",
-      "b": "Olvyn Spells, Klatu Tweaks and Tricks and Tweaks",
+      "b": "KLATU",
       "severity": "soft",
       "reason": "Functionality provided by Olvyn Spells, Klatu Tweaks and Tricks and Tweaks (per II install notes)"
     },
     {
       "a": "stratagems",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "soft",
       "reason": "Functionality provided by Spell Revisions (per II install notes)"
     },
     {
       "a": "ArtisansKitpack",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "rr",
-      "b": "Tweaks and Tricks",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
     },
     {
       "a": "TomeAndBlood",
-      "b": "5E spellcasting",
+      "b": "d5_5e_casting",
       "severity": "soft",
       "reason": "Functionality provided by 5E spellcasting (per II install notes)"
     },
     {
       "a": "BardicWonders",
-      "b": "Might & Guile",
+      "b": "might_and_guile",
       "severity": "soft",
       "reason": "Functionality provided by Might & Guile (per II install notes)"
     },
     {
       "a": "EpicThieving",
-      "b": "Tweaks and Tricks",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
     },
@@ -533,67 +533,67 @@
     },
     {
       "a": "s9BGEENPCTweaks",
-      "b": "NPC EE",
+      "b": "npc_ee",
       "severity": "soft",
       "reason": "Functionality provided by NPC EE (per II install notes)"
     },
     {
       "a": "EET_Tweaks",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "EET_Tweaks",
-      "b": "More Style for Mages",
+      "b": "msfm",
       "severity": "soft",
       "reason": "Functionality provided by More Style for Mages (per II install notes)"
     },
     {
       "a": "HouseTweaks",
-      "b": "Artisans Kitpack",
+      "b": "ArtisansKitpack",
       "severity": "soft",
       "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
     },
     {
       "a": "c#sodtweaks",
-      "b": "EET Tweaks",
+      "b": "EET_Tweaks",
       "severity": "soft",
       "reason": "Functionality provided by EET Tweaks (per II install notes)"
     },
     {
       "a": "c#sodtweaks",
-      "b": "Another Fine Hell",
+      "b": "c#anotherfinehell",
       "severity": "soft",
       "reason": "Functionality provided by Another Fine Hell (per II install notes)"
     },
     {
       "a": "jtweaks",
-      "b": "Artisans Kitpack",
+      "b": "ArtisansKitpack",
       "severity": "soft",
       "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
     },
     {
       "a": "jtweaks",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "soft",
       "reason": "Functionality provided by Spell Revisions (per II install notes)"
     },
     {
       "a": "jtweaks",
-      "b": "SCS",
+      "b": "stratagems",
       "severity": "soft",
       "reason": "Functionality provided by SCS (per II install notes)"
     },
     {
       "a": "jtweaks",
-      "b": "Tweaks and Tricks",
+      "b": "tnt",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks and Tricks (per II install notes)"
     },
     {
       "a": "jtweaks",
-      "b": "Olvyn Spells",
+      "b": "MESpells",
       "severity": "soft",
       "reason": "Functionality provided by Olvyn Spells (per II install notes)"
     },
@@ -605,13 +605,13 @@
     },
     {
       "a": "mih_fr",
-      "b": "Infinity Sounds",
+      "b": "INFINITYSOUNDS",
       "severity": "soft",
       "reason": "Functionality provided by Infinity Sounds (per II install notes)"
     },
     {
       "a": "mih_fr",
-      "b": "SR, Iwdification, MIH_SP",
+      "b": "mih_sp",
       "severity": "soft",
       "reason": "Functionality provided by SR, Iwdification, MIH_SP (per II install notes)"
     },
@@ -623,25 +623,25 @@
     },
     {
       "a": "cdtweaks",
-      "b": "Artisans Kitpack",
+      "b": "ArtisansKitpack",
       "severity": "soft",
       "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
     },
     {
       "a": "cdtweaks",
-      "b": "S9 BGEENPC Tweaks",
+      "b": "s9BGEENPCTweaks",
       "severity": "soft",
       "reason": "Functionality provided by S9 BGEENPC Tweaks (per II install notes)"
     },
     {
       "a": "cdtweaks",
-      "b": "Refinements",
+      "b": "d5_refinements",
       "severity": "soft",
       "reason": "Functionality provided by Refinements (per II install notes)"
     },
     {
       "a": "cdtweaks",
-      "b": "MIH Tweaks",
+      "b": "mih_eq",
       "severity": "soft",
       "reason": "Functionality provided by MIH Tweaks (per II install notes)"
     },
@@ -665,13 +665,13 @@
     },
     {
       "a": "tnt",
-      "b": "Tome & Blood Familiars",
+      "b": "TomeAndBlood",
       "severity": "hard",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
       "a": "tnt",
-      "b": "Trap Overhaul",
+      "b": "Trap_Overhaul",
       "severity": "soft",
       "reason": "Functionality provided by Trap Overhaul (per II install notes)"
     },
@@ -683,61 +683,61 @@
     },
     {
       "a": "tnt",
-      "b": "Olvyn Spells",
+      "b": "MESpells",
       "severity": "soft",
       "reason": "Functionality provided by Olvyn Spells (per II install notes)"
     },
     {
       "a": "tnt",
-      "b": "MIH Tweaks",
+      "b": "mih_eq",
       "severity": "soft",
       "reason": "Functionality provided by MIH Tweaks (per II install notes)"
     },
     {
       "a": "tnt",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "butchery",
-      "b": "Angelo NPC",
+      "b": "angelo",
       "severity": "hard",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
       "a": "stratagems",
-      "b": "Artisans Kitpack",
+      "b": "ArtisansKitpack",
       "severity": "soft",
       "reason": "Functionality provided by Artisans Kitpack (per II install notes)"
     },
     {
       "a": "stratagems",
-      "b": "NPC EE",
+      "b": "npc_ee",
       "severity": "soft",
       "reason": "Functionality provided by NPC EE (per II install notes)"
     },
     {
       "a": "stratagems",
-      "b": "Tome and Blood",
+      "b": "TomeAndBlood",
       "severity": "soft",
       "reason": "Functionality provided by Tome and Blood (per II install notes)"
     },
     {
       "a": "stratagems",
-      "b": "Enhanced Powergaming Scripts",
+      "b": "enhanced-powergaming-scripts",
       "severity": "soft",
       "reason": "Functionality provided by Enhanced Powergaming Scripts (per II install notes)"
     },
     {
       "a": "stratagems",
-      "b": "Shadow Magic",
+      "b": "shadowadept",
       "severity": "soft",
       "reason": "Functionality provided by Shadow Magic (per II install notes)"
     },
     {
       "a": "skills-and-abilities",
-      "b": "Might & Guile",
+      "b": "might_and_guile",
       "severity": "soft",
       "reason": "Functionality provided by Might & Guile (per II install notes)"
     },
@@ -749,63 +749,1441 @@
     },
     {
       "a": "KLATU",
-      "b": "Tweaks Anthology",
+      "b": "cdtweaks",
       "severity": "soft",
       "reason": "Functionality provided by Tweaks Anthology (per II install notes)"
     },
     {
       "a": "KLATU",
-      "b": "Spell Revisions",
+      "b": "spell_rev",
       "severity": "soft",
       "reason": "Functionality provided by Spell Revisions (per II install notes)"
     },
     {
       "a": "KLATU",
-      "b": "Refinements",
+      "b": "d5_refinements",
       "severity": "soft",
       "reason": "Functionality provided by Refinements (per II install notes)"
     },
     {
       "a": "KLATU",
-      "b": "Enhanced Powergaming Scripts",
+      "b": "enhanced-powergaming-scripts",
       "severity": "soft",
       "reason": "Functionality provided by Enhanced Powergaming Scripts (per II install notes)"
     },
     {
       "a": "KLATU",
-      "b": "More Style For Mages",
+      "b": "msfm",
       "severity": "soft",
       "reason": "Functionality provided by More Style For Mages (per II install notes)"
     },
     {
       "a": "sodrtd",
-      "b": "Themed Tweaks",
+      "b": "themed_tweaks",
       "severity": "soft",
       "reason": "Functionality provided by Themed Tweaks (per II install notes)"
     },
     {
       "a": "METweaks",
-      "b": "Improved Shamanic Dance",
+      "b": "a7-improved_shamanic_dance",
       "severity": "soft",
       "reason": "Functionality provided by Improved Shamanic Dance (per II install notes)"
     },
     {
       "a": "METweaks",
-      "b": "Olvyn Spells",
+      "b": "MESpells",
       "severity": "soft",
       "reason": "Functionality provided by Olvyn Spells (per II install notes)"
     },
     {
       "a": "METweaks",
-      "b": "Might & Guile",
+      "b": "might_and_guile",
       "severity": "soft",
       "reason": "Functionality provided by Might & Guile (per II install notes)"
     },
     {
       "a": "METweaks",
-      "b": "Skills and Abilities",
+      "b": "skills_and_abilities",
       "severity": "soft",
       "reason": "Functionality provided by Skills and Abilities (per II install notes)"
+    },
+    {
+      "a": "eet",
+      "b": "WMART",
+      "severity": "hard",
+      "reason": "BG1EE Mods not yet compatible with EET (install of EET will fail if these mods are installed)",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "eet",
+      "b": "kittomes",
+      "severity": "hard",
+      "reason": "BG1EE Mods not yet compatible with EET (install of EET will fail if these mods are installed)",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "eet",
+      "b": "k9roughworld",
+      "severity": "hard",
+      "reason": "BG1EE Mods not yet compatible with EET (install of EET will fail if these mods are installed)",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "eet",
+      "b": "soa",
+      "severity": "hard",
+      "reason": "Stone of Askavar BP-BGT-Worldmap version is not compatible with EET",
+      "source": "eemodsetup",
+      "comp_b": "#1"
+    },
+    {
+      "a": "eet",
+      "b": "drizztsaga",
+      "severity": "hard",
+      "reason": "Drizzt Saga BP-BGT-Worldmap version is not compatible with EET",
+      "source": "eemodsetup",
+      "comp_b": "#1"
+    },
+    {
+      "a": "eet",
+      "b": "iylos",
+      "severity": "hard",
+      "reason": "Iylos NPC is not compatible with EET",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "eet",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "ToB-style NPCs tweak reported incompatible with EET (NPCs have ToB experience levels in BG1)",
+      "source": "eemodsetup",
+      "comp_b": "ToB-Style NPCs; #4010"
+    },
+    {
+      "a": "deArnise",
+      "b": "rjali",
+      "severity": "hard",
+      "reason": "Rjali is not yet compatible with other romance mods or overwrites their files",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "BRANWEN",
+      "b": "rjali",
+      "severity": "hard",
+      "reason": "Rjali is not yet compatible with other romance mods or overwrites their files",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "chloe",
+      "b": "rjali",
+      "severity": "hard",
+      "reason": "Rjali is not yet compatible with other romance mods or overwrites their files",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "EET_gui",
+      "b": "EEUITweaks",
+      "severity": "hard",
+      "reason": "EET GUI conflicts with these EEUITweaks components",
+      "source": "eemodsetup",
+      "comp_a": "SoD GUI; lefreut's Journal (quests expanded by default)",
+      "comp_b": "lefreut's Portrait Picker, Default Button Position, lefreut's Improved Record Screen, lefreut's Journal (quests expanded by default), lefreut's Customize Screens Tweaks, Default Button Position, lefreut's Inscribed Arcana, Non-Italicized fonts for descriptions; SoD GUI"
+    },
+    {
+      "a": "hiddengameplayoptions",
+      "b": "EEUITweaks",
+      "severity": "hard",
+      "reason": "EEUITweaks component \"Hidden Game Options\" conflicts with Reveal Hidden Gameplay Options",
+      "source": "eemodsetup",
+      "comp_b": "Hidden Game Options"
+    },
+    {
+      "a": "1pp",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Change avatar depending on equipped armor",
+      "source": "eemodsetup",
+      "comp_a": "#113; #104",
+      "comp_b": "#120; #80"
+    },
+    {
+      "a": "item_rev",
+      "b": "stratagems",
+      "severity": "hard",
+      "reason": "Item Revisions and SCS overlap",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs; #1; Store Revisions; #3010, #3021, #3022",
+      "comp_b": "#3000, #3020, #3040, #3041, #3050, #3060, #3070, #3080, #3090, #3100, #3110; #3010, #3020, #3021, #3022; #2160, #3040, #3041, #4215, #4216, #4217, #4218, #4230; #1; #5030"
+    },
+    {
+      "a": "item_rev",
+      "b": "atweaks",
+      "severity": "hard",
+      "reason": "Item Revisions and aTweaks overlap",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs; Store Revisions",
+      "comp_b": "#200; #301, #302, #510; #110"
+    },
+    {
+      "a": "item_rev",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Item Revisions and weapon tweaks overlap",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs; Store Revisions; Clerics and Druids, Clerics and Druids, With Halved Specialization; Clerics Only, Clerics and Druids, Clerics Only, With Halved Specialization, Clerics and Druids, With Halved Specialization; Items of Protection Can Be Worn with Magical Armor",
+      "comp_b": "#60, #2230; #1090, #1120, #3200; #2430, #2431; #2420; #2150, #2151"
+    },
+    {
+      "a": "item_rev",
+      "b": "Item_Pack",
+      "severity": "hard",
+      "reason": "Item Revisions conflict with Item Tweaks",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs",
+      "comp_b": "#2, #3"
+    },
+    {
+      "a": "item_rev",
+      "b": "ua",
+      "severity": "hard",
+      "reason": "Item Revisions conflict with Unique Artifacts",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "rr",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Weapon Proficiency conflict 1",
+      "source": "eemodsetup",
+      "comp_a": "#0; #6",
+      "comp_b": "#2160, #2161, #2162; #2270, #2271"
+    },
+    {
+      "a": "faiths_and_powers",
+      "b": "item_rev",
+      "severity": "hard",
+      "reason": "Alter weapon restrictions for Clerics",
+      "source": "eemodsetup",
+      "comp_a": "Multiclass Druids",
+      "comp_b": "Clerics Only, Clerics and Druids, Clerics Only, With Halved Specialization, Clerics and Druids, With Halved Specialization"
+    },
+    {
+      "a": "item_rev",
+      "b": "ub",
+      "severity": "hard",
+      "reason": "Extended ToB Item Descriptions",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs",
+      "comp_b": "Extended ToB Item Descriptions"
+    },
+    {
+      "a": "item_rev",
+      "b": "d0tweak",
+      "severity": "hard",
+      "reason": "Visual Ioun Stones",
+      "source": "eemodsetup",
+      "comp_a": "Item Revisions by Demivrgvs; Thief-only Weapons, More Weapons Usable for Backstabbing, All Melee and Ranged Weapons Usable For Backstabbing",
+      "comp_b": "#11; #18"
+    },
+    {
+      "a": "EpicThieving",
+      "b": "xulaye_eet",
+      "severity": "hard",
+      "reason": "Plot or quests will be broken by Epic Thieving",
+      "source": "eemodsetup",
+      "comp_a": "Epic Locks, #1"
+    },
+    {
+      "a": "EpicThieving",
+      "b": "backbrynnlaw",
+      "severity": "hard",
+      "reason": "Plot or quests will be broken by Epic Thieving",
+      "source": "eemodsetup",
+      "comp_a": "Epic Locks, #1"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "SOD2BG2_IU",
+      "severity": "hard",
+      "reason": "Avoid Item duplication",
+      "source": "eemodsetup",
+      "comp_a": "Import party items to SoA"
+    },
+    {
+      "a": "TomeAndBlood",
+      "b": "npckit",
+      "severity": "hard",
+      "reason": "Mage specialist kit tweaks conflict",
+      "source": "eemodsetup",
+      "comp_a": "#5",
+      "comp_b": "#30"
+    },
+    {
+      "a": "TomeAndBlood",
+      "b": "npc_ee",
+      "severity": "hard",
+      "reason": "Mage specialist kit tweaks conflict",
+      "source": "eemodsetup",
+      "comp_a": "Revised Dragon Disciples",
+      "comp_b": "#181, #724, #102, #484, #621"
+    },
+    {
+      "a": "spell_rev",
+      "b": "stratagems",
+      "severity": "hard",
+      "reason": "SCS True Sight/True Seeing should not be installed with SR v3+ (Kreso's revised SCS recognizes SR versions of these spells)",
+      "source": "eemodsetup",
+      "comp_a": "Spell Revisions",
+      "comp_b": "#2170; #1510, #1910, #2000, #2020, #2030, #2040, #2041, #2050, #2060, #2070, #2080, #2090, #2100, #2120, #2140, #2150, #2180, #4010"
+    },
+    {
+      "a": "spell_rev",
+      "b": "atweaks",
+      "severity": "hard",
+      "reason": "Spell Revisions conflict with aTweaks",
+      "source": "eemodsetup",
+      "comp_a": "Spell Revisions",
+      "comp_b": "#102, #103, #104, #105, #204, #205, #211, #322, #323, #324; Mod-added fiends are not affected, Mod-added fiends are also affected, Give aTweaks scripts to all fiends but do not alter statistics, Further Revised Fiend Summoning, Fiendish gating"
+    },
+    {
+      "a": "spell_rev",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Spell Revisions conflict with BG2 Tweaks",
+      "source": "eemodsetup",
+      "comp_a": "Spell Revisions",
+      "comp_b": "#2220, #2330; #2310, #2311, #2312"
+    },
+    {
+      "a": "spell_rev",
+      "b": "wildmage",
+      "severity": "partial",
+      "reason": "Spell Revisions conflict with Wild Mage Additions misc spell tweaks",
+      "source": "eemodsetup",
+      "comp_a": "Spell Revisions",
+      "comp_b": "#3"
+    },
+    {
+      "a": "spell_rev",
+      "b": "d0tweak",
+      "severity": "hard",
+      "reason": "BG1-Style Summoning Spells",
+      "source": "eemodsetup",
+      "comp_a": "Spell Revisions",
+      "comp_b": "#23; #0"
+    },
+    {
+      "a": "stratagems",
+      "b": "GMINION",
+      "severity": "hard",
+      "reason": "gMinion is not compatible with SCS AI or BP AI if installed before them",
+      "source": "eemodsetup",
+      "comp_a": "#5900"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "tb#tweaks",
+      "severity": "hard",
+      "reason": "APR progression and/or Grandmastery rule conflicts",
+      "source": "eemodsetup",
+      "comp_a": "#2210, #2211, #2440",
+      "comp_b": "#3550, #3600"
+    },
+    {
+      "a": "item_rev",
+      "b": "KLATU",
+      "severity": "hard",
+      "reason": "Alter effects of CHA stat (store prices)",
+      "source": "eemodsetup",
+      "comp_a": "Store Revisions; With a Chance of Arcane Casting Failure, With Casting Speed Penalties for Arcane Casters, #4, #5; Stealth is Penalized by Armor, Stealth is Penalized by Armor and Shields",
+      "comp_b": "#2180; #2140; #2150"
+    },
+    {
+      "a": "KLATU",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Alter effects of CHA stat (store prices)",
+      "source": "eemodsetup",
+      "comp_a": "#2180; #2000; #2010",
+      "comp_b": "#3070, #3071, #3072, #3073; #2260, #2261; #2250"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "eldritch_magic",
+      "severity": "hard",
+      "reason": "Modify XP cap for full game",
+      "source": "eemodsetup",
+      "comp_a": "#2090, #2091, #2092; #2350, #2351, #2353, #2357, #2358; #2370, #2371, #2372",
+      "comp_b": "#20, #21; #50, #51, #52"
+    },
+    {
+      "a": "eldritch_magic",
+      "b": "EET_Tweaks",
+      "severity": "hard",
+      "reason": "Modify XP cap for full game",
+      "source": "eemodsetup",
+      "comp_a": "#20, #21",
+      "comp_b": "#2000"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "drizztsaga",
+      "severity": "hard",
+      "reason": "Modify XP cap for full game",
+      "source": "eemodsetup",
+      "comp_a": "#2000",
+      "comp_b": "#2"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "atweaks",
+      "severity": "hard",
+      "reason": "Replace Baseline XP Table for Picking Locks, Disarming Traps and Learning Spells",
+      "source": "eemodsetup",
+      "comp_a": "BG1 values (default), BG2 values, Vanilla friendly progressive, Disabled, Custom value; Increase to 150%, Decrease to 75%, Decrease to 50%, Decrease to 25%, Decrease to 10%, Disable, Custom value",
+      "comp_b": "#261, #262; #212"
+    },
+    {
+      "a": "iwdification",
+      "b": "a7-totlm-bg2ee",
+      "severity": "hard",
+      "reason": "Different sets of IWD spells cannot be installed together",
+      "source": "eemodsetup",
+      "comp_a": "#30, #40, #50",
+      "comp_b": "#10"
+    },
+    {
+      "a": "stratagems",
+      "b": "iwd1_eet",
+      "severity": "hard",
+      "reason": "Different sets of IWD spells cannot be installed together2",
+      "source": "eemodsetup",
+      "comp_a": "#1500, #1510"
+    },
+    {
+      "a": "stratagems",
+      "b": "jimfix",
+      "severity": "hard",
+      "reason": "Jimfix does not work for IWD spells",
+      "source": "eemodsetup",
+      "comp_a": "#1500, #1510",
+      "comp_b": "All spells with a casting time greater than 1, All spells with a casting time greater than 2, All spells with a casting time greater than 3, All spells with a casting time greater than 4, All spells with a casting time greater than 5"
+    },
+    {
+      "a": "stratagems",
+      "b": "EET_gui",
+      "severity": "hard",
+      "reason": "GUI does not support difficulty slider",
+      "source": "eemodsetup",
+      "comp_a": "#8040"
+    },
+    {
+      "a": "kelsey",
+      "b": "Ascension",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "Rewritten Final Chapter of Throne of Bhaal, Balthazar can be redeemed, Improved Sarevok-Player Interactions, Improved Imoen-Player Interactions in Throne of Bhaal, #60, #61"
+    },
+    {
+      "a": "kelsey",
+      "b": "edwinromance",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "kelsey",
+      "b": "chloe",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "Chloe EET (Extended content): v1.8 EE"
+    },
+    {
+      "a": "kelsey",
+      "b": "wheels",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "kelsey",
+      "b": "iepbanters",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "#2"
+    },
+    {
+      "a": "kelsey",
+      "b": "ImoenRomance",
+      "severity": "hard",
+      "reason": "Kelsey Romance dialogues block ToB final",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "Ascension",
+      "severity": "hard",
+      "reason": "Imoen Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "Rewritten Final Chapter of Throne of Bhaal, Balthazar can be redeemed, Improved Sarevok-Player Interactions, Improved Imoen-Player Interactions in Throne of Bhaal, #60, #61"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "edwinromance",
+      "severity": "hard",
+      "reason": "Imoen Romance dialogues block ToB final",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "chloe",
+      "severity": "hard",
+      "reason": "Imoen Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "Chloe EET (Extended content): v1.8 EE"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "wheels",
+      "severity": "hard",
+      "reason": "Imoen Romance dialogues block ToB final",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "iepbanters",
+      "severity": "hard",
+      "reason": "Imoen Romance dialogues block ToB final",
+      "source": "eemodsetup",
+      "comp_b": "#2"
+    },
+    {
+      "a": "hollyelf",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "drowlib",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "velvet",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ryberg",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "maltese",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "disobedience",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "melynda",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ctbice",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ctbvamp",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ctbliberate",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "candlemem",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Choose one CtB quest source only",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "drizztsaga",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "rosere",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "bonehilleet",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "tgc1e",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "TheBeaurinLegacy",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "indinpc",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "SirinesCall",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "corwineet",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "DSOTSC",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "finchnpc",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "gavin",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "TenyaThermidor",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "SotSC",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup",
+      "comp_a": "The Calling"
+    },
+    {
+      "a": "SotSC",
+      "b": "bg1npc",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "ac_quest",
+      "b": "glamnpcpack",
+      "severity": "hard",
+      "reason": "Conflicting use of areas/game resources",
+      "source": "eemodsetup",
+      "comp_a": "#5"
+    },
+    {
+      "a": "stratagems",
+      "b": "hiddenadventure",
+      "severity": "hard",
+      "reason": "Conflicting use of game resources",
+      "source": "eemodsetup",
+      "comp_b": "#9"
+    },
+    {
+      "a": "bg1npc",
+      "b": "bg1ub",
+      "severity": "hard",
+      "reason": "BG1NPC includes Finishable Kagain Caravan Quest",
+      "source": "eemodsetup",
+      "comp_a": "#10; Speed: 1 hour real time (standard) minimum between LoveTalks; #130, #131",
+      "comp_b": "#4; #7; #5; #6; #27"
+    },
+    {
+      "a": "cliffhistory",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Multiple Strongholds 1",
+      "source": "eemodsetup",
+      "comp_b": "#1160, #1161"
+    },
+    {
+      "a": "ImoenRomance",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
+      "source": "eemodsetup",
+      "comp_b": "#3140, #3141"
+    },
+    {
+      "a": "deArnise",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
+      "source": "eemodsetup",
+      "comp_b": "#3140, #3141; #3183",
+      "comp_a": "de'Arnise Romance for Baldur's Gate II"
+    },
+    {
+      "a": "luvnalia",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
+      "source": "eemodsetup",
+      "comp_b": "#3140, #3141"
+    },
+    {
+      "a": "tashia",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
+      "source": "eemodsetup",
+      "comp_b": "#3140, #3141"
+    },
+    {
+      "a": "ub",
+      "b": "Paina",
+      "severity": "hard",
+      "reason": "Select one spider hive mod",
+      "source": "eemodsetup",
+      "comp_a": "The Pai'Na/Spider's Bane Quest"
+    },
+    {
+      "a": "isra_bg2",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_a": "Isra for BGII",
+      "comp_b": "#3183"
+    },
+    {
+      "a": "Sirene_BG2",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_b": "#3183"
+    },
+    {
+      "a": "TyrisFlare",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_a": "Tyris Flare NPC",
+      "comp_b": "#3183"
+    },
+    {
+      "a": "amber",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_a": "Amber the NPC MOD",
+      "comp_b": "#3183"
+    },
+    {
+      "a": "xan",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_b": "#3183; #4130",
+      "comp_a": "Change Xan's class to Fighter/Mage, Change Xan's class to Mage, Change Xan's class to Sorcerer, Change Xan's class to Wild Mage (ToB only)"
+    },
+    {
+      "a": "adrian",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "CDTweaks romance cheats create stutter for mod NPCs",
+      "source": "eemodsetup",
+      "comp_b": "#3183"
+    },
+    {
+      "a": "darkhorizons",
+      "b": "saradas_magic",
+      "severity": "hard",
+      "reason": "Saradas Magic overrides files instead of appending",
+      "source": "eemodsetup",
+      "comp_b": "Saradas has a monk sprite (original)"
+    },
+    {
+      "a": "darkhorizonsbgee",
+      "b": "saradas_magic",
+      "severity": "hard",
+      "reason": "Saradas Magic overrides files instead of appending",
+      "source": "eemodsetup",
+      "comp_b": "Saradas has a monk sprite (original)"
+    },
+    {
+      "a": "ac_quest",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_a": "Of Wolves and Men -> Quest uses house in Beregost., #5",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "bgqe",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "thalan",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_a": "Thalantyr - Item Upgrade",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "Sirene",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "bg1npc",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "KLATU",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "The Calling mod blocks other Thalantyr mod options",
+      "source": "eemodsetup",
+      "comp_a": "#1010",
+      "comp_b": "The Calling"
+    },
+    {
+      "a": "DSOTSC",
+      "b": "ctb",
+      "severity": "hard",
+      "reason": "Some spells get overwritten when installing both mods",
+      "source": "eemodsetup",
+      "comp_a": "DSotSC Wizard spells, DSotSC Priest spells",
+      "comp_b": "Check the Bodies"
+    },
+    {
+      "a": "d0questpack",
+      "b": "alternatives",
+      "severity": "hard",
+      "reason": "Aran story conflict",
+      "source": "eemodsetup",
+      "comp_a": "Additional Shadow Thieves Content"
+    },
+    {
+      "a": "d0questpack",
+      "b": "Fade",
+      "severity": "hard",
+      "reason": "Aran story conflict",
+      "source": "eemodsetup",
+      "comp_a": "Additional Shadow Thieves Content"
+    },
+    {
+      "a": "d0questpack",
+      "b": "saerileth",
+      "severity": "hard",
+      "reason": "Aran story conflict",
+      "source": "eemodsetup",
+      "comp_a": "Additional Shadow Thieves Content"
+    },
+    {
+      "a": "atweaks",
+      "b": "stratagems",
+      "severity": "hard",
+      "reason": "Choose one \"disable quickslot items for Simulacra and Projected Images\" tweak",
+      "source": "eemodsetup",
+      "comp_a": "#205",
+      "comp_b": "#2180"
+    },
+    {
+      "a": "atweaks",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Choose one tweak for container storage capacity",
+      "source": "eemodsetup",
+      "comp_a": "#500, #502",
+      "comp_b": "#3040"
+    },
+    {
+      "a": "KLATU",
+      "b": "TomeAndBlood",
+      "severity": "hard",
+      "reason": "Choose one tweak for allowing arcane casting with armor",
+      "source": "eemodsetup",
+      "comp_a": "#2140",
+      "comp_b": "#110, #30, Revised Dragon Disciples"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "divine_remix",
+      "severity": "hard",
+      "reason": "Choose one \"add Priest (or Battleguard) of Tempus kit\"",
+      "source": "eemodsetup",
+      "comp_a": "#4000",
+      "comp_b": "#109"
+    },
+    {
+      "a": "stratagems",
+      "b": "bg1npc",
+      "severity": "hard",
+      "reason": "Choose one \"NPCs can be sent to wait in an inn\"",
+      "source": "eemodsetup",
+      "comp_a": "#4120",
+      "comp_b": "#16"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "randomiser",
+      "severity": "hard",
+      "reason": "Choose one \"Cespenar can forge Shadows of Amn items\" tweak",
+      "source": "eemodsetup",
+      "comp_a": "#1230",
+      "comp_b": "Cespenar can forge SoA items"
+    },
+    {
+      "a": "stratagems",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Choose one \"Allow player to choose NPC proficiencies and skills\" / \"TOB-style NPCs\" tweak",
+      "source": "eemodsetup",
+      "comp_a": "Improved NPC customization and management; #5020; #5030; #4030",
+      "comp_b": "ToB-Style NPCs, #2370, #2372; #3150; #1150"
+    },
+    {
+      "a": "stratagems",
+      "b": "npc_ee",
+      "severity": "hard",
+      "reason": "Choose one \"Allow player to choose NPC proficiencies and skills\" / \"TOB-style NPCs\" tweak",
+      "source": "eemodsetup",
+      "comp_a": "Improved NPC customization and management"
+    },
+    {
+      "a": "fr_rov",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Choose one Bonus Merchants tweak",
+      "source": "eemodsetup",
+      "comp_a": "Freedom's Reign (SoA or ToB)",
+      "comp_b": "#1170"
+    },
+    {
+      "a": "d0questpack",
+      "b": "d0tweak",
+      "severity": "hard",
+      "reason": "Choose one \"Add Drow Innate Abilities\"",
+      "source": "eemodsetup",
+      "comp_a": "#1, #2",
+      "comp_b": "#13"
+    },
+    {
+      "a": "bg1npc",
+      "b": "banterpack",
+      "severity": "hard",
+      "reason": "Choose one Shadows of Amn Banter Accelerator",
+      "source": "eemodsetup",
+      "comp_a": "#100",
+      "comp_b": "#1"
+    },
+    {
+      "a": "banterpack",
+      "b": "kelsey",
+      "severity": "hard",
+      "reason": "Choose one Shadows of Amn Banter Accelerator",
+      "source": "eemodsetup",
+      "comp_a": "#1",
+      "comp_b": "#3"
+    },
+    {
+      "a": "EET_gui",
+      "b": "LeUI",
+      "severity": "hard",
+      "reason": "Choose one GUI",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "Item_Pack",
+      "b": "ROLLES",
+      "severity": "hard",
+      "reason": "Choose one Bag of Holding",
+      "source": "eemodsetup",
+      "comp_a": "#1",
+      "comp_b": "#1"
+    },
+    {
+      "a": "coran",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Coran in BG2",
+      "source": "eemodsetup",
+      "comp_b": "#20"
+    },
+    {
+      "a": "bg1npcsoa",
+      "b": "re",
+      "severity": "hard",
+      "reason": "Choose one Coran in BG2",
+      "source": "eemodsetup",
+      "comp_a": "#20",
+      "comp_b": "#10"
+    },
+    {
+      "a": "tddz",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Kivan in BG2",
+      "source": "eemodsetup",
+      "comp_b": "#70; Xzar and Monty Murder Mysteries (SoA & ToB)"
+    },
+    {
+      "a": "kivan",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Kivan in BG2",
+      "source": "eemodsetup",
+      "comp_b": "#70"
+    },
+    {
+      "a": "TIAX",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Quayle and Tiax in BG2",
+      "source": "eemodsetup",
+      "comp_b": "Gnomes in the City: Quayle & Tiax (SoA & ToB), Water Gardens. New Athkatla's district & new quests"
+    },
+    {
+      "a": "ajantisbg2",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Ajantis in BG2",
+      "source": "eemodsetup",
+      "comp_b": "Dynaheir (SoA)"
+    },
+    {
+      "a": "yeslicknpc",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Yeslick in BG2",
+      "source": "eemodsetup",
+      "comp_b": "Water Gardens. New Athkatla's district & new quests, #4"
+    },
+    {
+      "a": "skiecost",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Skie in BG2",
+      "source": "eemodsetup",
+      "comp_b": "#8"
+    },
+    {
+      "a": "BRANWEN",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Branwen in BG2",
+      "source": "eemodsetup",
+      "comp_b": "Water Gardens. New Athkatla's district & new quests, #10"
+    },
+    {
+      "a": "xan",
+      "b": "bg1npcsoa",
+      "severity": "hard",
+      "reason": "Choose one Xan in BG2",
+      "source": "eemodsetup",
+      "comp_b": "#75"
+    },
+    {
+      "a": "a7-banteraccelerator",
+      "b": "bg1npc",
+      "severity": "hard",
+      "reason": "Choose one \"Banter Timing\" tweak",
+      "source": "eemodsetup",
+      "comp_b": "#110, #111, #112, #113, #114"
+    },
+    {
+      "a": "faiths_and_powers",
+      "b": "might_and_guile",
+      "severity": "hard",
+      "reason": "Choose one \"Beast Master\" kit",
+      "source": "eemodsetup",
+      "comp_a": "Install Druid kits; #350",
+      "comp_b": "Revised Beastmaster; #37"
+    },
+    {
+      "a": "cdtweaks",
+      "b": "thecalling",
+      "severity": "hard",
+      "reason": "Choose one Exotic Item Pack",
+      "source": "eemodsetup",
+      "comp_a": "#1090",
+      "comp_b": "Exotic Item Pack"
+    },
+    {
+      "a": "stratagems",
+      "b": "ESERIES",
+      "severity": "hard",
+      "reason": "Choose one Party AI set",
+      "source": "eemodsetup",
+      "comp_a": "#5000"
+    },
+    {
+      "a": "Turnabout",
+      "b": "reunion",
+      "severity": "hard",
+      "reason": "Choose one Ward's mother",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "gavin_bg2",
+      "b": "reunion",
+      "severity": "hard",
+      "reason": "Choose one de'Arnise modification",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "NTOTSC",
+      "b": "glamnpcpack",
+      "severity": "hard",
+      "reason": "Dave NPC bugs Idol of Koszah",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "DSOTSC",
+      "b": "glamnpcpack",
+      "severity": "hard",
+      "reason": "Dave NPC bugs Idol of Koszah",
+      "source": "eemodsetup"
+    },
+    {
+      "a": "stratagems",
+      "b": "randomiser",
+      "severity": "hard",
+      "reason": "Item Randomiser Mode 1 needs time in starting area",
+      "source": "eemodsetup",
+      "comp_a": "#4146",
+      "comp_b": "Mode 1: Randomise with in-game scripts. No items are lost, Mode 1: Randomise with in-game scripts. Some items are lost"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "TomeAndBlood",
+      "severity": "hard",
+      "reason": "Familiar penalty conflict",
+      "source": "eemodsetup",
+      "comp_a": "#3020, #3021, #3022",
+      "comp_b": "#69"
+    },
+    {
+      "a": "a7#improvedarcher",
+      "b": "might_and_guile",
+      "severity": "hard",
+      "reason": "Archer kit tweaks",
+      "source": "eemodsetup",
+      "comp_b": "#322, #205"
+    },
+    {
+      "a": "might_and_guile",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Racial Multi-class Restrictions",
+      "source": "eemodsetup",
+      "comp_a": "#500; #225",
+      "comp_b": "#2350, #2351, #2353, #2357, #2358; #2400, #2401"
+    },
+    {
+      "a": "might_and_guile",
+      "b": "EET_gui",
+      "severity": "hard",
+      "reason": "EET Gui does not display all functions",
+      "source": "eemodsetup",
+      "comp_a": "#200",
+      "comp_b": "SoD GUI"
+    },
+    {
+      "a": "TomeAndBlood",
+      "b": "EET_gui",
+      "severity": "hard",
+      "reason": "EET Gui does not display all functions",
+      "source": "eemodsetup",
+      "comp_a": "#16",
+      "comp_b": "SoD GUI"
+    },
+    {
+      "a": "might_and_guile",
+      "b": "rr",
+      "severity": "hard",
+      "reason": "Might and Guile's Rogue Feats conflicts with Rogue Rebalancing's Thief Kit Revisions",
+      "source": "eemodsetup",
+      "comp_a": "#200",
+      "comp_b": "#1"
+    },
+    {
+      "a": "might_and_guile",
+      "b": "item_rev",
+      "severity": "hard",
+      "reason": "Might and Guile's Rogue Feats conflicts with IR's Thieves Can Use Wands tweak",
+      "source": "eemodsetup",
+      "comp_a": "#200",
+      "comp_b": "Thieves Can Use Wands"
+    },
+    {
+      "a": "divine_remix",
+      "b": "BardicWonders",
+      "severity": "hard",
+      "reason": "HLAs for Clerics, Paladins, Druids, Rangers might conflict",
+      "source": "eemodsetup",
+      "comp_a": "Cleric Remix, Druid Remix"
+    },
+    {
+      "a": "sword_and_fist",
+      "b": "kiara-zaiya",
+      "severity": "hard",
+      "reason": "Monk HLA revisions conflict",
+      "source": "eemodsetup",
+      "comp_a": "Monk Remix",
+      "comp_b": "#2"
+    },
+    {
+      "a": "song_and_silence",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Alter Bard spell progression",
+      "source": "eemodsetup",
+      "comp_a": "Changes to trueclass bards and thieves, and unmodded game kits (required for other components)",
+      "comp_b": "#2270, #2271"
+    },
+    {
+      "a": "divine_remix",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Alter Druid spell progression",
+      "source": "eemodsetup",
+      "comp_a": "Druid Remix; Cleric Remix",
+      "comp_b": "#2290, #2291, #2292, #2293, #2294, #2295, #2296; #2280, #2281"
+    },
+    {
+      "a": "stratagems",
+      "b": "d0questpack",
+      "severity": "hard",
+      "reason": "Smarter Mages",
+      "source": "eemodsetup",
+      "comp_a": "#6030",
+      "comp_b": "#0"
+    },
+    {
+      "a": "Ascension",
+      "b": "ub",
+      "severity": "hard",
+      "reason": "New Ascension has separate and better Restored Bhaalspawn Powers component",
+      "source": "eemodsetup",
+      "comp_a": "#40; Rewritten Final Chapter of Throne of Bhaal, Improved Sarevok-Player Interactions",
+      "comp_b": "Restored Bhaalspawn Powers, by David Gaider; Sarevok's Remorse"
+    },
+    {
+      "a": "Ascension",
+      "b": "randomiser",
+      "severity": "hard",
+      "reason": "Make Gromnir a proper Barbarian is redundant if Ascension is installed",
+      "source": "eemodsetup",
+      "comp_a": "Rewritten Final Chapter of Throne of Bhaal",
+      "comp_b": "Make Gromnir a proper Barbarian"
+    },
+    {
+      "a": "Turnabout",
+      "b": "ub",
+      "severity": "hard",
+      "reason": "Sarevok's Remorse conflicts with Turnabout",
+      "source": "eemodsetup",
+      "comp_b": "Sarevok's Remorse"
+    },
+    {
+      "a": "YoshimosRemorse",
+      "b": "ub",
+      "severity": "hard",
+      "reason": "Sarevok's Remorse conflicts with Yoshimo",
+      "source": "eemodsetup",
+      "comp_b": "Sarevok's Remorse"
+    },
+    {
+      "a": "npc_ee",
+      "b": "divine_remix",
+      "severity": "hard",
+      "reason": "Choose class/kit for Branwen",
+      "source": "eemodsetup",
+      "comp_a": "#242",
+      "comp_b": "#600"
+    },
+    {
+      "a": "polytweak",
+      "b": "npc_tweak",
+      "severity": "hard",
+      "reason": "Choose class/kit for Cernd",
+      "source": "eemodsetup",
+      "comp_a": "Cernd; Nalia",
+      "comp_b": "Cernd; Nalia"
+    },
+    {
+      "a": "npc_ee",
+      "b": "npckit",
+      "severity": "hard",
+      "reason": "Choose class/kit for Imoen",
+      "source": "eemodsetup",
+      "comp_a": "#102, #104; #761, #762; #161; #722, #723, #724",
+      "comp_b": "#1400, #1410, #1411, #1412, #1413, #1414, #1415, #1416, #1417; Give Mazzy a Proper Truesword of Arvoreen Kit; #2300; #2500, #2510, #2511, #2512, #2513, #2514, #2515, #2516, #2517"
+    },
+    {
+      "a": "npckit",
+      "b": "polytweak",
+      "severity": "hard",
+      "reason": "Choose class/kit for Minsc",
+      "source": "eemodsetup",
+      "comp_a": "#2300",
+      "comp_b": "Keep Minsc as ranger, Make Minsc a barbarian (with original proficiencies), Make Minsc a barbarian (dual wielding)"
+    },
+    {
+      "a": "npc_ee",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Choose class/kit for Montaron",
+      "source": "eemodsetup",
+      "comp_a": "#321",
+      "comp_b": "#4090"
+    },
+    {
+      "a": "npckit",
+      "b": "npc_tweak",
+      "severity": "hard",
+      "reason": "Choose class/kit for Nalia",
+      "source": "eemodsetup",
+      "comp_a": "#2500, #2510, #2511, #2512, #2513, #2514, #2515, #2516, #2517",
+      "comp_b": "Nalia"
+    },
+    {
+      "a": "npc_ee",
+      "b": "xan",
+      "severity": "hard",
+      "reason": "Choose class/kit for Xan",
+      "source": "eemodsetup",
+      "comp_a": "#482, #483, #484",
+      "comp_b": "Change Xan's class to Fighter/Mage, Change Xan's class to Mage, Change Xan's class to Sorcerer, Change Xan's class to Wild Mage (ToB only)"
+    },
+    {
+      "a": "EET_Tweaks",
+      "b": "bg1npc",
+      "severity": "hard",
+      "reason": "Patch joinable NPCs to use the same portrait filenames for BG1 and BG2",
+      "source": "eemodsetup",
+      "comp_a": "BG1",
+      "comp_b": "#150, #155"
+    },
+    {
+      "a": "edwinromance",
+      "b": "thepicturestandard",
+      "severity": "hard",
+      "reason": "Choose one Edwin portrait",
+      "source": "eemodsetup",
+      "comp_a": "#1",
+      "comp_b": "BG1 Edwin, BG2 Edwin, Variant A, Variant B"
+    },
+    {
+      "a": "edwinromance",
+      "b": "cdtweaks",
+      "severity": "hard",
+      "reason": "Choose one Edwina portrait",
+      "source": "eemodsetup",
+      "comp_a": "Edwin Romance",
+      "comp_b": "#1180"
+    },
+    {
+      "a": "thepicturestandard",
+      "b": "gavin",
+      "severity": "hard",
+      "reason": "Choose one Gavin portrait",
+      "source": "eemodsetup",
+      "comp_a": "Vanilla, Lore Alternative",
+      "comp_b": "Gavin: Alternate Portraits (Default portrait is already installed) -> Dawnbringer, by Amaurea, #5, #6, #7, #8, #9"
+    },
+    {
+      "a": "kivan",
+      "b": "smilingimpcrossbantermod",
+      "severity": "hard",
+      "reason": "Choose one Kivan portrait",
+      "source": "eemodsetup",
+      "comp_a": "Install Herd's Alternative Portrait for Kivan.",
+      "comp_b": "#225"
     }
   ],
   "dependencies": [
@@ -874,6 +2252,741 @@
       "requires": "EEex",
       "type": "hard",
       "reason": "Requires EEex engine extensions"
+    },
+    {
+      "mod": "eet",
+      "requires": "EET_END",
+      "type": "hard",
+      "reason": "EET needs EET_End",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "iwd1_eet",
+      "requires": "icewind_eet",
+      "type": "hard",
+      "reason": "IWD needs support mods",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "iwd1_eet",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "IWD needs support mods",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "EEUITweaks",
+      "requires": "EET_gui",
+      "type": "hard",
+      "reason": "EEUITweaks",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "Fade",
+      "type": "hard",
+      "reason": "Kit Tweak needs NPC mod",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "icewind_eet",
+      "requires": "iwd1_eet",
+      "type": "hard",
+      "reason": "Support mods need main mod",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "DSOTSC",
+      "requires": "eet",
+      "type": "hard",
+      "reason": "Worldmap or EET required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "DSOTSC",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap or EET required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "velvet",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "ctbice",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "ctbvamp",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "ctbliberate",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "bonehilleet",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "sos",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "ctb",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap required",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "innershade",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "eilistraee",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "drizztsaga",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "soa",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "whitequeen",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "TOTDG",
+      "requires": "bp-bgt-worldmap",
+      "type": "hard",
+      "reason": "Worldmap optional",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "bg1npcmusic",
+      "requires": "bg1npc",
+      "type": "hard",
+      "reason": "BG1NPC Music needs BG1NPC",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "garrick-tt",
+      "requires": "bg1npc",
+      "type": "hard",
+      "reason": "Garrick - Tales of a Troubadour needs BG1NPC",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "butchery",
+      "requires": "Ascension",
+      "type": "hard",
+      "reason": "Butchery needs Ascension + SCS",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "butchery",
+      "requires": "stratagems",
+      "type": "hard",
+      "reason": "Butchery needs Ascension + SCS",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "bg1npc",
+      "requires": "drizztsaga",
+      "type": "hard",
+      "reason": "Drizzt Saga with Dynaheir's BG1NPC Quest needs delayed Drizzt",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "Fade",
+      "requires": "re",
+      "type": "hard",
+      "reason": "Fade NPC/Romantic Encounters",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "adrian",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #1",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "ajantisbg2",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "angelo",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #4",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "AurenAseph",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #6",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "BRANWEN",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #8",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "chloe",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #9",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "coran",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #10",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "deArnise",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #13",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "edwinromance",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #14",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "Fade",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #15",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "haldamir",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #16",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "isra_bg2",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #17",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "iylos",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #18",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "kelsey",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #19",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "Keto",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #20",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "nathaniel",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #22",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "nephele",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #23",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "ninde",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #24",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "re",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #25",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "saerileth",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #26",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "sarahtob",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #27",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "solaufein",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #28",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "tashia",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #29",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "TIAX",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #30",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "tsujatha",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #31",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "xan",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #32",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "xulaye_eet",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #33",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "yasraena",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #34",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "faren",
+      "requires": "yeslicknpc",
+      "type": "hard",
+      "reason": "Faren crossmod dependencies #35",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "isra",
+      "requires": "valerie",
+      "type": "hard",
+      "reason": "Isra/Valerie",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "isra",
+      "requires": "gavin",
+      "type": "hard",
+      "reason": "Isra/Gavin",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "Keto",
+      "requires": "kelsey",
+      "type": "hard",
+      "reason": "Keto/Kelsey",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "KLATU",
+      "requires": "adrian",
+      "type": "hard",
+      "reason": "Klatu disable romance music tweak needs Adrian",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "KLATU",
+      "requires": "kelsey",
+      "type": "hard",
+      "reason": "Klatu disable romance music tweak needs Kelsey",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "KLATU",
+      "requires": "isra_bg2",
+      "type": "hard",
+      "reason": "Klatu disable romance music tweak needs Isra",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "KLATU",
+      "requires": "kivan",
+      "type": "hard",
+      "reason": "Klatu disable romance music tweak needs Kivan",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "KLATU",
+      "requires": "xan",
+      "type": "hard",
+      "reason": "Klatu disable romance music tweak needs Xan",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "nathaniel",
+      "requires": "kelsey",
+      "type": "hard",
+      "reason": "Nathaniel/Kelsey",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "nathaniel",
+      "requires": "solaufein",
+      "type": "hard",
+      "reason": "Nathaniel/Solaufein",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "nephele",
+      "requires": "haerdalisromance",
+      "type": "hard",
+      "reason": "Nephele/Haer'Dalis Romance",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "petsy",
+      "requires": "nephele",
+      "type": "hard",
+      "reason": "Petsy/Nephele",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "kelsey",
+      "requires": "solaufein",
+      "type": "hard",
+      "reason": "Romance \"conflict\" reactions/Solaufein",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npcflirt",
+      "requires": "solaufein",
+      "type": "hard",
+      "reason": "Romance \"conflict\" reactions/Solaufein",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "Sirene_BG2",
+      "requires": "re",
+      "type": "hard",
+      "reason": "Sirene NPC for BG2:EE crossmod needs Romantic Encounters",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "ajantisbg1",
+      "requires": "bg1npc",
+      "type": "hard",
+      "reason": "AjantisBG1 Shield needs BG1NPC component",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "jimfix",
+      "requires": "stratagems",
+      "type": "hard",
+      "reason": "Components needs SCS component",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "eet",
+      "requires": "randomiser",
+      "type": "hard",
+      "reason": "Prevent Watcher's Keep statues from disappearing in case items were randomly placed on them by this mod",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "stratagems",
+      "requires": "Ascension",
+      "type": "hard",
+      "reason": "SCS Improved Ascension Encounters need Original Ascension",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "kelsey",
+      "requires": "Ascension",
+      "type": "hard",
+      "reason": "Kelsey needs Ascension to talk about it",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "askaria",
+      "requires": "chaosknight",
+      "type": "hard",
+      "reason": "Askaria needs her Kit",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "eet",
+      "type": "hard",
+      "reason": "Alora class/kit for BG1 or BG2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "alora",
+      "type": "hard",
+      "reason": "Alora class/kit for BG1 or BG2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "divine_remix",
+      "requires": "eet",
+      "type": "hard",
+      "reason": "Branwen class/kit for BG1",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "divine_remix",
+      "requires": "BRANWEN",
+      "type": "hard",
+      "reason": "Branwen class/kit for BG1",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "BRANWEN",
+      "type": "hard",
+      "reason": "Branwen class/kit for BG1 or BG2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "coran",
+      "type": "hard",
+      "reason": "Coran class/kit for BG1 or BG2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "cdtweaks",
+      "requires": "eet",
+      "type": "hard",
+      "reason": "Montaron class/kit for BG1",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "npc_ee",
+      "requires": "xan",
+      "type": "hard",
+      "reason": "Xan class/kit for BG1 or BG2",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "bg1npc",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'BG1NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "darkhorizons",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Dark Horizons'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "darkhorizonsbgee",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Dark Horizons'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "DSOTSC",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Dark Side of the Sword Coast'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "drizztsaga",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Drizzt Saga'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "eilistraee",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Eilistraees Song'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "finchnpc",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Finch NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "gavin",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Gavin BG1 or BG2 NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "gavin_bg2",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Gavin BG1 or BG2 NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "innershade",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Innershade'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "indinpc",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Indira BG1 NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "isra",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Isra BG1 and BG2 NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "isra_bg2",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Isra BG1 and BG2 NPC'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "rr",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Rogue Rebalancing'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "Sellswords",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Sellswords'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "karatur",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'T'was a Slow Boat from Kara'tur'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "TOTDG",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Tales of the Deep Gardens'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "whitequeen",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'The White Queen'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "tod",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Tower of Deception'",
+      "source": "eemodsetup"
+    },
+    {
+      "mod": "thepicturestandard",
+      "requires": "valerie",
+      "type": "hard",
+      "reason": "Alternate Portraits for 'Valerie BG1 NPC'",
+      "source": "eemodsetup"
     }
   ],
   "ordering": [
