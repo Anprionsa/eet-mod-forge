@@ -5317,6 +5317,10 @@
       {
         "d": "2026-03-10",
         "m": "Added from Infinity Insanity WeiDU logs"
+      },
+      {
+        "d": "2026-03-11",
+        "m": "Phase corrected from BG1 to SoA; author identified as TeamBG"
       }
     ],
     "ph": [
@@ -10557,6 +10561,10 @@
       {
         "d": "2026-03-10",
         "m": "Added from Infinity Insanity WeiDU logs"
+      },
+      {
+        "d": "2026-03-11",
+        "m": "Renamed from Gromnir; author corrected to WildGirl/Austin87"
       }
     ],
     "ph": [
@@ -34822,6 +34830,12 @@
         "wc": "0",
         "wq": "single_comp",
         "cn": 0
+      }
+    ],
+    "cl": [
+      {
+        "d": "2026-03-11",
+        "m": "Extracted from cdtweaks split group as standalone mod"
       }
     ]
   },

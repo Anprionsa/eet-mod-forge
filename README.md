@@ -270,6 +270,15 @@ This regenerates all `data/*.json` files.
 
 ## Changelog
 
+### v1.3.0 (2026-03-11)
+- Data accuracy sweep — corrected game phases, categories, and authors for 10 mods based on community feedback
+- Moved mods to correct categories: Liberation of Hlondeth, Have Ice, Grey Clan, Velvetfoot, Sniff
+- Another Fine Hell extracted from Tweaks Anthology split group as standalone mod
+- Renamed mods for accuracy: TOBR (was Gromnir), Dark Horizons Legacy, Velvetfoot (was Velvet NPC), Sniff (was Sniff NPC)
+- New mod: Autumn's Twilight (BG2 quest mod by Pablo Alejandro Ramos)
+- Pretty-printed data JSON files for contributor readability
+- 636 mods in catalog, 634 with URLs
+
 ### v1.2.0 (2026-03-11)
 - Cross-platform presets for Mac/Linux users (excludes EEex and Windows-only mods)
 - Collapsible sidebar sections (Filters, Presets, Authors, Categories)
