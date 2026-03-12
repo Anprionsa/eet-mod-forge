@@ -2184,6 +2184,24 @@
       "source": "eemodsetup",
       "comp_a": "Install Herd's Alternative Portrait for Kivan.",
       "comp_b": "#225"
+    },
+    {
+      "a": "faiths_and_powers",
+      "b": "dw_talents",
+      "severity": "partial",
+      "reason": "Sphere system and cleric kit overhauls deeply conflict; avoid mixing full stop per FnP documentation"
+    },
+    {
+      "a": "TomeAndBlood",
+      "b": "dw_talents",
+      "severity": "soft",
+      "reason": "Sorcerer variants may conflict; avoid mixing the complex kit overhauls from both mods"
+    },
+    {
+      "a": "ArtisansKitpack",
+      "b": "dw_talents",
+      "severity": "soft",
+      "reason": "Kit overhauls tread on same ideas as ToF's revised kits; may conflict with ArtisansKitpack overhauls"
     }
   ],
   "dependencies": [
@@ -3088,6 +3106,16 @@
       "after": "stratagems",
       "before": "randomiser",
       "reason": "Install after SCS, before Randomizer"
+    },
+    {
+      "mod": "fnp_multiclass",
+      "after": "faiths_and_powers",
+      "reason": "Multiclass extension of Faiths and Powers; must install after the main FnP mod"
+    },
+    {
+      "mod": "faiths_and_powers",
+      "after": "TomeAndBlood",
+      "reason": "Install Faiths and Powers after Tome and Blood per FnP documentation"
     }
   ],
   "essentials": [

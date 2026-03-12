@@ -28046,7 +28046,7 @@
       "ToB"
     ],
     "u": "https://github.com/UnearthedArcana/Faiths_and_Powers",
-    "no": "Use at most one of these!Install Faiths & Powers after Tome & Blood.Install Faiths & Powers before Workshop Kitpack and OlvynSpells.We plan to use these components:"
+    "no": "Multiclass extension for Faiths and Powers. Install after Faiths and Powers (which itself goes after Tome & Blood but before Workshop Kitpack and OlvynSpells). Component 95 (Multiclass Cleric kits) must go AFTER all other kit mods. Use at most one multiclass option."
   },
   {
     "i": 341,
