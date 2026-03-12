@@ -2449,7 +2449,7 @@
     {
       "mod": "bg1npc",
       "requires": "drizztsaga",
-      "type": "hard",
+      "type": "soft",
       "reason": "Drizzt Saga with Dynaheir's BG1NPC Quest needs delayed Drizzt",
       "source": "eemodsetup"
     },
@@ -2463,21 +2463,21 @@
     {
       "mod": "faren",
       "requires": "adrian",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #1",
       "source": "eemodsetup"
     },
     {
       "mod": "faren",
       "requires": "ajantisbg2",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #2",
       "source": "eemodsetup"
     },
     {
       "mod": "faren",
       "requires": "angelo",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #4",
       "source": "eemodsetup"
     },
@@ -2491,7 +2491,7 @@
     {
       "mod": "faren",
       "requires": "BRANWEN",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #8",
       "source": "eemodsetup"
     },
@@ -2540,7 +2540,7 @@
     {
       "mod": "faren",
       "requires": "isra_bg2",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #17",
       "source": "eemodsetup"
     },
@@ -2610,7 +2610,7 @@
     {
       "mod": "faren",
       "requires": "solaufein",
-      "type": "hard",
+      "type": "soft",
       "reason": "Faren crossmod dependencies #28",
       "source": "eemodsetup"
     },
@@ -2666,14 +2666,14 @@
     {
       "mod": "isra",
       "requires": "valerie",
-      "type": "hard",
+      "type": "soft",
       "reason": "Isra/Valerie",
       "source": "eemodsetup"
     },
     {
       "mod": "isra",
       "requires": "gavin",
-      "type": "hard",
+      "type": "soft",
       "reason": "Isra/Gavin",
       "source": "eemodsetup"
     },
@@ -2694,7 +2694,7 @@
     {
       "mod": "KLATU",
       "requires": "kelsey",
-      "type": "hard",
+      "type": "soft",
       "reason": "Klatu disable romance music tweak needs Kelsey",
       "source": "eemodsetup"
     },
@@ -2708,7 +2708,7 @@
     {
       "mod": "KLATU",
       "requires": "kivan",
-      "type": "hard",
+      "type": "soft",
       "reason": "Klatu disable romance music tweak needs Kivan",
       "source": "eemodsetup"
     },
@@ -2729,7 +2729,7 @@
     {
       "mod": "nathaniel",
       "requires": "solaufein",
-      "type": "hard",
+      "type": "soft",
       "reason": "Nathaniel/Solaufein",
       "source": "eemodsetup"
     },
@@ -2750,14 +2750,14 @@
     {
       "mod": "kelsey",
       "requires": "solaufein",
-      "type": "hard",
+      "type": "soft",
       "reason": "Romance \"conflict\" reactions/Solaufein",
       "source": "eemodsetup"
     },
     {
       "mod": "npcflirt",
       "requires": "solaufein",
-      "type": "hard",
+      "type": "soft",
       "reason": "Romance \"conflict\" reactions/Solaufein",
       "source": "eemodsetup"
     },
@@ -2834,14 +2834,14 @@
     {
       "mod": "divine_remix",
       "requires": "BRANWEN",
-      "type": "hard",
+      "type": "soft",
       "reason": "Branwen class/kit for BG1",
       "source": "eemodsetup"
     },
     {
       "mod": "npc_ee",
       "requires": "BRANWEN",
-      "type": "hard",
+      "type": "soft",
       "reason": "Branwen class/kit for BG1 or BG2",
       "source": "eemodsetup"
     },

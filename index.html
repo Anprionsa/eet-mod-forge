@@ -532,13 +532,14 @@ function ConflictAlerts({conflicts,depsMissing,onAddDep,onNavigate}){
           <span style={{color:'var(--txd)',fontSize:'.72rem',flexShrink:0}}>{c.reason}</span>
         </div>
       ))}
-      {depsMissing.map((d,i)=>(
-        <div key={'d'+i} className="alert-bar alert-dep">
-          <span className="dep-dot"/>
-          <span style={{flex:1}}><b style={navStyle} onClick={()=>onNavigate(d.mod)}>{d.mod.n}</b> requires <b style={navStyle} onClick={()=>onNavigate(d.target)}>{d.target.n}</b></span>
+      {depsMissing.map((d,i)=>{const isSoft=d.type==='soft';return(
+        <div key={'d'+i} className="alert-bar" style={isSoft?{borderColor:'#1a3a4a',background:'#0a1a2a',color:'var(--blu)'}:{borderColor:'#204a20',background:'#0e1e0e',color:'var(--grn)'}}>
+          <span style={{width:7,height:7,borderRadius:'50%',background:isSoft?'var(--blu)':'var(--grn)',display:'inline-block',marginRight:3,flexShrink:0}}/>
+          <span style={{flex:1}}><b style={navStyle} onClick={()=>onNavigate(d.mod)}>{d.mod.n}</b>{isSoft?' suggests ':' requires '}<b style={navStyle} onClick={()=>onNavigate(d.target)}>{d.target.n}</b></span>
           <button className="bt bs" style={{flexShrink:0}} onClick={()=>onAddDep(d.target)}>+ Add</button>
         </div>
-      ))}
+      )})}
+
     </div>);
 }
 
