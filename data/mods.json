@@ -81,7 +81,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://github.com/Pocket-Plane-Group/bg1ub/releases",
-    "no": "Restores cut BG1 content. Install before Jarl's Adventure Pack and Tamoko. Use latest master version. Some components overlap with EE fixes.",
+    "no": "Restores cut BG1 content. Install before Jarl's Adventure Pack and Tamoko. Use latest master version. Some components overlap with EE fixes. Each of the Unfinished Business mods restores cut content for its respective game.Install BG1 Unfinished Business before Jarl’s Adventure Pack and Tamoko NPC.",
     "a": "icelus, devSin, SimDing0, Idobek, Ascension64, CamDawg, SixOfSpades, Dudley",
     "rq": "Install on BG1",
     "ic": "NTotSC [30:Nim Furlwing, 32:Svlast's Torment]",
@@ -248,7 +248,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://forums.beamdog.com/discussion/33291/tenya-thermidor-v1-3/p1",
-    "no": "Tenya Thermidor\nCoutelier's original:\nthermidor-v1-3\nCleric, seems incompatible with Garrick TT",
+    "no": "Tenya Thermidor\nCoutelier's original:\nthermidor-v1-3\nCleric, seems incompatible with Garrick TT Install Garrick’s Infatuation, Garrick: Tales of a Troubadour for EET and Tenya Thermidor for EET in that order some time after EET Start and BG1 NPC Project’s PID (player initiated dialogs) component...",
     "a": "Coutelier",
     "rq": "Install on BG1",
     "ic": "garrick-tt",
@@ -598,7 +598,7 @@
     "t": "k9roughworld",
     "n": "Rough World",
     "c": "PRE EET BGEE MODS",
-    "no": "Most options increase difficulty in inconvenient ways. Recommended: Improved Beggars and Random Weather components only.",
+    "no": "Most options increase difficulty in inconvenient ways. Recommended: Improved Beggars and Random Weather components only. We’re using the below options which add interesting effects without making the game stupid harder. Specifically, we use the components of Improved Beggars and Reputation Rebalanced.This mod likely overwrites BG1 filesInstall Rough World before EET Start!",
     "co": [
       {
         "n": "Install Scaled Spawning (BGEE Only): BETA 1.41",
@@ -1718,7 +1718,7 @@
     "n": "Auto Loot",
     "c": "INTERFACE",
     "u": "https://forums.beamdog.com/discussion/69899",
-    "no": "Bubb's AutoLoot\nAn outdated mod from 2018, but it now has a recently updated fork by LCA\nhttps://github.com/LCA-EET/AutoLoot\nInstalls on BGEE1&2 and EET. Compatibility with other interface changing mods\nseems iffy; AutoLoot tries to dynamically change UI.MENU, but resorts to preset\nchanges if particular bits have already been modified.\nIncompatible with SoF based mods (SCS, ToF, MiH). Those mods will break the\nfunctionality of this one. If installed before, ToF's kits fail to install. If\ninstall",
+    "no": "Bubb's AutoLoot\nAn outdated mod from 2018, but it now has a recently updated fork by LCA\nhttps://github.com/LCA-EET/AutoLoot\nInstalls on BGEE1&2 and EET. Compatibility with other interface changing mods\nseems iffy; AutoLoot tries to dynamically change UI.MENU, but resorts to preset\nchanges if particular bits have already been modified.\nIncompatible with SoF based mods (SCS, ToF, MiH). Those mods will break the\nfunctionality of this one. If installed before, ToF's kits fail to install. If\ninstall LCA updated it to add EET, IWDEE, BGEE, and SoD compatibility.Install Auto Loot after Love Conquers All and all mods that change the game’s user interface (UI).",
     "co": [
       {
         "n": "Bubb's Auto Loot, for Baldur's Gate Enhanced Edition Games",
@@ -1967,7 +1967,7 @@
     "n": "Druid Grove Makeover",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
     "u": "https://github.com/thisisulb/DruidGroveMakeover/releases",
-    "no": "Druid Grove Area Visual Makeover\nIncompatible with BGGO above.",
+    "no": "Druid Grove Area Visual Makeover\nIncompatible with BGGO above. Hundreds of areas were slightly tweaked, including some with animated water effects.If you use Denoised Areas instead of BGGOEET, install those mods much earlier in the order instead of BGGOEET.",
     "a": "Ulb",
     "ic": "BG2EE_AI_Denoised_Areas",
     "ph": [
@@ -2209,7 +2209,7 @@
     "n": "Infinity Sounds",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
     "u": "https://github.com/Spellhold-Studios/Infinity-Sounds",
-    "no": "Restores and improves classic BG1 sounds",
+    "no": "Restores and improves classic BG1 sounds This mod can change many sounds to what they were in the original BG1 version, as well as adding voice acting and ambient sounds to some creatures that lacked it or had it sparsely.",
     "a": "Argent77",
     "co": [
       {
@@ -2371,7 +2371,7 @@
     "n": "Portraits Portraits Everywhere",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
     "u": "https://github.com/smeagolheart/Portraits-Portraits-Everywhere",
-    "no": "Adds portraits for NPCs who lack them",
+    "no": "Adds portraits for NPCs who lack them Adds portraits to various minor NPCs throughout the game that lacked them.Install Portraits Portraits Everywhere near the end of your mod install order, soon before EET End!",
     "a": "Isandir",
     "co": [
       {
@@ -2528,7 +2528,7 @@
     "t": "bg2ee_ai_denoised_areas",
     "n": "BG2:EE AI Denoised Areas",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
-    "no": "Slightly improves area background image quality. Alternative: Baldur's Gate Graphic Overhaul (more comprehensive).",
+    "no": "Slightly improves area background image quality. Alternative: Baldur's Gate Graphic Overhaul (more comprehensive). If you’d prefer to use the Denosied Areas, install them here.I recommend installing these before mods that may replace maps. Install TDDz immediately after EET Start, then install Hall of Knowledge!",
     "co": [
       {
         "n": "BG2EE_AI_Denoised_Areas",
@@ -2557,7 +2557,7 @@
     "n": "Made in Heaven: Fixes & Restorations",
     "c": "RESTORATIONS",
     "u": "https://github.com/AngelGryph/MadeInHeaven_FixesAndRestorations",
-    "no": "Sort of a faceless mixed bag. Mostly things that go better early before quests.\nMade in Heaven: Fixes & Restorations (UNRELEASED!!)\nUnreleased, but functional. Retreads some of the same ground as the Unfinished\nBusiness mods and Almateria's Restoration.",
+    "no": "Sort of a faceless mixed bag. Mostly things that go better early before quests.\nMade in Heaven: Fixes & Restorations (UNRELEASED!!)\nUnreleased, but functional. Retreads some of the same ground as the Unfinished\nBusiness mods and Almateria's Restoration. That doesn’t necessarily make it bad, but we have other plans!Install Made in Heaven Fixes and Restorations after EE Fixpack and Spell Revisions.",
     "co": [
       {
         "n": "MiH P&P-based Fixpack",
@@ -2767,7 +2767,7 @@
     "n": "Animal Companions",
     "c": "RESTORATIONS",
     "u": "https://github.com/thisisulb/AnimalCompanions",
-    "no": "Animal Companions\nNote: Overwrites prior changes to Rod of Resurrection. Checked: D0Questpack,\nJtweaks, SCS\nIt asks *three* times for imput. Bit of a hamper on automated installs (ie:\nProject Infinity mega installs)",
+    "no": "Animal Companions\nNote: Overwrites prior changes to Rod of Resurrection. Checked: D0Questpack,\nJtweaks, SCS\nIt asks *three* times for imput. Bit of a hamper on automated installs (ie:\nProject Infinity mega installs) Druids and Rangers can get an animal companion that gradually increases in power in addition to their normal class features.",
     "a": "Ulb",
     "ic": "Overwrites prior changes to Rod of Resurrection",
     "ph": [
@@ -2795,7 +2795,7 @@
     "c": "QUEST MODS BG1",
     "s": "Jastey's base game retoolings",
     "u": "https://github.com/Gibberlings3/EndlessBG1/releases",
-    "no": "Most of Jastey's mods that deal with reworking the games' pace basically ask to\ngo first among quests. So we bunch them up together here.\nEndless BG1",
+    "no": "Most of Jastey's mods that deal with reworking the games' pace basically ask to\ngo first among quests. So we bunch them up together here.\nEndless BG1 Don’t install the component “Eltan is in the Palace” due to bugs! EndlessBG1 & Transitions are better ways to stay in the BG1 world longer!Install EndlessBG1 before Transitions if you install them together. Transitions seemingly does most of what EndlessBG1 does and more!Install EndlessBG1 before Jarl’s Adventure Pack, Brage’s Redemption, and Romantic Encounters for BG1.",
     "a": "jastey",
     "ph": [
       "BG1",
@@ -2968,7 +2968,7 @@
     "c": "QUEST MODS BG1",
     "s": "Jastey's base game retoolings",
     "u": "https://github.com/Gibberlings3/Another_Fine_Hell/releases/tag/vAlpha_230919",
-    "no": "Another Fine Hell for SoD\npretty sure it should go in between Endless BG1 and Jastey's Tweaks for SoD\nrenders moot some of the ending related components of Jastey's Tweaks for SoD",
+    "no": "Another Fine Hell for SoD\npretty sure it should go in between Endless BG1 and Jastey's Tweaks for SoD\nrenders moot some of the ending related components of Jastey's Tweaks for SoD Adds Siege of Dragonspear content and provides another reason why the party may fall from public favor.Install Another Fine Hell after Boareskyr Bridge Scene.",
     "a": "jastey",
     "ph": [
       "SoD"
@@ -3010,7 +3010,7 @@
     "c": "QUEST MODS BG1",
     "s": "Jastey's base game retoolings",
     "u": "https://github.com/Gibberlings3/Jasteys_SoD_Tweakpack",
-    "no": "Jastey's Tweaks for SoD and EET (and BGT)\ngoes after Endless and Another fine hell",
+    "no": "Jastey's Tweaks for SoD and EET (and BGT)\ngoes after Endless and Another fine hell Among other things, this mod improves NPC interactions in SoD.Install Jastey’s SoD Tweakpack before Imoen 4 Ever (SoD components) then Road to Discovery.From this mod, we use these components.",
     "co": [
       {
         "n": "Ending Independent on PC Replies",
@@ -3190,7 +3190,7 @@
     "c": "QUEST MODS BG1",
     "s": "Jastey's base game retoolings",
     "u": "https://github.com/Gibberlings3/The_Boareskyr_Bridge_Scene/releases",
-    "no": "The Boareskyr Bridge Scene\ngoes before road to discovery",
+    "no": "The Boareskyr Bridge Scene\ngoes before road to discovery Improves this specific SoD scene and grants the party more choice over how to handle the situation.",
     "a": "jastey",
     "ph": [
       "SoD"
@@ -3388,7 +3388,7 @@
     "c": "QUEST MODS BG1",
     "s": "Jastey's base game retoolings",
     "u": "https://github.com/Gibberlings3/The_Calling/releases",
-    "no": "#L-TRANSITIONS-MAZE;Transitions - Clean up the wounded from the thieves' maze\n#L-TRANSITIONS-ELMINSTER;Transitions - Elminster makes an appearance outside of\nthe Ducal Palace\n#L-TRANSITIONS-ELTAN_HOUSE_BG_N;Transitions - Duke Eltan's reward option: House\nnear Ducal Palace\n#L-TRANSITIONS-ELTAN_HOUSE_HEDGE;Transitions - Duke Eltan's reward option: Cabin\nin High Hedge\n#L-TRANSITIONS-ELTAN_HOUSE_BEREGOST_NW;Transitions - Duke Eltan's reward option:\nGray house in NW Beregost\n#L-TRANSITIONS-ELTAN_HOUS",
+    "no": "#L-TRANSITIONS-MAZE;Transitions - Clean up the wounded from the thieves' maze\n#L-TRANSITIONS-ELMINSTER;Transitions - Elminster makes an appearance outside of\nthe Ducal Palace\n#L-TRANSITIONS-ELTAN_HOUSE_BG_N;Transitions - Duke Eltan's reward option: House\nnear Ducal Palace\n#L-TRANSITIONS-ELTAN_HOUSE_HEDGE;Transitions - Duke Eltan's reward option: Cabin\nin High Hedge\n#L-TRANSITIONS-ELTAN_HOUSE_BEREGOST_NW;Transitions - Duke Eltan's reward option:\nGray house in NW Beregost\n#L-TRANSITIONS-ELTAN_HOUS Alleluia!Install The Calling before Brandock the Mage and SCS.",
     "a": "CamDawg",
     "ph": [
       "BG1",
@@ -3432,7 +3432,7 @@
     "c": "QUEST MODS BG1",
     "s": "Subtledoctor's early game reshuffling",
     "u": "https://github.com/UnearthedArcana/BP_in_BG",
-    "no": "BP in BG\nsays to install early. SD places it after UI?",
+    "no": "BP in BG\nsays to install early. SD places it after UI? The vendor stocks are different in this version compared to the minigame, and the cash & EXP rewards are lesser. Also install it before Made in Heaven Encounters & Quests and SubtleDoctor’s Hotfixes.",
     "co": [
       {
         "n": "add access to the Black Pits in BGEE/EET",
@@ -3493,7 +3493,7 @@
     "c": "QUEST MODS BG1",
     "s": "Quest packs BG1",
     "u": "https://github.com/Gibberlings3/BG_Quests_And_Encounters",
-    "no": "Anything that introduce quests or encounters, small or big\nBaldur's Gate Mini Quests and Encounters\ngoes before BG1NPC",
+    "no": "Anything that introduce quests or encounters, small or big\nBaldur's Gate Mini Quests and Encounters\ngoes before BG1NPC BGQE adds a bunch of minor quests - just as the name says - such as helping Noober find a home, handling some slimes, helping an ugly Half-Orc with his lover, adding minor content to the Candlekeep In...",
     "co": [
       {
         "n": "Slime Quest",
@@ -3809,7 +3809,7 @@
     "c": "QUEST MODS BG1",
     "s": "Quest packs BG1",
     "u": "https://github.com/GraionDilach/ExtraExpandedEnhancedEncounters",
-    "no": "Extra Enhanced Expanded Encounters\ngoes after Ascalon's Questpack\nWARNING: most of this content is wildly unbalanced",
+    "no": "Extra Enhanced Expanded Encounters\ngoes after Ascalon's Questpack\nWARNING: most of this content is wildly unbalanced Adds some Gnoll Stronghold content.Install Extra Enhanced Expanded Encounters after Ascalon’s Quest Pack, Brage’s Redemption, Brandock the Mage, and Glam’s NPC Pack.",
     "co": [
       {
         "n": "EEEE: Melia Quicknight, Crossroads",
@@ -3967,7 +3967,7 @@
     "c": "QUEST MODS BG1",
     "s": "Quest packs BG1",
     "u": "https://github.com/Gibberlings3/BG1NPC/releases",
-    "no": "BG1 NPC Project\nSkips installing romances except those with BG2 continuations. Banters are fine,\nbut the romances are of uneven quality; Shar-Teel's is particularly atrocious\nI've choosen the standard timer options for brevity, you can go and pick the\nfaster or slower ones",
+    "no": "BG1 NPC Project\nSkips installing romances except those with BG2 continuations. Banters are fine,\nbut the romances are of uneven quality; Shar-Teel's is particularly atrocious\nI've choosen the standard timer options for brevity, you can go and pick the\nfaster or slower ones The Music Pack - installed after the BG1 NPC Project - adds appropriate music to some unvoiced dialog lines. Install the player-initiated dialog component of BG1 NPC Project after Mazzy MegaMod.",
     "a": "Blucher, Kish, Andyr, Domi, cmorgan, AstroBryGuy",
     "ic": "bg1ub:27 [Sarevok's Extended Diary]",
     "ph": [
@@ -4241,7 +4241,7 @@
     "c": "QUEST MODS BG1",
     "s": "Bioware BG1 NPC expansions",
     "u": "https://github.com/Gibberlings3/Ajantis_BG1_Expansion/releases",
-    "no": "Some mods seem to look for Ajantis BG1, so I put that and similar mods just after\nBG1NPC\nAjantis BG1 Expansion\ngoes after EndlessBG1, Transitions, Northern Tales, and BG1NPC",
+    "no": "Some mods seem to look for Ajantis BG1, so I put that and similar mods just after\nBG1NPC\nAjantis BG1 Expansion\ngoes after EndlessBG1, Transitions, Northern Tales, and BG1NPC Install the crossmod component near the end of your mod wad, soon before EET End!Install Ajantis BG1 Expansion after EndlessBG1, Imoen 4 Ever (not the SoD component), Northern Tales of the Sword Coast...",
     "a": "jastey",
     "ph": [
       "BG1"
@@ -4283,7 +4283,7 @@
     "c": "QUEST MODS BG1",
     "s": "Bioware BG1 NPC expansions",
     "u": "https://github.com/Gibberlings3/CoranBGFriend/releases",
-    "no": "Coran's Extended BG Friendship Talks",
+    "no": "Coran's Extended BG Friendship Talks If you aren’t actively romancing Coran, the two of you get some friendly chats!If you have BG1 NPC Project installed, Coran’s mod-added talks begin after those finish.",
     "a": "Domi",
     "ph": [
       "BG1"
@@ -4888,7 +4888,7 @@
     "c": "QUEST MODS BG1",
     "s": "Vanilla content alterations/additions BG1",
     "u": "https://github.com/Gibberlings3/BS_Baldurans_Seatower",
-    "no": "Similar to quest packs, but more involved in adding to, using, or altering\nvanilla content\nBalduran's Seatower",
+    "no": "Similar to quest packs, but more involved in adding to, using, or altering\nvanilla content\nBalduran's Seatower We aren’t using Roxanne’s unofficial version that released sooner.Install Balduran's Seatower before Brage’s Redemption, Brandock the Mage, Breagar, and Grey the Dog.",
     "co": [
       {
         "n": "The BS Company presents Balduran's Seatower",
@@ -4944,7 +4944,7 @@
     "c": "QUEST MODS BG1",
     "s": "Vanilla content alterations/additions BG1",
     "u": "https://artisans-corner.com/candlekeep-revisited-2/",
-    "no": "Framed\ngoes after BG1NPC and REBG1. Does it conflict with Candlekeep Revisited?\n#L-FRAMED-VOICE;Framed - Use custom voice-overs for new chapter movies\n#L-FRAMED-NO_VOICE;Framed - Leave out the custom chapter voice-overs\nCandlekeep Revisited (normal placement)\nA rework of the BG1 tutorial prologue arc, fleshing out characters, giving more\ntasks to do and acknowledging your chosen class. Not released yet, but it could be\na decent mod for new players.\nArtisan: \"One thing I should note is that you c",
+    "no": "Framed\ngoes after BG1NPC and REBG1. Does it conflict with Candlekeep Revisited?\n#L-FRAMED-VOICE;Framed - Use custom voice-overs for new chapter movies\n#L-FRAMED-NO_VOICE;Framed - Leave out the custom chapter voice-overs\nCandlekeep Revisited (normal placement)\nA rework of the BG1 tutorial prologue arc, fleshing out characters, giving more\ntasks to do and acknowledging your chosen class. Not released yet, but it could be\na decent mod for new players.\nArtisan: \"One thing I should note is that you c This means you can loot Candlekeep before leaving as any class on your main character!Install Candlekeep Revisited before Jarl’s Adventure Pack.",
     "co": [
       {
         "n": "Candlekeep Revisited: BG1 Prologue Expansion",
@@ -5199,7 +5199,7 @@
     "c": "QUEST MODS BG1",
     "s": "Quest packs BG1",
     "u": "https://github.com/Spellhold-Studios/NTotSC",
-    "no": "Major BG1 quest expansion",
+    "no": "Major BG1 quest expansion It’s a BG1-style expansion north of the city of Baldur’s Gate!Install Dark Side of the Sword Coast (DSotSC)’s non-spell components before Brage’s Redemption, Brandock the Mage, Mercenaries of the Swor...",
     "a": "Various",
     "co": [
       {
@@ -5333,7 +5333,7 @@
     ],
     "u": "https://github.com/Spellhold-Studios/TDDz",
     "a": "TeamBG, shadowlich",
-    "no": "Legacy mega-mod. TDDz is the EE-compatible version. Some components may be buggy."
+    "no": "Legacy mega-mod. TDDz is the EE-compatible version. Some components may be buggy. Thankee greatly to all others involved in this mod to get it where it is!JohnBob’s version also includes EE and EET updates, and at least the start of a French translation."
   },
   {
     "i": 522,
@@ -5399,7 +5399,7 @@
     "t": "bank_of_baldurs_gate",
     "n": "Bank of Baldur's Gate",
     "c": "QUEST MODS BG1",
-    "no": "Deposit gold in BG1 and retrieve it in BG2. Requires EET and a way to return inside Baldur's Gate city.",
+    "no": "Deposit gold in BG1 and retrieve it in BG2. Requires EET and a way to return inside Baldur's Gate city. Normally requires EET and a means of returning inside Baldur’s Gate city to matter.Install Bank of Baldur’s Gate after EET Start.",
     "co": [
       {
         "n": "Bank of Baldur's Gate",
@@ -5682,7 +5682,7 @@
       "BG1"
     ],
     "u": "https://github.com/The-Gate-Project/DarkHorizons",
-    "no": "Legacy tp2 version of Dark Horizons. The darkhorizonsbgee tp2 (i=512) is the current EE version."
+    "no": "Legacy tp2 version of Dark Horizons. The darkhorizonsbgee tp2 (i=512) is the current EE version. Unlike k4thos’s EET Mod Compatibility List, the latest Dark Horizons should be installed after EET Start! We may see how that goes.You may need to use the console command CLUAConsole:MoveToArea(\"CM3370\") to finish this module.Install Dark Horizons soon after EET Start."
   },
   {
     "i": 574,
@@ -5810,7 +5810,8 @@
     "ph": [
       "BG1"
     ],
-    "u": "https://github.com/Endarire/Some-Individuals-Mod-for-BGEE-BGT-and-EET"
+    "u": "https://github.com/Endarire/Some-Individuals-Mod-for-BGEE-BGT-and-EET",
+    "no": "The download link provided already has that fix applied."
   },
   {
     "i": 682,
@@ -5824,7 +5825,7 @@
     "ph": [
       "BG1"
     ],
-    "no": "Must use Default version (component 0) for EET. BP-BGT Worldmap version causes EET install failure.",
+    "no": "Must use Default version (component 0) for EET. BP-BGT Worldmap version causes EET install failure. Ensure you also install World Map after EET_End! I heard it was inspired by a cave in BG1 that seemed like it should be accessible but it wasn’t.",
     "co": [
       {
         "n": "The Stone of Askavar",
@@ -5839,7 +5840,7 @@
     "c": "QUEST MODS BG2",
     "s": "Vanilla content alterations/additions BG2",
     "u": "https://github.com/Pocket-Plane-Group/UnfinishedBusiness/releases",
-    "no": "Similar to quest packs, but more involved in adding to, using, or altering\nvanilla content\nUnfinished Business BG2",
+    "no": "Similar to quest packs, but more involved in adding to, using, or altering\nvanilla content\nUnfinished Business BG2 , How to Fix Broken Minsc/Boo Quest (BeamDog). BG2’s version restores a quest where Boo is kidnapped (!) and Minsc and co must rescue him, for what is Minsc without Boo?Install Unfinished Business for BG2 after Imoen 4 Ever.",
     "a": "Andyr, Cliffette, Barren, Icelus, Ghreyfain, SimDing0, DawidW, Nythrun, Kulyok; Angel Gryph",
     "ph": [
       "SoA"
@@ -6518,7 +6519,7 @@
     "c": "QUEST MODS BG2",
     "s": "Vanilla content alterations/additions BG2",
     "u": "https://github.com/Gibberlings3/Alternatives/releases",
-    "no": "Alternatives\nfeels like a thematic copout to me, but eh",
+    "no": "Alternatives\nfeels like a thematic copout to me, but eh Because sometimes the vanilla 2 options in BG2 on how to reach Spellhold aren’t enough.Install Alternatives after SimDing0’s Quest Pack.",
     "a": "Berelinde, jastey",
     "ph": [
       "SoA"
@@ -6542,7 +6543,7 @@
     "c": "QUEST MODS BG2",
     "s": "Vanilla content alterations/additions BG2",
     "u": "https://github.com/SpellholdStudios/Expanded_Thief_Stronghold/releases",
-    "no": "Expanded Thief Stronghold\nTypos to be fixed:\nhttps://github.com/SpellholdStudios/Expanded_Thief_Stronghold/issues/2",
+    "no": "Expanded Thief Stronghold\nTypos to be fixed:\nhttps://github.com/SpellholdStudios/Expanded_Thief_Stronghold/issues/2 The documentation from the author and Roxanne were sparse in details regarding this mod, but the BG2 Thief stronghold now has more content after getting it!Install Expanded Thief Stronghold before Her...",
     "a": "Gebhard Blucher",
     "rq": "EET",
     "ph": [
@@ -6791,7 +6792,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/InfinityMods/TowerOfDeception/releases",
-    "no": "Tower of Deception",
+    "no": "Tower of Deception This is a D&D module that I nearly ran for our D&D 3.5 group many years ago as part of a longer campaign in the World of Xeen.",
     "a": "Valiant; Lava Del'Vortel",
     "ph": [
       "SoA"
@@ -6904,7 +6905,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/Pocket-Plane-Group/Assassinations/releases/tag/v19",
-    "no": "MiH Fixpack also includes a Spacewarp spell, no need to repeat\nAssassinations",
+    "no": "MiH Fixpack also includes a Spacewarp spell, no need to repeat\nAssassinations Complete the quests in this mod to become an Athkatlan assassin!Install Assassinations before Xan BG2 and Mazzy Megamod.",
     "a": "Kulyok, jastey",
     "ph": [
       "SoA"
@@ -6927,7 +6928,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/Pocket-Plane-Group/Sellswords/releases",
-    "no": "The Sellswords",
+    "no": "The Sellswords Salvatore novels and involves visiting the Underdark and the birthplace of Drizzt.Install Sellswords before Xan BG2. NOTE THAT SOME QUESTS ARE BEST INSTALLED AFTER OTHER NON-QUEST MODS!THE NEXT SECTION (1.9.6) COVERS A SUGGESTED INSTALL ORDER FOR OTHER QUESTS WITH NO OBVIOUS DEPENDENCIES.THE SECTION AFTER THAT (1.9.",
     "a": "Kulyok; jastey",
     "ph": [
       "SoA"
@@ -6950,7 +6951,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/Pocket-Plane-Group/Back_to_Brynnlaw/releases",
-    "no": "Back to Brynnlaw",
+    "no": "Back to Brynnlaw The mod’s author recommends taking Xan and Imoen in your party on your return to Brynnlaw.",
     "a": "Kulyok, jastey",
     "ph": [
       "SoA"
@@ -6973,7 +6974,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/Pocket-Plane-Group/Dungeon_Crawl/releases",
-    "no": "Dungeon Crawl",
+    "no": "Dungeon Crawl The quest line starts in the Copper Coronet.Install Dungeon Crawl before Xan BG2.",
     "a": "Kulyok, Kayless, WoRm, jastey",
     "ph": [
       "SoA"
@@ -6996,7 +6997,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/SpellholdStudios/Fading_Promises/releases",
-    "no": "Fading Promises",
+    "no": "Fading Promises Be inspired to quest on behalf of a dead Paladin of Amaunator whose spirit clings to this world!Install Fading Promises after Imoen 4 Ever.",
     "a": "Berelinde; jastey",
     "ph": [
       "SoA"
@@ -7041,7 +7042,7 @@
     "c": "QUEST MODS BG2",
     "s": "Quest packs BG1",
     "u": "https://github.com/Gibberlings3/Romantic_Encounters_BG2/releases",
-    "no": "Romantic Encounters BG2\nCheck the readme carefully and choose the components and versions you would want.\nHalf of it it's about people doing the naughty, be sure about what you want here.",
+    "no": "Romantic Encounters BG2\nCheck the readme carefully and choose the components and versions you would want.\nHalf of it it's about people doing the naughty, be sure about what you want here. You’ve been warned.Implicitly, there’s also paid sex, at least in BG1!Generally, install Romantic Encounters for BG1 & BG2 before most mods that add NPCs. More specifically…Install Framed after BG1 Romantic Encounters.Install Romantic Encounters for BG1 after EndlessBG1 and Jarl’s Adventure Pack.",
     "a": "Kulyok, Ajnos, berelinde, Catseye, cmorgan, Domi, Evaine Dian, gertjanvh, jastey, magrat, Western Paladin, Aeryn, Cal Jones, Thimblerig",
     "ic": "Conceptual - Valygar Romance components clash with corthalaromantique and valygarfriendship, Blame the Moon references Cernd being a shapeshifter (odd with Totemic Cernd), Coran component clashes with coran (BG2)",
     "ph": [
@@ -8135,7 +8136,7 @@
     "n": "Region of Terror",
     "c": "QUEST MODS BG2",
     "u": "https://github.com/Spellhold-Studios/Region-of-Terror",
-    "no": "Installed (1 components). Added from WeiDU.log scan.",
+    "no": "Installed (1 components). Added from WeiDU.log scan. Install IWD in EET and IWD2 in EET before Region of Terror! Install IWD_EET_End after Region of Terror!",
     "co": [
       {
         "n": "Region Of Terror",
@@ -9134,7 +9135,8 @@
     "ph": [
       "SoA"
     ],
-    "u": "https://github.com/RoxanneSHS/LensHunt"
+    "u": "https://github.com/RoxanneSHS/LensHunt",
+    "no": "BG2 has unused files for a quest regarding the ‘broken lanthorn,’ and DavidW (author of SCS) and Roxanne (author of Shine on Caelar) each have separate versions of this quest. I recommend DavidW’s version since it’s likely less buggy.Install only ONE of these interpretations for Broken Lanthorn AKA Lens Hunt!"
   },
   {
     "i": 572,
@@ -9261,7 +9263,8 @@
     "ph": [
       "SoA"
     ],
-    "u": "https://github.com/Gitjas/Ascalons_Questpack"
+    "u": "https://github.com/Gitjas/Ascalons_Questpack",
+    "no": "These NPCs are included as one heading because they’re intended to be played together.Install Glam’s NPC Pack after Ascalon’s Quest Pack and Sandrah Saga."
   },
   {
     "i": 579,
@@ -9328,7 +9331,8 @@
     "ph": [
       "SoA"
     ],
-    "u": "https://github.com/Black-Wyrm-Lair/TorturedSoulsLite"
+    "u": "https://github.com/Black-Wyrm-Lair/TorturedSoulsLite",
+    "no": "I also recommend moving Kachiko’s starting locale to the Athkatla Docks.Install Tortured Souls Lite after Alternatives.Install Tortured Souls Lite before Sime."
   },
   {
     "i": 584,
@@ -9425,7 +9429,8 @@
     "ph": [
       "SoA"
     ],
-    "u": "https://github.com/Spellhold-Studios/Luxley-Family"
+    "u": "https://github.com/Spellhold-Studios/Luxley-Family",
+    "no": "Andrei is a Male Human Monk and Sebastian is a Male Human Bard (Playwright).Install the Luxley Family for BG2 after Nathaniel for BG2!Install Luxley Family for BG2 before Mazzy Megamod."
   },
   {
     "i": 643,
@@ -9458,7 +9463,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/The-Gate-Project/IWD1_EET"
+    "u": "https://github.com/The-Gate-Project/IWD1_EET",
+    "no": "Adds BG1 BeamDog and BioWare banter to the IWD 1 and IWD 2 in EET mods.Install Icewind Dale in EET Party Banter after IWD 1 in EET and IWD 2 in EET."
   },
   {
     "i": 644,
@@ -9598,7 +9604,8 @@
       "ToB"
     ],
     "u": "https://github.com/subtledoctor/IWD_EET_Integration",
-    "a": "Subtledoctor"
+    "a": "Subtledoctor",
+    "no": "Adds the IWD 1 & 2 campaigns to the EET campaign select menu, and optionally moves IWD1’s Heart of Winter expansion content to the start of BG2."
   },
   {
     "i": 649,
@@ -9734,7 +9741,8 @@
     "ph": [
       "SoA"
     ],
-    "u": "https://github.com/SpellholdStudios/BG1_NPCs_for_SoA_-_ToB"
+    "u": "https://github.com/SpellholdStudios/BG1_NPCs_for_SoA_-_ToB",
+    "no": "Adds the LG Male Dwarf Fighter/Cleric to BG2 as a recruitable companion."
   },
   {
     "i": 650,
@@ -9775,7 +9783,7 @@
     "c": "QUEST MODS ToB",
     "s": "Ascension and related mods",
     "u": "https://github.com/InfinityMods/Ascension/releases",
-    "no": "Ascension is a fairly popular ToB mod, and at some point some mods decided they\nneeded to use it as a base. So here they are grouped.\nAscension\nFix for Gromnir's arrows in the wrong inventory slot:\nhttps://github.com/InfinityMods/Ascension/pull/15",
+    "no": "Ascension is a fairly popular ToB mod, and at some point some mods decided they\nneeded to use it as a base. So here they are grouped.\nAscension\nFix for Gromnir's arrows in the wrong inventory slot:\nhttps://github.com/InfinityMods/Ascension/pull/15 One of the oldest BG2 mods, Ascension makes the final battle more difficult and memorable, allows Balthazar to be redeemed, and rewrites the final chapter (22 in EET).The latest 2.5 version is 2.0.",
     "a": "David Gaider, Westley Weimar; Shawne, Cuv, JediMindTrix, White Agnus, Turambar, Miloch, ALIEN, agb1, DawidW",
     "ic": "Wheel of Prophecy (balthazar issues, hopefully to be fixed in future releases)",
     "ph": [
@@ -9968,7 +9976,7 @@
     "c": "QUEST MODS ToB",
     "s": "Ascension and related mods",
     "u": "https://github.com/Pocket-Plane-Group/Turnabout",
-    "no": "Turnabout",
+    "no": "Turnabout During the final battle, you can revive certain companions to aid you in your fight if they aren’t already alive in your group: Install Turnabout after Ascension and Khalid for BG2.",
     "rq": "ascension",
     "ph": [
       "SoA"
@@ -10106,7 +10114,7 @@
     "c": "QUEST MODS ToB",
     "s": "Quest packs ToB",
     "u": "https://github.com/Pocket-Plane-Group/Reunion/releases",
-    "no": "Anything that introduce quests or encounters, small or big\nThe Reunion",
+    "no": "Anything that introduce quests or encounters, small or big\nThe Reunion If Nalia is in your party for ToB chapter 9 (EET makes it chapter 21), you can return to de’Arnise Keep for a quest.Install Reunion before Nalia at Last. As of this writing, de’Arnise Romance only has Shadows of Amn content while Nalia Romance and Nalia at Last only have Throne of Bhaal content.",
     "a": "Kulyok; jastey",
     "ph": [
       "SoA"
@@ -10152,7 +10160,7 @@
     "c": "QUEST MODS ToB",
     "s": "QUESTS CAPSTONE",
     "u": "https://github.com/Gibberlings3/Imoen4Ever/releases",
-    "no": "These are quests or tweaks that absolutely need to go after other quests, or\notherwise don't really have a better place in the order\nThemed Tweaks\nSelphira's scene fix:\n#L-SOD-IMOEN_WAND;Themed Tweaks - SoD - Give Imoen a special wand for palace attack\nscene\n#L-SOD-AID_IMOEN;Themed Tweaks - SoD - Allow PC to give aid to Imoen after attack\nin palace\n#L-SOD-STAT_BASED_OPTIONS;Themed Tweaks - SoD - Stat-based observations and quest\noptions\n#L-SOD-DITCH_CORWIN;Themed Tweaks - SoD - Ditch Tour-Guide",
+    "no": "These are quests or tweaks that absolutely need to go after other quests, or\notherwise don't really have a better place in the order\nThemed Tweaks\nSelphira's scene fix:\n#L-SOD-IMOEN_WAND;Themed Tweaks - SoD - Give Imoen a special wand for palace attack\nscene\n#L-SOD-AID_IMOEN;Themed Tweaks - SoD - Allow PC to give aid to Imoen after attack\nin palace\n#L-SOD-STAT_BASED_OPTIONS;Themed Tweaks - SoD - Stat-based observations and quest\noptions\n#L-SOD-DITCH_CORWIN;Themed Tweaks - SoD - Ditch Tour-Guide NG Female Human Thief Including her with other mods not coded for Imoen 4 Ever probably won’t break anything on a technical level, but may offer some awkward or nonsense conversations!NOTE: On EET as of mod version 11, Imo... (They don’t need to be installed consecutively in this order.)Install Imoen 4 Ever’s SoD components before Themed Tweaks then Road to Discovery.",
     "a": "jastey",
     "ic": "Imoen Romance (immersion), imoenisstone",
     "ph": [
@@ -10330,7 +10338,7 @@
     "c": "QUEST MODS ToB",
     "s": "QUESTS CAPSTONE",
     "u": "https://github.com/Argent77/A7-GolemConstruction/releases/tag/v6.1",
-    "no": "Golem Construction for Spellcasters\nTechnically a item/spell addition, but requires to go after Almateria's RP, but\nbefore Afaaq djinni companion.\nTalents of Faerun also include flesh and bone golems as HLA 10th lv spells,\ncausing a bit of redundancy.",
+    "no": "Golem Construction for Spellcasters\nTechnically a item/spell addition, but requires to go after Almateria's RP, but\nbefore Afaaq djinni companion.\nTalents of Faerun also include flesh and bone golems as HLA 10th lv spells,\ncausing a bit of redundancy. Pick one.Install Golem Construction for Spellcasters after Almateria’s Restoration Project and Spell Revisions.Install Golem Construction for Spellcasters before Afaaq the Djinn Fighter/Mage.",
     "a": "Argent77",
     "ph": [
       "BG1",
@@ -10466,7 +10474,8 @@
     "ph": [
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/Ehlastra"
+    "u": "https://github.com/RoxanneSHS/Ehlastra",
+    "no": "(Her name isn’t Elhastra.)Install Elhastra after Ascension."
   },
   {
     "i": 578,
@@ -11047,7 +11056,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG1 by Artisan",
     "u": "https://artisans-corner.com/kvel/",
-    "no": "only if you don't like the current soundset\nKvel BG1",
+    "no": "only if you don't like the current soundset\nKvel BG1 LE Male Drow Fighter",
     "co": [
       {
         "n": "Kvel NPC for Baldur's Gate: Enhanced Edition",
@@ -11233,7 +11242,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Pocket-Plane-Group/Coran_for_BGII",
-    "no": "Coran BG2",
+    "no": "Coran BG2 Adds Coran the CG Male Elf Fighter/Thief to BG2 as a recruitable companion.Install Coran for BG2 before Mazzy Megamod and Detective’s Guild of Athkatla.",
     "co": [
       {
         "n": "Coran NPC MOD for Baldur's Gate II",
@@ -11268,7 +11277,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Pocket-Plane-Group/Xan_for_BGII/releases",
-    "no": "[Kivan and Deheriana placeholder]\n[Tiax for BG2 placeholder]\nXan for BG2",
+    "no": "[Kivan and Deheriana placeholder]\n[Tiax for BG2 placeholder]\nXan for BG2 More of the defeatist-sounding voiceovers from the LN Male Elf Mage (Enchanter).",
     "a": "Kulyok, Sister Vigilante; jastey",
     "ph": [
       "SoA"
@@ -11611,7 +11620,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/SpellholdStudios/Beyond_the_Law",
-    "no": "Beyond the Law - Kova Kiyone",
+    "no": "Beyond the Law - Kova Kiyone Kiyone is a LG Female Ranger (Archer) and Kova is a CG Male Half-Elf Mage/Thief.Install Beyond the Law before Neh’taniel NPC for BG2.",
     "co": [
       {
         "n": "Beyond the Law with Kiyone original sound set",
@@ -11656,7 +11665,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://www.gibberlings3.net/mods/npcs/auren/",
-    "no": "Auren Aseph\nFighter. Note that Auren romances Nalia, in case you plan to use Nalia romance\nmods.",
+    "no": "Auren Aseph\nFighter. Note that Auren romances Nalia, in case you plan to use Nalia romance\nmods. Female NG Human Fighter.Install Auren Aseph the NPC before her soundtrack.",
     "a": "theacefes",
     "ph": [
       "SoA"
@@ -11700,7 +11709,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Gibberlings3/Sarah",
-    "no": "Sarah\nsarah crossmods with Auren",
+    "no": "Sarah\nsarah crossmods with Auren CG Female Human Ranger.Install Sarah before Darian.",
     "a": "theacefes",
     "ph": [
       "SoA"
@@ -11848,7 +11857,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Gibberlings3/Haldamir/releases",
-    "no": "[Xulaye placeholder]\nFeels incomplete and unrewarding, but YMMV\nHaldamir",
+    "no": "[Xulaye placeholder]\nFeels incomplete and unrewarding, but YMMV\nHaldamir TN Male Elf Fighter",
     "a": "Berelinde; CamDawg",
     "ph": [
       "SoA"
@@ -11896,7 +11905,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/SpellholdStudios/Arath_NPC/releases",
-    "no": "Arath",
+    "no": "Arath TN Male Human Druid.Install Arath before Faren and Mazzy Megamod.",
     "a": "K'aeloree",
     "ph": [
       "SoA",
@@ -11980,7 +11989,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Pocket-Plane-Group/Kelsey/releases",
-    "no": "Kelsey",
+    "no": "Kelsey NG Male Human Sorcerer.Install Kelsey after Ascension and Solaufein mods.Install Kelsey before Keto, Nathaniel for BG2, and Yasraena.",
     "a": "Jason Compton & Ghreyfain; K4thos",
     "ph": [
       "SoA"
@@ -12179,7 +12188,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/SpellholdStudios/Fade_NPC",
-    "no": "Fade",
+    "no": "Fade CN Female Fey’ri (Elven Tiefling Hybrid) Thief (Shadowdancer).",
     "a": "Mistress Elysia, Kai of Candlekeep, Lava Del'Vortel",
     "ph": [
       "SoA"
@@ -12342,7 +12351,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://www.gibberlings3.net/mods/npcs/evandra/",
-    "no": "Evandra\ngoes after adrian, Isra and xan",
+    "no": "Evandra\ngoes after adrian, Isra and xan TN Female Elf Mage",
     "a": "Rhaella",
     "ph": [
       "SoA"
@@ -12413,7 +12422,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/The-Gate-Project/Saradas_Magic_for_BGEE",
-    "no": "Saradas Magic BG2\nseems the new spells it adds can cause conflict issues",
+    "no": "Saradas Magic BG2\nseems the new spells it adds can cause conflict issues In BG1, he’s in the Friendly Arm Inn’s temple and sells some unique spells.Install Saradas Magic after EET Start.Install Saradas Magic before Saradas Magic II then Mazzy Megamod.",
     "a": "Saradas",
     "rq": "Install on BG1",
     "ic": "saradas_magic_2 with EET due to shared resources",
@@ -12642,7 +12651,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2 by Artisan",
     "u": "https://github.com/ArtemiusI/Pai-Na-NPC-mod-for-BG2-EE",
-    "no": "Pai'Na",
+    "no": "Pai'Na TN Female Half-Elf (Half-Drow) Druid (Hivemaster).Install Pai'Na after Unfinished Business for BG2, Sirene for BG2 and Will of the Wisps.Install Pai'Na before Mazzy Megamod.",
     "a": "Artemius_I",
     "ph": [
       "BG1",
@@ -12756,7 +12765,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2 by Lava",
     "u": "https://downloads.weaselmods.net/download/fhaugy/",
-    "no": "Fhaugy",
+    "no": "Fhaugy LN Male Half-Orc Monk",
     "co": [
       {
         "n": "Fhaugy - Baldur's Gate 2: EE NPC#",
@@ -12843,7 +12852,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2 by Lava",
     "u": "https://downloads.weaselmods.net/download/gahesh/",
-    "no": "Gahesh",
+    "no": "Gahesh LG Male Half-Orc Sorcerer",
     "a": "Lava Del'Vortel",
     "ph": [
       "SoA"
@@ -13245,7 +13254,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Pocket-Plane-Group/Branwen_for_BGII",
-    "no": "Branwen as joinable NPC in BG2",
+    "no": "Branwen as joinable NPC in BG2 TN Female Human Cleric",
     "a": "Pocket Plane Group",
     "co": [
       {
@@ -13269,7 +13278,7 @@
     "c": "NEW NPC MODS",
     "s": "New characters BG2",
     "u": "https://github.com/Pocket-Plane-Group/Tiax_for_BGII",
-    "no": "Installed (1 components). Added from WeiDU.log scan.",
+    "no": "Installed (1 components). Added from WeiDU.log scan. Makes ‘the mighty’ Tiax - the CE Gnome Thief/Cleric - recruitable in BG2 from his normal BG2 location.Install Tiax for BG2 before Mazzy Megamod and Detective’s Guild of Athkatla.",
     "a": "Pocket Plane Group",
     "co": [
       {
@@ -13395,7 +13404,7 @@
       "SoA",
       "ToB"
     ],
-    "no": "EET compatible since v1.5. Joinable elven sorcerer with romance for male PCs.",
+    "no": "EET compatible since v1.5. Joinable elven sorcerer with romance for male PCs. Female Halfling of an unknown class.Install Tashia before Fade and Rjali NPC.",
     "co": [
       {
         "n": "Tashia NPC for BG2: Throne of Bhaal",
@@ -13443,7 +13452,7 @@
       "SoA",
       "ToB"
     ],
-    "no": "Joinable tiefling fighter/thief with friendship path.",
+    "no": "Joinable tiefling fighter/thief with friendship path. LG Male Elf (Avariel) Ranger.Install Darian after Sarah.",
     "co": [
       {
         "n": "Darian NPC for BG2",
@@ -13660,7 +13669,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/Tsujatha"
+    "u": "https://github.com/RoxanneSHS/Tsujatha",
+    "no": "NE Male Elf Mage (Necromancer).Install Tsujatha before Hubelpot if you install them together.Install Tsujatha before Faren."
   },
   {
     "i": 544,
@@ -13739,7 +13749,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/YasraenaEET"
+    "u": "https://github.com/RoxanneSHS/YasraenaEET",
+    "no": "Chaotic Good Female Drow Fighter.Note that taking Yasraena in the starting dungeon of Shadows of Amn (“Chateau Irenicus”) is required to progress through her content, and she never returns to the part..."
   },
   {
     "i": 549,
@@ -13812,7 +13823,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/ArienaEE"
+    "u": "https://github.com/RoxanneSHS/ArienaEE",
+    "no": "NE Female Half-Orc Fighter"
   },
   {
     "i": 555,
@@ -13840,7 +13852,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/Corwin"
+    "u": "https://github.com/RoxanneSHS/Corwin",
+    "no": "LG Female Human Ranger"
   },
   {
     "i": 556,
@@ -13873,7 +13886,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/ChloeEET"
+    "u": "https://github.com/RoxanneSHS/ChloeEET",
+    "no": "TN Female Human Fighter"
   },
   {
     "i": 557,
@@ -14130,7 +14144,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Spellhold-Studios/Faren-NPC"
+    "u": "https://github.com/Spellhold-Studios/Faren-NPC",
+    "no": "TN Male Human Fighter >> Thief.Install Faren before Mazzy Megamod.Install Faren’s crossmod components in the crossmod section after the relevant NPCs."
   },
   {
     "i": 558,
@@ -14156,7 +14171,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/RoxanneSHS/KidoEE"
+    "u": "https://github.com/RoxanneSHS/KidoEE",
+    "no": "CE Male Human Bard"
   },
   {
     "i": 559,
@@ -14319,7 +14335,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/SpellholdStudios/Silver_Star_NPC"
+    "u": "https://github.com/SpellholdStudios/Silver_Star_NPC",
+    "no": "NE Female Elf Thief (Assassin).Install Silver Star before Detective’s Guild of Athkatla."
   },
   {
     "i": 565,
@@ -14461,7 +14478,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Gibberlings3/Kivan_and_Deheriana"
+    "u": "https://github.com/Gibberlings3/Kivan_and_Deheriana",
+    "no": "Kivan is a CG Male Elf Ranger (Archer) and Deheriana is a ‘secret’ NPC, a NG Female Elf Fighter/Mage/Cleric (default) OR Mage (Diviner) OR Mage (Enchanter) OR Mage (Wild Mage)."
   },
   {
     "i": 592,
@@ -14494,7 +14512,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Gibberlings3/Angelo"
+    "u": "https://github.com/Gibberlings3/Angelo",
+    "no": "CN Male Human Fighter >> Mage.Install Angelo before Mazzy Megamod."
   },
   {
     "i": 593,
@@ -14573,7 +14592,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Gibberlings3/Aran-Whitehand"
+    "u": "https://github.com/Gibberlings3/Aran-Whitehand",
+    "no": "The mod’s author encouraged dual classing this character.Install Aran Whitehand before Mazzy Megamod."
   },
   {
     "i": 596,
@@ -14771,7 +14791,8 @@
     "ph": [
       "BG1"
     ],
-    "u": "https://www.nexusmods.com/baldursgate2ee/mods/60"
+    "u": "https://www.nexusmods.com/baldursgate2ee/mods/60",
+    "no": "(Not to be confused with the recruitable NPC Nathaniel.)Install Neh’taniel NPC for BG2 after The Undying and Beyond the Law.Install Neh’taniel NPC for BG2 before Calin Romance for BG2. Get friendly or romantically intimate with the Tiefling Bard Haer’Dalis.Install Haer’Dalis Romance for BG2 before Nephele."
   },
   {
     "i": 604,
@@ -15039,7 +15060,7 @@
         "m": "Added from Infinity Insanity WeiDU logs"
       }
     ],
-    "no": "Incompatable with Dimension Gate",
+    "no": "Incompatable with Dimension Gate Also adds a buncha new pop culture-related spells & items and a new quest involving Boo!Dimension Gate and Ishlilka are seemingly incompatible!Install Dimension Gates before SpellFix Visual Effects!",
     "ph": [
       "BG1",
       "SoD"
@@ -15121,7 +15142,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://www.gibberlings3.net/mods/npcs/navarra/"
+    "u": "https://www.gibberlings3.net/mods/npcs/navarra/",
+    "no": "CG Female Human Fighter"
   },
   {
     "i": 625,
@@ -15213,7 +15235,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Gibberlings3/Grey_The_Dog"
+    "u": "https://github.com/Gibberlings3/Grey_The_Dog",
+    "no": "Install the crossmod component near the end of your mod wad, soon before EET End! Things in this character’s inventory and spellbook are only accessible/changeable as a full party member instead of as a tagalong!The term “7th” Party Member is somewhat misleading: You can have a var..."
   },
   {
     "i": 628,
@@ -15256,7 +15279,7 @@
     "n": "Skip Chateau Irenicus",
     "c": "AFTER NEW NPCS",
     "u": "https://github.com/Argent77/A7-SkipChateauIrenicus/releases",
-    "no": "Mods that ask to be installed after new npcs\nSkip Chateau Irenicus",
+    "no": "Mods that ask to be installed after new npcs\nSkip Chateau Irenicus It also changes the opening cutscene to be more realistic, with Imoen unlocking her cell, Thief-style.We plan to only use the component More Realistic Opening Cutscene.",
     "a": "Argent77",
     "ic": "dungeonbegone",
     "ph": [
@@ -15584,7 +15607,8 @@
         "wq": "guessed"
       }
     ],
-    "sg": "nephele"
+    "sg": "nephele",
+    "no": "NG Female Halfling Cleric Unrelated to Nepheli Loux.Install Nephele after Haer’Dalis Romance for BG2 and Romantic Encounters for BG2.Install Nephele before Mazzy Megamod."
   },
   {
     "i": 203,
@@ -15656,7 +15680,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character expansions BG2",
     "u": "https://github.com/SpellholdStudios/Edwin_Romance/releases",
-    "no": "Edwin Romance\nmakes him even more of an ass so bleh",
+    "no": "Edwin Romance\nmakes him even more of an ass so bleh Gals can get intimate with this egomaniacal Red Wizard.Install Edwin Romance after Imoen 4 Ever.Install Edwin Romance before Ascension and Mazzy MegaMod.",
     "a": "Kaeloree, jastey",
     "ic": "Big Picture. May conflict with other \"Female Edwina\" components",
     "ph": [
@@ -15895,7 +15919,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character expansions BG2",
     "u": "https://github.com/Gibberlings3/Keldorn_Romance/releases",
-    "no": "Keldorn Romance",
+    "no": "Keldorn Romance This married man of high stature is somehow available and likes girls.Install Keldorn Romance before Mazzy MegaMod.",
     "a": "berelinde; jastey",
     "ph": [
       "SoA"
@@ -16284,7 +16308,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character expansions BG2",
     "u": "https://downloads.weaselmods.net/download/yoshimo-romance/",
-    "no": "Yoshimo Romance",
+    "no": "Yoshimo Romance Now you can get intimate with Yoshimo in new ways!By romancing Yoshimo, Yoshimo’s Remorse content won’t activate.Install Yoshimo Romance before Mazzy Megamod.",
     "a": "Lava Del'Vortel",
     "ph": [
       "SoA"
@@ -16678,7 +16702,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character modifications",
     "u": "https://github.com/Gibberlings3/NPCTweak/releases",
-    "no": "alternatives in Deities of Faerun (Arvoreen F/C kit), Faith & Powers (Arvoreen\ncleric and paladin kits, can be installed alone if so wanted by fiddling with\nits .ini file), and Artisan's Kitpack (allows asigning her its Divine Champion kit)\nNPC Tweak",
+    "no": "alternatives in Deities of Faerun (Arvoreen F/C kit), Faith & Powers (Arvoreen\ncleric and paladin kits, can be installed alone if so wanted by fiddling with\nits .ini file), and Artisan's Kitpack (allows asigning her its Divine Champion kit)\nNPC Tweak We plan to use all tweaks from this mod.Install NPC Tweak for BG2 before Hidden Adventure.",
     "a": "andrewas, Orion's Stardom, mike1072",
     "ic": "The Darkest Day",
     "ph": [
@@ -16852,7 +16876,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character expansions EE",
     "u": "https://github.com/SpellholdStudios/Dorn-Friendship/releases",
-    "no": "other mods may do the same\nDorn Friendship",
+    "no": "other mods may do the same\nDorn Friendship Befriend this bad boy Blackguard in non-romantic ways!Install Dorn Friendship after Dorn Romance.",
     "a": "Lava Del'Vortel",
     "ph": [
       "SoA",
@@ -16901,7 +16925,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character expansions EE",
     "u": "https://downloads.weaselmods.net/download/wilson-chronicles/",
-    "no": "Wilson Chronicles",
+    "no": "Wilson Chronicles The “Bear Paragon” AKA Bearagon gets more banter.Install Wilson Chronicles before Mazzy Megamod.",
     "a": "Lava Del'Vortel",
     "ph": [
       "SoA"
@@ -17135,7 +17159,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character conversation modification",
     "u": "https://github.com/Gibberlings3/Road_To_Discovery_for_SoD/releases",
-    "no": "Road to Discovery for SoD\n#L-SOD-STAT_BASED_OPTIONS;Road to Discovery for SoD - SoD - Stat-based\nobservations and quest options from Lauriel's Themed Tweaks Mod\nThemes Tweaks has the same and earlier",
+    "no": "Road to Discovery for SoD\n#L-SOD-STAT_BASED_OPTIONS;Road to Discovery for SoD - SoD - Stat-based\nobservations and quest options from Lauriel's Themed Tweaks Mod\nThemes Tweaks has the same and earlier “Makes the [party] and officers aware of and talk about the crusade’s real purpose!” -Documentation.",
     "a": "jastey",
     "ph": [
       "SoD"
@@ -17222,7 +17246,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character conversation modification",
     "u": "https://github.com/The-Gate-Project/SoD-Dialog-Banters",
-    "no": "SoD Dialog Banters\nAstroBryGuy's original:\nbanters\nThe Gate Project fork:",
+    "no": "SoD Dialog Banters\nAstroBryGuy's original:\nbanters\nThe Gate Project fork: Changes Siege of Dragonspear dialog to use the standard ‘pause when talking’ format.",
     "a": "AstroBryGuy",
     "co": [
       {
@@ -17377,7 +17401,7 @@
     "c": "AFTER NEW NPCS",
     "s": "Character conversation modification",
     "u": "https://github.com/SpellholdStudios/IEP_Extended_Banter/releases",
-    "no": "IEP Extended Banters\nJastey's fork with Imoen fix:\nIEP goes after NPC Flirt Packs. It has a banter Accelerator, but there may be\nalternatives for ogBG",
+    "no": "IEP Extended Banters\nJastey's fork with Imoen fix:\nIEP goes after NPC Flirt Packs. It has a banter Accelerator, but there may be\nalternatives for ogBG Vanilla BG2 recruitable NPCs have more to say to each other.Install IEP Extended Banter after Imoen 4 Ever.",
     "a": "K'aeloree, Lava Del'Vortel",
     "ic": "Uninstalls any previous banter accelerators.",
     "ph": [
@@ -17780,7 +17804,7 @@
       "SoA",
       "ToB"
     ],
-    "no": "EET compatible since v3.2. Adds new romance dialogues and encounters for Dorn.",
+    "no": "EET compatible since v3.2. Adds new romance dialogues and encounters for Dorn. Females can get more intimate with so-bad-he-sold-his-soul boy Dorn.Install Dorn Romance before ALL other mods that add or modify BG2 dialog for Dorn!",
     "co": [
       {
         "n": "Dorn Romance Expansion",
@@ -17850,7 +17874,8 @@
     "ph": [
       "BG1"
     ],
-    "u": "https://github.com/Black-Wyrm-Lair/Jini-Romance"
+    "u": "https://github.com/Black-Wyrm-Lair/Jini-Romance",
+    "no": "Includes romantic content with Jini the Djinni, seemingly a Female CG Djinni.As of this writing, 3."
   },
   {
     "i": 631,
@@ -17892,7 +17917,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Black-Wyrm-Lair/Rjali-Romance"
+    "u": "https://github.com/Black-Wyrm-Lair/Rjali-Romance",
+    "no": "Very clingy.Install Rjali Romance before Detective’s Guild of Athkatla.Install Rjali NPC after all other mods that add romances, such as the Jini Romance mod."
   },
   {
     "i": 632,
@@ -18036,7 +18062,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://www.spellholdstudios.net/ie/aurora/"
+    "u": "https://www.spellholdstudios.net/ie/aurora/",
+    "no": "Roxanne’s version (not listed here) is more of a spiritual successor or offshoot of the original.Install Aurora after Tales of the Deep Gardens!"
   },
   {
     "i": 673,
@@ -18165,7 +18192,7 @@
     "n": "Made in Heaven: Encounters & Quests",
     "c": "CREATURE MODS",
     "u": "https://github.com/AngelGryph/MadeInHeaven_EncountersAndQuests/releases",
-    "no": "Made in Heaven: Encounters & Quests v5.1\n(releases \"Reign\nin the Monsters!\")\nSome battle components introduce/change creatures that might conflict with\naTweaks' PnP Undead?\nWights and variations: Candlekeep Catacombs, Ramazith's Tower, Thieves' Maze &\nUndercity, Durlag's Tower, Korlasz' Tomb, Graveyard Catacombs, Lower Reaches,\nTemple Ruins, and Trademeet\nShadows: Saradush (Sewer Shadows)\nWraith: Bridgefort?, Forest of Mir?\naTweaks states it prevents duplication when detecting changes/additions",
+    "no": "Made in Heaven: Encounters & Quests v5.1\n(releases \"Reign\nin the Monsters!\")\nSome battle components introduce/change creatures that might conflict with\naTweaks' PnP Undead?\nWights and variations: Candlekeep Catacombs, Ramazith's Tower, Thieves' Maze &\nUndercity, Durlag's Tower, Korlasz' Tomb, Graveyard Catacombs, Lower Reaches,\nTemple Ruins, and Trademeet\nShadows: Saradush (Sewer Shadows)\nWraith: Bridgefort?, Forest of Mir?\naTweaks states it prevents duplication when detecting changes/additions Various creatures are given abilities and tweaked to be more like their tabletop counterparts.Install Made in Heaven Encounters & Quests after Black Pits in EET.",
     "a": "Angel",
     "ic": "Some parts have issues with SCS - https://www.gibberlings3.net/forums/topic/37186-avoiding-major-v343-bugs/#comment-329771",
     "ph": [
@@ -18726,7 +18753,7 @@
     "n": "Cowled Menace",
     "c": "CREATURE MODS",
     "u": "https://github.com/Gibberlings3/CowledMenace/releases",
-    "no": "The Cowled Menace for EET\nOriginal for EET:\nSarahG's fork for BG2:\nSarahG's fork is untested, slightly outdated. Probably easy to slap its changes\ninto the original.\nAuthor: \"install Cowled Menace after NPC mods. Then install the rest (SCS, EET-\nend, etc)\"",
+    "no": "The Cowled Menace for EET\nOriginal for EET:\nSarahG's fork for BG2:\nSarahG's fork is untested, slightly outdated. Probably easy to slap its changes\ninto the original.\nAuthor: \"install Cowled Menace after NPC mods. Then install the rest (SCS, EET-\nend, etc)\" Just in case.The Twisted Rune fight has been buffed in favor of the enemies.Twisting With The Rune focuses on explaining more about the Twisted Rune’s dealings and history as an organization.",
     "rq": "EET (except optional components)",
     "ic": "Unofficial Item Pack[main component]",
     "ph": [
@@ -19466,7 +19493,7 @@
     "n": "Derat's Combino",
     "c": "ITEM ADDITION MODS",
     "u": "https://github.com/Deratiseur/Combino",
-    "no": "Currently, only 3 new boots are added: Hardiness (+CON) +1, +2 and +3.\nInteresting but not enough variety to make up for the lost Cheetah boots I think\nCombino\nreadme says it *copies* files instead of patching, so I'm not comfortable putting\nthis after RR or Wares of the Planes",
+    "no": "Currently, only 3 new boots are added: Hardiness (+CON) +1, +2 and +3.\nInteresting but not enough variety to make up for the lost Cheetah boots I think\nCombino\nreadme says it *copies* files instead of patching, so I'm not comfortable putting\nthis after RR or Wares of the Planes In ToB, he’s in Saradush and, if you install the component for it, also in Amkethran.Install Rogue Rebalancing and mods that add new items before Kurosai the Combiner.",
     "co": [
       {
         "n": "Kurosai the combiner",
@@ -19578,7 +19605,7 @@
     "n": "D2 Weapon",
     "c": "ITEM ADDITION MODS",
     "u": "https://github.com/D2-mods/D2-Weapon",
-    "no": "D2-Weapon - A Souls-inspired Weapon Pack",
+    "no": "D2-Weapon - A Souls-inspired Weapon Pack From the same author as D2-Weapon, a Dark Souls-inspired item pack.Install Workshop Kitpack after Faiths & Powers and Rogue Rebalancing.Install Workshop Kitpack before 5e Casting.",
     "co": [
       {
         "n": "D2-Weapon - A Souls-inspired Weapon Pack",
@@ -20150,7 +20177,7 @@
     "c": "ITEM ADDITION MODS",
     "s": "Item additions for BG2",
     "u": "https://github.com/CrevsDaak/thalan/releases",
-    "no": "Item Upgrade\nv SoA item upgrades",
+    "no": "Item Upgrade\nv SoA item upgrades Bring components to Thalantyr, mighty Mage of Beregost, then he’ll make them into mightier items!Install Thalantyr Item Upgrade before Thalantyr Item Upgrade Extensions. This goes for all item upgrade mods we use.Install Siege of Dragonspear to Baldur’s Gate II: Enhanced Edition Item Upgrade before other item upgrade mods from this list.",
     "a": "Serdrick, CrevsDaak",
     "ph": [
       "BG1"
@@ -20229,7 +20256,8 @@
         "cn": 1
       }
     ],
-    "sg": "hidden_adventures"
+    "sg": "hidden_adventures",
+    "no": "Adds minor quests and tweaks to BG2, like allowing Bards to sleep over in their stronghold (the Five Flagons Playhouse & Tavern), adding a Temple of Mask in the Docks District in Athkatla, and expandi..."
   },
   {
     "i": 275,
@@ -20449,7 +20477,7 @@
     "c": "ITEM ADDITION MODS",
     "s": "Item additions for BG2",
     "u": "https://github.com/btigi/iiItem",
-    "no": "iiItem\nold mod, test first, goes before Rogue Rebalancing?",
+    "no": "iiItem\nold mod, test first, goes before Rogue Rebalancing? Adds a variety of items to in-game shops and creatures, even ones added by mods.Install iiItem after all mods that add creatures, items, or shops to the game!",
     "co": [
       {
         "n": "Items [version 5]",
@@ -21165,7 +21193,7 @@
     "t": "ALCHEMY",
     "n": "Jan's Alchemy",
     "c": "ITEM ADDITION MODS",
-    "no": "Installed (1 components). Added from WeiDU.log scan.",
+    "no": "Installed (1 components). Added from WeiDU.log scan. Adds Jan’s Book of Brewing to the game to allow Jan Jansen in BG2 to make 8 types of potions via specific recipes.Install Jan’s Alchemy before Gilbertus.",
     "co": [
       {
         "n": "Jan's Alchemy",
@@ -21210,7 +21238,7 @@
     "n": "Darron the Vendor",
     "c": "ITEM ADDITION MODS",
     "u": "https://github.com/Spellhold-Studios/Darron",
-    "no": "Installed (1 components). Added from WeiDU.log scan.",
+    "no": "Installed (1 components). Added from WeiDU.log scan. Most of what he sells is tailored to the roguish types.Install Darron after Spell Revisions.",
     "co": [
       {
         "n": "Darron",
@@ -21606,7 +21634,7 @@
     "c": "SPELL MODS",
     "s": "Systematic Spell mods",
     "u": "https://github.com/Gibberlings3/SpellRevisions/releases",
-    "no": "overlaps with changes from   Unnoficial Item Pack and Sword Saint kit, install it\nearlier than Sword Saint?\nMods that add or change spells\nMost of these mods influence the magic game, except Thrown Hammers and Trials of\nLuremaster (which want to go around SR and IWD spells)\nEach tries to tackle spell balance in different ways. SR rebalances vanilla\nspells, and Spell-50 implements high level scaling them. IWDification fills lacking\nniches by adding spells and class mechanics from IWD. MiH SP can",
+    "no": "overlaps with changes from   Unnoficial Item Pack and Sword Saint kit, install it\nearlier than Sword Saint?\nMods that add or change spells\nMost of these mods influence the magic game, except Thrown Hammers and Trials of\nLuremaster (which want to go around SR and IWD spells)\nEach tries to tackle spell balance in different ways. SR rebalances vanilla\nspells, and Spell-50 implements high level scaling them. IWDification fills lacking\nniches by adding spells and class mechanics from IWD. MiH SP can Use at most one of these!Spell Revisions and Spell50 are likely not compatible!Install Spell Revisions after all mods that add recruitable NPCs.",
     "a": "Demivrgvs, mike1072",
     "ic": "Overwrites spells, issues with Divine Remix, see readme.",
     "ph": [
@@ -23817,7 +23845,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/abalabokhin/NWNForBG"
+    "u": "https://github.com/abalabokhin/NWNForBG",
+    "no": "If you accept, you’re stuck in the NWN campaign until you finish or you use some other means of escaping it such as the console!While you can start this module around level 13, starting it around leve..."
   },
   {
     "i": 651,
@@ -24026,7 +24055,7 @@
     "c": "KIT MODS",
     "s": "Rogue focused mods",
     "u": "https://github.com/Gibberlings3/iwdification/releases",
-    "no": "IWDification - Bard songs\nIWD songs go after RR and Garrick's tales of a troubador, but before S&S\nRR's HLAs provide better songs for skal and jester. ToF's bard songs are learned\nat slightly higher level. Pick one and stick with it.\nToF/SCS add songs up to lv13, instead of 11 like IWDification, and include the\nskal and jester song in the Rebalanced and Revised Kits",
+    "no": "IWDification - Bard songs\nIWD songs go after RR and Garrick's tales of a troubador, but before S&S\nRR's HLAs provide better songs for skal and jester. ToF's bard songs are learned\nat slightly higher level. Pick one and stick with it.\nToF/SCS add songs up to lv13, instead of 11 like IWDification, and include the\nskal and jester song in the Rebalanced and Revised Kits Adds IWD spells, casting animations, better damage graphics, and more IWD-related content.Install IWDification after Icewind Dale in EET mods and Spell Revisions.",
     "a": "CamDawg",
     "ph": [
       "BG1",
@@ -24121,7 +24150,7 @@
     "c": "KIT MODS",
     "s": "Rogue focused mods",
     "u": "https://github.com/szaumoor/ZS_ShadowdancerOverhaul",
-    "no": "Refinements' Thief nerfs UAI, yet is preferible to let it patch RR's HLA\noverwrites.\nZS Shadowdancer Overhaul\nToF in the future may add spells to it\ngoes after Rogue Rebalancing, and after Shades of Sword Coast in BG1",
+    "no": "Refinements' Thief nerfs UAI, yet is preferible to let it patch RR's HLA\noverwrites.\nZS Shadowdancer Overhaul\nToF in the future may add spells to it\ngoes after Rogue Rebalancing, and after Shades of Sword Coast in BG1 Revises the Shadowdancer Thief kit to make it more similar to its D&D 3.",
     "co": [
       {
         "n": "Install the overhauled Shadowdancer Kit",
@@ -24445,7 +24474,7 @@
     "c": "KIT MODS",
     "s": "Improved Archer",
     "u": "https://www.morpheus-mart.com/morpheus562s-kitpack",
-    "no": "Morpheus562's Kitpack",
+    "no": "Morpheus562's Kitpack Adds some kits inspired by D&D 5e like the Fighter (Psi Warrior) and other kits inspired by Neverwinter Nights 2 like the Stormlord (Fighter/Druid).",
     "co": [
       {
         "n": "Install Battle Master Kit",
@@ -24797,7 +24826,7 @@
     "c": "KIT MODS",
     "s": "Artisan's kit overhauls and additions",
     "u": "https://github.com/ArtemiusI/Warlock",
-    "no": "Lucky Tusk and 3Foot-Tall Fury are possibly good kit choices for Lava's Dusky and\nSkitia's Kale, using a releveler (ToF/SCS NPC customization, NPC EE...)\nIncludes Warlock, Bardic Wonders, Artisan's Kitpack, and Artisan's Shaman Tweak\nAlso Candlekeep Revisited if you also install Warlock\nWarlock\nYou may be offered a \"beta learning system\". Installing it require UI\nmodifications that need to go after other UI mods\nTechnically it should go before MiH SP, but the way it offers you new warlock\nspells",
+    "no": "Lucky Tusk and 3Foot-Tall Fury are possibly good kit choices for Lava's Dusky and\nSkitia's Kale, using a releveler (ToF/SCS NPC customization, NPC EE...)\nIncludes Warlock, Bardic Wonders, Artisan's Kitpack, and Artisan's Shaman Tweak\nAlso Candlekeep Revisited if you also install Warlock\nWarlock\nYou may be offered a \"beta learning system\". Installing it require UI\nmodifications that need to go after other UI mods\nTechnically it should go before MiH SP, but the way it offers you new warlock\nspells It’s a Bard kit to allow for some arcane spell item use, and it’s a welcome addition for us to try since I’ve had mixed experiences with D&D Warlocks in other contexts.",
     "a": "Artemius_I",
     "ph": [
       "BG1",
@@ -24823,7 +24852,7 @@
     "c": "KIT MODS",
     "s": "Artisan's kit overhauls and additions",
     "u": "https://github.com/ArtemiusI/Bardic-Wonders",
-    "no": "The fighter start may not detect any changes the weapon proficiency after (tested\nwith TA's IWD styles), at least not without installing CR after them (testing\npending)\nand this is late enough for a quest mod\nBardic Wonders\nToF rebalances Blades by seting learning of def/off spins to lvs 3 and 5. BW\ngives uses with levels among other things\nToF adds an upgrade to jester and skald song at lv5. BW doesn't but keep\nupgrading at 10 15 and 20 like ToF and adds other things\nset rebalance_blade rebalan",
+    "no": "The fighter start may not detect any changes the weapon proficiency after (tested\nwith TA's IWD styles), at least not without installing CR after them (testing\npending)\nand this is late enough for a quest mod\nBardic Wonders\nToF rebalances Blades by seting learning of def/off spins to lvs 3 and 5. BW\ngives uses with levels among other things\nToF adds an upgrade to jester and skald song at lv5. BW doesn't but keep\nupgrading at 10 15 and 20 like ToF and adds other things\nset rebalance_blade rebalan Adds and modifies Bard kits and items for Bards.We plan to use Bardic Wonders only for its new items because Might & Guile, Tome & Blood, and other mods are more to our preference in terms of kits and... Casting in leather and studded leather works without penalty, but casting in other armor types is disabled!Install Bardic Wonders after Shadow Magic.",
     "a": "Artemius_I",
     "ph": [
       "BG1",
@@ -25596,7 +25625,7 @@
     "n": "Skitia NPCs",
     "c": "KIT MODS",
     "s": "Artisan's kit overhauls and additions",
-    "no": "Skitia's NPCs - Assign Artemius's kits\ninstall these here after BW and AK if you want them",
+    "no": "Skitia's NPCs - Assign Artemius's kits\ninstall these here after BW and AK if you want them They’re included as one heading because they’re intended to be played together. Also install the BG2 versions of these mods after Petsy and Yvette Romance. TN Male Human Thief Also install Yoshimo Romance before Mazzy Megamod.Yoshimo Romance is incompatible with Keeping Yoshimo!As of this writing, Keeping Yoshimo seemingly isn’t EET compatible!",
     "co": [
       {
         "n": "Vanguard (Requires Vanguard Kit to be installed)",
@@ -25802,7 +25831,7 @@
     "c": "KIT MODS",
     "s": "Raduziel's kit mods",
     "u": "https://github.com/UnearthedArcana/TomeAndBlood",
-    "no": "potential incompatible with sorcerer variants of TnB and ToF\nSubtledoctor's non-cleric kit mods\nThese can do modifications to previous kit mods, so here they go\nIncludes Tome And Blood, Will to Power, Might and Guile. Also his mantained fork\nof Spellhold Studios' Refinements\nTome And Blood\nOverlaps with Artisan's Kitpack and Talents of Faerun. The smaller components may\nbe fine but don't go mixing the kits and more complex changes.",
+    "no": "potential incompatible with sorcerer variants of TnB and ToF\nSubtledoctor's non-cleric kit mods\nThese can do modifications to previous kit mods, so here they go\nIncludes Tome And Blood, Will to Power, Might and Guile. Also his mantained fork\nof Spellhold Studios' Refinements\nTome And Blood\nOverlaps with Artisan's Kitpack and Talents of Faerun. The smaller components may\nbe fine but don't go mixing the kits and more complex changes. Familiars can be made a non-liability by removing the master’s CON penalty if a familiar dies!Install Tweaks Anthology’s revised spell tables for arcane casters (PnP Sorcerer Tables and PnP Mage table...",
     "a": "Aquadrizzt, Grammarsalad, Subtledoctor",
     "ic": "tnt [smarter familiars]",
     "ph": [
@@ -25993,7 +26022,7 @@
     "c": "KIT MODS",
     "s": "Raduziel's kit mods",
     "u": "https://github.com/UnearthedArcana/refinements/releases",
-    "no": "Refinements\nSD's updated fork:\nToF already includes Refinement's HLAs (at least most of them) so no reason to\nmix them together\nv Revised HLAs\nNote: adds 3 entries to kitlist.2da to handle extra functions. Account for them\nwhen using extra_kits",
+    "no": "Refinements\nSD's updated fork:\nToF already includes Refinement's HLAs (at least most of them) so no reason to\nmix them together\nv Revised HLAs\nNote: adds 3 entries to kitlist.2da to handle extra functions. Account for them\nwhen using extra_kits We plan to use these components: Install Refinements after Rogue Rebalancing and Tome & Blood.",
     "a": "T.G.Maestro, the bigg; Subtledoctor",
     "ic": "stratagems will not use revised HLAs",
     "ph": [
@@ -26173,7 +26202,7 @@
     "c": "KIT MODS",
     "s": "Raduziel's kit mods",
     "u": "https://github.com/UnearthedArcana/Will_to_Power/releases/tag/2.3.3",
-    "no": "It patches Project Image to \"avoid Freedom of Spirit to trigger\", which trips T&B\nRevised Specialists\nAlso says \"it can happen only if you dual a high level Sword Angel to mage\". The\nkit feels like a solo thing so we can safely disable that piece of code.\nJarno's fix for Sword Angel and Weapprof.2da:\nhttps://github.com/UnearthedArcana/refinements/pull/1\nSelphira's fix for unavailable files:\nhttps://github.com/UnearthedArcana/refinements/pull/7\nSelphira's fix to update the fl#add_kit_ee library:",
+    "no": "It patches Project Image to \"avoid Freedom of Spirit to trigger\", which trips T&B\nRevised Specialists\nAlso says \"it can happen only if you dual a high level Sword Angel to mage\". The\nkit feels like a solo thing so we can safely disable that piece of code.\nJarno's fix for Sword Angel and Weapprof.2da:\nhttps://github.com/UnearthedArcana/refinements/pull/1\nSelphira's fix for unavailable files:\nhttps://github.com/UnearthedArcana/refinements/pull/7\nSelphira's fix to update the fl#add_kit_ee library: I didn’t like its effects much to make a dedicated psionic caster as part of our initial 6 characters, but being able to automatically learn some psionic powers as Wild Talents and have Fighters learn... Instead, install Might & Guile before Will to Power if you want to use the Wild Talent ability from Might & Guile!",
     "a": "Subtledoctor",
     "ph": [
       "BG1",
@@ -26674,7 +26703,7 @@
     "c": "KIT MODS",
     "s": "Cleric mods",
     "u": "https://github.com/Argent77/A7-ImprovedShamanicDance/releases",
-    "no": "These include G3's Divine Remix and Subtledoctor's Faiths and Powers. They go\nhere as they and other mods ask so\nUse only one or the other, they are redundant! FnP can use DR's spells and kits\nthough\nImproved Shamanic Dance",
+    "no": "These include G3's Divine Remix and Subtledoctor's Faiths and Powers. They go\nhere as they and other mods ask so\nUse only one or the other, they are redundant! FnP can use DR's spells and kits\nthough\nImproved Shamanic Dance Improves the Shaman class’s unique feature - dancing - and grants new Shaman-specific items.",
     "a": "Argent77",
     "ph": [
       "BG1",
@@ -27724,7 +27753,8 @@
       "ToB"
     ],
     "u": "https://github.com/aquadrizzt/MonasticOrders",
-    "a": "aquadrizzt"
+    "a": "aquadrizzt",
+    "no": "Use at your own risk!ahungry fixed how fists worked in his update.Install Monastic Orders of Faerun before ahungry’s fix. Install these mods before Might & Guile (M&G), Tome & Blood, and Faiths & Powers (F&P)."
   },
   {
     "i": 657,
@@ -27833,7 +27863,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Gibberlings3/SongAndSilence"
+    "u": "https://github.com/Gibberlings3/SongAndSilence",
+    "no": "Install Song & Silence after Rogue Rebalancing."
   },
   {
     "i": 658,
@@ -28014,7 +28045,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/UnearthedArcana/Faiths_and_Powers"
+    "u": "https://github.com/UnearthedArcana/Faiths_and_Powers",
+    "no": "Use at most one of these!Install Faiths & Powers after Tome & Blood.Install Faiths & Powers before Workshop Kitpack and OlvynSpells.We plan to use these components:"
   },
   {
     "i": 341,
@@ -28420,7 +28452,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post ToF",
     "u": "https://github.com/subtledoctor/Combat_Skill_Proficiencies",
-    "no": "Compatible with TA's Un-Nerfed THAC0 Table. Others modded tables would need\nimplementation.\nalso suspect it's resetting most kit .2da files. Mod incompatibility? Test\nTA's Everyone Gets Bonus APR from Specialization: \"Assuming everything works the\nway I think it does, it should [be compatible]. It just means if you're a\nswashbuckler, for example, you'd get a half attack from specializing and then\nanother half from hitting 14 THAC0\"\n3.5 Edition Weapon Style Rebalance\n35weaponstyle:0;35weaponstyle",
+    "no": "Compatible with TA's Un-Nerfed THAC0 Table. Others modded tables would need\nimplementation.\nalso suspect it's resetting most kit .2da files. Mod incompatibility? Test\nTA's Everyone Gets Bonus APR from Specialization: \"Assuming everything works the\nway I think it does, it should [be compatible]. It just means if you're a\nswashbuckler, for example, you'd get a half attack from specializing and then\nanother half from hitting 14 THAC0\"\n3.5 Edition Weapon Style Rebalance\n35weaponstyle:0;35weaponstyle Also adds craftable items and changes to classes.The altered proficiency system ISN’T compatible with most other mods which alter the proficiency system, like OlvynTweaks or Might & Guile!Install the...",
     "co": [
       {
         "n": "Revised Proficiency System",
@@ -28655,7 +28687,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post ToF",
     "u": "https://github.com/subtledoctor/SubtleD_Item_Tweaks/releases",
-    "no": "it does make sense. But you risk miscklick accidents",
+    "no": "it does make sense. But you risk miscklick accidents Parts of this mod were in the now-deprecated Scales of Balance mod.Install SubtleD’s Item Tweaks then Combat Skills and Proficiencies then Stats Overhaul.",
     "a": "Subtledoctor",
     "ph": [
       "BG1",
@@ -31561,7 +31593,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post ToF",
     "u": "https://github.com/OlvynChuru/Olvyn-Tweaks",
-    "no": "The poison weapon changes breaks ToF's feats/HLAs and clashes with AK's own\nchanges. The code can be modified to skip it, but if you're not skilled just skip\ninstalling this component alltogether.\nini file says ACNostalgia to go after ARestoration, UB 1&2... Xan, Tyris and\nKelsey?! ... whot\nOlvyn Tweaks\nSelphira's fix for EET compatibility:\nTweaks/pull/3",
+    "no": "The poison weapon changes breaks ToF's feats/HLAs and clashes with AK's own\nchanges. The code can be modified to skip it, but if you're not skilled just skip\ninstalling this component alltogether.\nini file says ACNostalgia to go after ARestoration, UB 1&2... Xan, Tyris and\nKelsey?! ... whot\nOlvyn Tweaks\nSelphira's fix for EET compatibility:\nTweaks/pull/3 From this tweak list, we use the below components.WARNING: Don’t use the maximum creature speed component or your game may bug by preventing anyone who goes over the maximum from moving!Install Skills...",
     "a": "Olvyn Churu",
     "ic": "EET - [Make it possible to enter the Nashkel Mines through the back cave entrance & Make it possible to enter the catacombs beneath Candlekeep early]",
     "ph": [
@@ -31910,7 +31942,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post ToF",
     "u": "https://github.com/OlvynChuru/OlvynSpells",
-    "no": "Olvyn Spells - Ranger & Paladin spell progression\nWARNING: This mod has a big problem. It's new spells require EEex, for which it\ninstalls large lua libraries. The tweaks don't need them and can't use them, but\nthe mod still installs those libraries even if you only want the Bless tweak. This\ncan cause immense lag and slowdowns quickly once a game starts.\nI ignore the new spells and most tweaks are already done by other mods (ie\nZSTweaks or SubtleD's Spell Tweaks) without less hassle. Still, you",
+    "no": "Olvyn Spells - Ranger & Paladin spell progression\nWARNING: This mod has a big problem. It's new spells require EEex, for which it\ninstalls large lua libraries. The tweaks don't need them and can't use them, but\nthe mod still installs those libraries even if you only want the Bless tweak. This\ncan cause immense lag and slowdowns quickly once a game starts.\nI ignore the new spells and most tweaks are already done by other mods (ie\nZSTweaks or SubtleD's Spell Tweaks) without less hassle. Still, you OlvynSpells, among other things, adds reverse gravity (LOL fun), teleport circle (waypoints), dimension chest (store stuff like a Bag of Holding), linked portals (because Portal) and over 100 more com...",
     "a": "Olvyn Churu",
     "rq": "EEex",
     "ph": [
@@ -32207,7 +32239,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post ToF",
     "u": "https://github.com/Gibberlings3/PnP_Celestials/releases",
-    "no": "PnP Celestials\n\"Celestials has limited interaction with other mods. It will clone existing\nspells into innates, so it should go after other mods which alter spells, but other\nthan that it basically ignores existing celestial changes and rolls its own\ncreature files and scripting.\"\nMeaning PnP Celestials goes after the most important spell changes, at the very\nleast. This includes the spell tweaks shared by ToF and SCS",
+    "no": "PnP Celestials\n\"Celestials has limited interaction with other mods. It will clone existing\nspells into innates, so it should go after other mods which alter spells, but other\nthan that it basically ignores existing celestial changes and rolls its own\ncreature files and scripting.\"\nMeaning PnP Celestials goes after the most important spell changes, at the very\nleast. This includes the spell tweaks shared by ToF and SCS Also changes celestial character models to vary based on type so devas, planetars, and solars look different.",
     "a": "Caedwyr",
     "ph": [
       "BG1",
@@ -35483,7 +35515,8 @@
         "cn": 0
       }
     ],
-    "sg": "cdtweaks"
+    "sg": "cdtweaks",
+    "no": "Install here and now only the revised spell tables (PnP tables) and multiple strongholds components!"
   },
   {
     "i": 367,
@@ -35572,7 +35605,8 @@
         "wq": "name_match",
         "cn": 50
       }
-    ]
+    ],
+    "no": "In short, do stuff like read books and your Lore stat increases.Install Lore from Learning after all mods that add or change kits or items."
   },
   {
     "i": 369,
@@ -35641,7 +35675,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/Pocket-Plane-Group/D0Tweak",
-    "no": "Ding0's Tweaks\nmost of D0tweaks is mostly useful or only works for ogBG",
+    "no": "Ding0's Tweaks\nmost of D0tweaks is mostly useful or only works for ogBG We only use a small number of options from this mod, and what we use are listed below.Install D0Tweaks after Spell Revisions.",
     "co": [
       {
         "n": "PnP Celestial Fury",
@@ -35664,7 +35698,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/UnearthedArcana/5E_spellcasting/releases",
-    "no": "[Imoen is Stone placeholder]\ngotta go after TA, incompatible with I4E\n5E Spellcasting\nIt turns the entire game on its head behind the screen, read the documentation\ncarefully to be sure this is what you want\nThis should be roughly its spot. Dunno how it'd changes with ToF present. Don't\nmix them.\nTA's Spontaneous Casting for Clerics (experimental) does similar for healing\nspells, if you prefer a smaller approach",
+    "no": "[Imoen is Stone placeholder]\ngotta go after TA, incompatible with I4E\n5E Spellcasting\nIt turns the entire game on its head behind the screen, read the documentation\ncarefully to be sure this is what you want\nThis should be roughly its spot. Dunno how it'd changes with ToF present. Don't\nmix them.\nTA's Spontaneous Casting for Clerics (experimental) does similar for healing\nspells, if you prefer a smaller approach (Perhaps by the time you read this, Shadow Magic will officially work with 5e Casting, but did not as of this writing.)Install 5e Casting after all mods that add kits or/and spells. Also install 5e Casting after all mods that change spell tables, like Tweaks Anthology and OlvynSpells.Install 5e Casting before Stats Overhauls and Scales of Balance.",
     "a": "Subtledoctor",
     "ph": [
       "BG1",
@@ -35723,7 +35757,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/Argent77/A7-MagicStore",
-    "no": "Magic Store of Vergadain\nmust go after every shop addition. Can this go any sooner?\nv Magic Store of Vergadain",
+    "no": "Magic Store of Vergadain\nmust go after every shop addition. Can this go any sooner?\nv Magic Store of Vergadain Ever.We prefer the free access version instead of the pay per visit option.Install Magic Store of Vergadain after all mods that add shops.",
     "a": "Argent77",
     "ph": [
       "BG1",
@@ -36004,7 +36038,7 @@
     "n": "Brandock the Mage",
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
-    "no": "v Integrate aTweaks's spell scribbing into Brandock's Scribe scroll skill",
+    "no": "v Integrate aTweaks's spell scribbing into Brandock's Scribe scroll skill Install its crossmod component near the END of your install before EET End! CG Male Human Mage Things in this character’s inventory and spellbook are only accessible/changeable as a full party member instead of as a tagalong!Install Brandock the Mage’s cross mod component after Ajantis BG1 Expa...",
     "co": [
       {
         "n": "Cosmetic: integrate without changing original scribe scroll possibilities",
@@ -36347,7 +36381,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/AngelGryph/MadeInHeaven_Tweaks/releases",
-    "no": "Made in Heaven: Tweaks\nMade in Heaven: Tweaks - Item Tweaks",
+    "no": "Made in Heaven: Tweaks\nMade in Heaven: Tweaks - Item Tweaks Adds a variety of tweaks based on things that were partially or fully in the game but were cut for some reason.",
     "a": "Angel",
     "ph": [
       "BG1",
@@ -36699,7 +36733,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/The-Gate-Project/klatu-tweaks-and-fixes",
-    "no": "Klatu Tweaks and Fixes\nThe Gate Project fork:",
+    "no": "Klatu Tweaks and Fixes\nThe Gate Project fork: From here, we use these components.Install klatu’s Tweaks before More Style for Mages.",
     "a": "klatu",
     "ph": [
       "BG1",
@@ -38094,7 +38128,7 @@
     "c": "PRE-TACTICAL TWEAKS",
     "s": "Tweaks Anthology",
     "u": "https://github.com/FredrikLindgren/randomiser/releases",
-    "no": "Item Randomiser\nSCS wants to go after Randomizer, possibly to fix creature proficiencies that end\nup with different weapons. Some report it should be otherwise. Whatever you do,\ndisable in the SCS .ini the items both mods would move (Vecna and Mirror cloak)",
+    "no": "Item Randomiser\nSCS wants to go after Randomizer, possibly to fix creature proficiencies that end\nup with different weapons. Some report it should be otherwise. Whatever you do,\ndisable in the SCS .ini the items both mods would move (Vecna and Mirror cloak) This returns some thrill of discovery to the game.Install Item Randomizer before SCS and Deletifier. Needed to properly finalize the IWD in EET-related content!Install IWD_EET_End after Icewind Dale 1 in EET, Icewind Dale 2 in EET, Icewind Dale in EET Party Banter, Region of Terror, and Trials of the...",
     "a": "Wisp",
     "ic": "Mode 1 clashes with Dungeon-be-Gone & Skip Candlekeep, Systematic changes to the BG2 proficiency, like using IWD or BG1 style, will cause (at least) Mode 2 randomization to break on v7.",
     "ph": [
@@ -38395,7 +38429,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/Endarire/Rest-Be-Gone"
+    "u": "https://github.com/Endarire/Rest-Be-Gone",
+    "no": "Useful to reduce the need to buff.Install RestBeGone after Sword Coast Stratagems.Crossed out due to Auto Rest being used below."
   },
   {
     "i": 648,
@@ -38423,7 +38458,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://www.gibberlings3.net/forums/topic/31265-ultravision-mod-probably-for-ee/"
+    "u": "https://www.gibberlings3.net/forums/topic/31265-ultravision-mod-probably-for-ee/",
+    "no": "Excluded due to reports of crashing.Replaces the spell infravision with ultravision, the ability to see warm-blooded creatures in a cone through walls. Constructs & Undead aren’t seen via Ultravision.Install Ultravision after Spell Revisions."
   },
   {
     "i": 385,
@@ -39835,7 +39871,7 @@
     "c": "TACTICAL MODS",
     "s": "SCS - Post components from other mods",
     "u": "https://github.com/GwendolyneFreddy/butchery/releases",
-    "no": "BuTcHeRy - improved encounters\nmight be too much, go adding things one by one after playing to finetune",
+    "no": "BuTcHeRy - improved encounters\nmight be too much, go adding things one by one after playing to finetune If you installed Angelo, don’t install component [30] since they’re incompatible! This adds some difficult encounters in BG2 with a difficulty depending on the in-game difficulty slider.BuTcHeRy component [30] is NOT compatible with Angelo!Install BuTcHeRy after Ascension. DON’T install component [42] because it’s bugged!BuTcHeRy and Tactics Remix may not work well together.",
     "a": "DrAzTiK, Gwendolyne",
     "ph": [
       "SoA"
@@ -40201,7 +40237,8 @@
       "BG1",
       "SoA"
     ],
-    "u": "https://github.com/Gibberlings3/transitions"
+    "u": "https://github.com/Gibberlings3/transitions",
+    "no": "(Siege of Dragonspear with or without EET is still required to be installed to skip it."
   },
   {
     "i": 667,
@@ -40236,7 +40273,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "SCS - Post components from other mods",
     "u": "https://github.com/TotoR115/aTweaks",
-    "no": "aTweaks - PnP creatures\nMake sure to use Totor's fork for updates and fixes:\nhttps://github.com/TotoR115/aTweaks\nMust go after SCS's Smarter Mages and fiend components. Otherwise keep it with\nthe rest of aTweaks components above.\nTechnically it is compatible with SCS, specially with Totor's refurbishing. But\nunless you know what you're doing, don't risk mixing them. If you're using the old\nversion, don't risk it, period.\nv PnP Fiends\nSPLSTATE.IDS entries: 14~?",
+    "no": "aTweaks - PnP creatures\nMake sure to use Totor's fork for updates and fixes:\nhttps://github.com/TotoR115/aTweaks\nMust go after SCS's Smarter Mages and fiend components. Otherwise keep it with\nthe rest of aTweaks components above.\nTechnically it is compatible with SCS, specially with Totor's refurbishing. But\nunless you know what you're doing, don't risk mixing them. If you're using the old\nversion, don't risk it, period.\nv PnP Fiends\nSPLSTATE.IDS entries: 14~? This tweak mod is intended to make various game elements closer to tabletop.",
     "a": "aVENGER & Wisp",
     "ph": [
       "BG1",
@@ -40457,7 +40494,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "SCS - Post components from other mods",
     "u": "https://github.com/FredrikLindgren/rr/releases",
-    "no": "Should probably go after ToF, Nostalgia Pack and Tweaks Anthology at the very\nleast.\nRogue Rebalancing - thievery potions\nv Revised Thievery\nUse 9 or 10, not both. Seems like it needs to go after SCS better calls for help?",
+    "no": "Should probably go after ToF, Nostalgia Pack and Tweaks Anthology at the very\nleast.\nRogue Rebalancing - thievery potions\nv Revised Thievery\nUse 9 or 10, not both. Seems like it needs to go after SCS better calls for help? Changes the balance for Bards and Thieves.We’re using the RR components below.Install Rogue Rebalancing after Summons and charmed creatures clear FoW [Fog of War].",
     "a": "aVENGER",
     "ph": [
       "BG1",
@@ -40855,7 +40892,7 @@
     "n": "Tweaks and Tricks",
     "c": "POST-TACTICAL TWEAKS",
     "u": "https://github.com/BGforgeNet/bg2-tweaks-and-tricks/releases",
-    "no": "bonus increase every 2 CON point until 25, 7hp on lvl up 1 hp/6 sec regen 7\nfatigue bonus at 25\nTweaks and Tricks\nOther mods can also do similar things to these, \nTnT - Familiars",
+    "no": "bonus increase every 2 CON point until 25, 7hp on lvl up 1 hp/6 sec regen 7\nfatigue bonus at 25\nTweaks and Tricks\nOther mods can also do similar things to these, \nTnT - Familiars I’m gladly including this!We also plan to use the below components.",
     "a": "Ilya Ivanov",
     "ph": [
       "BG1",
@@ -41634,7 +41671,7 @@
     "n": "Artisans Kitpack Tweak",
     "c": "POST-TACTICAL TWEAKS",
     "u": "https://github.com/ArtemiusI/The-Artisan-s-Kitpack",
-    "no": "Artisan's Kitpack - tweaks submod",
+    "no": "Artisan's Kitpack - tweaks submod Adds a variety of kits for single-classed Druids, Fighters, Paladins, Rangers, Thieves, Shamans, and Sors.Install Artisan’s Kitpack before Emily and Skills and Abilities.",
     "a": "Artemius_I",
     "ph": [
       "BG1",
@@ -41678,7 +41715,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post SCS",
     "u": "https://www.morpheus-mart.com/",
-    "no": "known mods to preempt: everything that adds/modifies kits, including ToF\nToF adapts to previous such changes, and SCS fixes creature proficiencies given\nweapon changes. The only reason to install these mods here is because you want to\nmix them with S&A's Overhaul Proficiency System, although I don't reccomend piling\nup that many changes. The same notes as above apply here.\nSkills and Abilities\nSkills and Abilities - Spells and HLAs",
+    "no": "known mods to preempt: everything that adds/modifies kits, including ToF\nToF adapts to previous such changes, and SCS fixes creature proficiencies given\nweapon changes. The only reason to install these mods here is because you want to\nmix them with S&A's Overhaul Proficiency System, although I don't reccomend piling\nup that many changes. The same notes as above apply here.\nSkills and Abilities\nSkills and Abilities - Spells and HLAs Things in this character’s inventory and spellbook are only accessible/changeable as a full party member instead of as a tagalong!The term “7th” Party Member is somewhat misleading: You can have a var...",
     "a": "Grammarsalad, morpheus562",
     "rq": "EEex",
     "ph": [
@@ -41950,7 +41987,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Weapon proficiency/styles mods - Post SCS",
     "u": "https://github.com/ArtemiusI/House-Rule-Tweaks/releases",
-    "no": "assumes vanilla or ToF values\nThe Artisan's House Tweaks - Weapon proficiencies and styles (post ToF/SCS/S&A)\nif installed after ToF's grandmastery on warriors, every warrior multi is limited\nto mastery in dw\nAgain, better to avoid mixing with ToF, but if you do, ToF slows slow prof point\nprogression, consider something to accelerate it\nSomething like Diablofication's proficiency component works for that",
+    "no": "assumes vanilla or ToF values\nThe Artisan's House Tweaks - Weapon proficiencies and styles (post ToF/SCS/S&A)\nif installed after ToF's grandmastery on warriors, every warrior multi is limited\nto mastery in dw\nAgain, better to avoid mixing with ToF, but if you do, ToF slows slow prof point\nprogression, consider something to accelerate it\nSomething like Diablofication's proficiency component works for that From here, we use the parts below.Install Flamewing’s Tweaks AKA M7Tweaks before House Rules and Tweaks.",
     "a": "Artemius_I",
     "ph": [
       "BG1",
@@ -42258,7 +42295,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Late skill mods",
     "u": "https://github.com/OlvynChuru/Epic-Thieving",
-    "no": "Compatible with TA's Change Grandmastery Bonuses, and ZSTweaks' Light\nproficienciy overhaul\nEpic Thieving",
+    "no": "Compatible with TA's Change Grandmastery Bonuses, and ZSTweaks' Light\nproficienciy overhaul\nEpic Thieving Otherwise, EEex is optional!Install Epic Thieving before Trap Detection/Recovery/Evasion.",
     "a": "Olvyn Churu",
     "ph": [
       "BG1",
@@ -42593,7 +42630,7 @@
     "n": "Cleric Thief Arrows",
     "c": "POST-TACTICAL TWEAKS",
     "s": "Late skill mods",
-    "no": "XP components probably broken for EE. ogBG probably fine?",
+    "no": "XP components probably broken for EE. ogBG probably fine? Unique race for an NPC!Install Verr’Sza for BG1 after Drake & Sirene (BG1) and before White (BG1). If Verr’Sza NPC for BG1 is EET compatible, also install Verr’Sza NPC for BG1 after EET Start and Aura.",
     "co": [
       {
         "n": "Aura NPC: Cleric/Thief Arrows Usability Fix",
@@ -43801,7 +43838,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Late skill mods",
     "u": "https://github.com/SpellholdStudios/BP-BGT-Worldmap",
-    "no": "BP-BGT Worldmap\nNo much reason to use it on BG1 or BG2 unless a particular mod needs it. EET has\nits own particular worldmap. Most useful for ogBGT.",
+    "no": "BP-BGT Worldmap\nNo much reason to use it on BG1 or BG2 unless a particular mod needs it. EET has\nits own particular worldmap. Most useful for ogBGT. If not, whatever map that installs should suffice.Note also that installing a different map UI resolution from this mod drastically zooms out the map, making it notably smaller!We plan to use the orig...",
     "co": [
       {
         "n": "Worldmap for Baldur's Gate - including colored Baldur's Gate map icons",
@@ -45675,7 +45712,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Late skill mods",
     "u": "https://github.com/AngelGryph/MadeInHeaven_SpellPack/releases",
-    "no": "Choose EET Tweak's or this. EET Tweak's is more jumpy. Can coexist with MiH Spell\nPack's Revised Spell Learning XP.",
+    "no": "Choose EET Tweak's or this. EET Tweak's is more jumpy. Can coexist with MiH Spell\nPack's Revised Spell Learning XP. Includes Evard’s black tentacles - one of my favorite spells I’ve been longing to use in a D&D RPG - heroism, superheroism, and certain other spells I found nifty.",
     "a": "Angel",
     "ic": "Overwrites spell_rev, iwdification",
     "ph": [
@@ -45703,7 +45740,7 @@
     "c": "POST-TACTICAL TWEAKS",
     "s": "Late skill mods",
     "u": "https://github.com/UnearthedArcana/NPC_EE/releases",
-    "no": "Seems a more sane progression than EETTweaks', and must be installed after. Can\noverwrite Selphira Tweaks'\nSubtledoctor's NPC EE\ndon't mix with SCS/ToF's Improved NPC customisation and management. Pick one or\nthe other",
+    "no": "Seems a more sane progression than EETTweaks', and must be installed after. Can\noverwrite Selphira Tweaks'\nSubtledoctor's NPC EE\ndon't mix with SCS/ToF's Improved NPC customisation and management. Pick one or\nthe other (The customization item - a book - also works on any character that can join the party!)Install NPC EE after EET_End!Install NPC EE before Dual to Kit!NPC EE is incompatible with the Improved NPC Cust...",
     "a": "Subtledoctor",
     "ic": "Level 1 NPCs, stratagems:4100:Improved NPC customisation",
     "ph": [
@@ -45924,7 +45961,8 @@
       "ToB"
     ],
     "u": "https://github.com/flamewing/m7tweaks",
-    "a": "flamewing"
+    "a": "flamewing",
+    "no": "As of this writing, download the latest master branch Flamewing must have very liked improving Watcher’s Keep due to his tweaks being focused on them."
   },
   {
     "i": 669,
@@ -46037,7 +46075,7 @@
         "m": "Added from Infinity Insanity WeiDU logs"
       }
     ],
-    "no": "Provided by Transitions",
+    "no": "Provided by Transitions As of this writing (v3 AKA 0.3), Themed Tweaks changes SoD to be more roleplay friendly and removes content that characters shouldn’t know about yet.",
     "ph": [
       "BG1",
       "SoD",
@@ -46082,7 +46120,8 @@
       "ToB"
     ],
     "u": "https://github.com/Argent77/A7-HiddenGameplayOptions",
-    "a": "Argent77"
+    "a": "Argent77",
+    "no": "Install Reveal Hidden Gameplay Options after DragonSpear UI++, LeUI and Tweaks Anthology."
   },
   {
     "i": 672,
@@ -46136,7 +46175,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/LCA-EET/Lichdom"
+    "u": "https://github.com/LCA-EET/Lichdom",
+    "no": "Fulfill your desires by talking with Gravetender Morris in Athkatla’s Graveyard District (SoA) or Saradush (ToB), finishing his quest line, and paying the prices."
   },
   {
     "i": 675,
@@ -46164,7 +46204,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://www.gibberlings3.net/forums/topic/34944-blink-dogs-and-phase-spiders-mod/"
+    "u": "https://www.gibberlings3.net/forums/topic/34944-blink-dogs-and-phase-spiders-mod/",
+    "no": "Blink Dogs are also changed in alignment to be NG, the D&D standard.Install Blink Dogs and Phase Spiders after Sword Coast Stratagems (SCS)."
   },
   {
     "i": 676,
@@ -46197,7 +46238,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://www.gibberlings3.net/forums/topic/34370-purist-demiliches/"
+    "u": "https://www.gibberlings3.net/forums/topic/34370-purist-demiliches/",
+    "no": "Berserk characters are immune as in an unmodded game.Install Purist Demiliches after SCS."
   },
   {
     "i": 677,
@@ -46255,7 +46297,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/BardezAnAvatar/BGEE-Caster-Crafting"
+    "u": "https://github.com/BardezAnAvatar/BGEE-Caster-Crafting",
+    "no": "Casters can also make green protection scrolls that, by default, anyone can use - such as Protection from Undead or Protection from Fire."
   },
   {
     "i": 679,
@@ -46409,7 +46452,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/GraionDilach/RandomGraionTweaks"
+    "u": "https://github.com/GraionDilach/RandomGraionTweaks",
+    "no": "From this small list of tweaks, we plan to use the ones below.Install Random Graion Tweaks after Sword Coast Stratagems."
   },
   {
     "i": 680,
@@ -46437,7 +46481,8 @@
       "SoA",
       "ToB"
     ],
-    "u": "https://github.com/tipun81/Subrace-mod"
+    "u": "https://github.com/tipun81/Subrace-mod",
+    "no": "The mechanically best ones - likely Deep Gnome & Drow - have EXP penalties, but have notable advantages like racial spell resistance and innate spell-like abilities!Install Subraces after mods that ch..."
   },
   {
     "i": 681,
@@ -46550,7 +46595,7 @@
       "ToB"
     ],
     "rq": "EET",
-    "no": "GUI component of EET. Installs after EET_End to apply the correct game GUI.",
+    "no": "GUI component of EET. Installs after EET_End to apply the correct game GUI. We like getting items and don’t want to bug the game on our end.Install Deletifier after all mods that add or move items, such as EET End from Enhanced Edition Trilogy (EET) and Item Randomizer.",
     "co": [
       {
         "n": "SoD GUI",
@@ -46586,7 +46631,7 @@
       "SoA",
       "ToB"
     ],
-    "no": "SCS NPC customization component. Must be installed after EET_End so party NPCs are fully available.",
+    "no": "SCS NPC customization component. Must be installed after EET_End so party NPCs are fully available. The latest 2.6 compatible version is the newest release.NPC EE is incompatible with the Improved NPC Customization and Management component of Sword Coast Stratagems (SCS)! Once these mods have been properly updated to accommodate each other - likely by the time Infinity UI has left its beta status - they will work well together. Install SCS before BuTcHeRy components [41] and above ([43], [44], etc.",
     "co": [
       {
         "n": "Improved NPC customization and management",
@@ -46703,7 +46748,7 @@
       "SoA",
       "ToB"
     ],
-    "no": "EET compatible. 4 joinable NPCs, 10+ quests, 100+ items. May conflict with mods that modify the Docks area.",
+    "no": "EET compatible. 4 joinable NPCs, 10+ quests, 100+ items. May conflict with mods that modify the Docks area. While this old Dusk mod is likely outdated, you can download it here - and use the latest master branch if you do - and discuss it on the Gibberlings3 forum here.",
     "cl": [
       {
         "d": "2026-03-11",
