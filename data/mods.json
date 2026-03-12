@@ -81,7 +81,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://github.com/Pocket-Plane-Group/bg1ub/releases",
-    "no": "Unfinished Business BG1\nWe're skipping the components already fixed in EE",
+    "no": "Restores cut BG1 content. Install before Jarl's Adventure Pack and Tamoko. Use latest master version. Some components overlap with EE fixes.",
     "a": "icelus, devSin, SimDing0, Idobek, Ascension64, CamDawg, SixOfSpades, Dudley",
     "rq": "Install on BG1",
     "ic": "NTotSC [30:Nim Furlwing, 32:Svlast's Torment]",
@@ -275,7 +275,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://github.com/ArtemiusI/Sirene-BG1",
-    "no": "Sirene BG1\n. Had to copy a backup of the C0SW2H.itm file into override then console\nit in.",
+    "no": "LG Female Tiefling Paladin (Martyr). As of Feb 2025, BG1 version is EET compatible and should install after EET Start.",
     "a": "Artemius_I",
     "rq": "Install on BG1",
     "ph": [
@@ -385,7 +385,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://github.com/ArtemiusI/Drake",
-    "no": "Drake BG1\ncleric, dual classable to any other class",
+    "no": "NG Male Human Cleric (Priest of Tyr). Dual-classable to any other class.",
     "a": "Artemius_I",
     "rq": "Install on BG1",
     "ph": [
@@ -460,7 +460,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://downloads.weaselmods.net/download/verrsza-bg1ee/",
-    "no": "Verr'Sza BG1\nRanger, rakshasa",
+    "no": "NE Male Rakshasa Ranger (Naztharune Ranger). Unique race. Install after Drake & Sirene, before White.",
     "co": [
       {
         "n": "Verr'Sza - the rakshasa NPC for BG1EE",
@@ -484,7 +484,7 @@
     "c": "PRE EET BGEE MODS",
     "s": "EE FIXPACK - Pre EET placement",
     "u": "https://downloads.weaselmods.net/download/white-npc/",
-    "no": "White NPC - Barbarian companion for BG1",
+    "no": "CN Male Human Fighter (Barbarian).",
     "co": [
       {
         "n": "White NPC for BG:EE, BGT and TuTu",
@@ -537,6 +537,7 @@
     "t": "drizztsaga",
     "n": "The Drizzt Saga",
     "c": "PRE EET BGEE MODS",
+    "no": "For EET, must use travel triggers version (component 0), NOT Worldmap version. Have Drizzt join after Durlag's Tower for best results. Install World Map after EET_End.",
     "co": [
       {
         "n": "The Drizzt Saga for BGEE/Tutu/BGT -> Default version: areas connected by travel triggers",
@@ -597,6 +598,7 @@
     "t": "k9roughworld",
     "n": "Rough World",
     "c": "PRE EET BGEE MODS",
+    "no": "Most options increase difficulty in inconvenient ways. Recommended: Improved Beggars and Random Weather components only.",
     "co": [
       {
         "n": "Install Scaled Spawning (BGEE Only): BETA 1.41",
@@ -706,6 +708,7 @@
     "t": "margarita",
     "n": "Margarita NPC",
     "c": "PRE EET BGEE MODS",
+    "no": "LN Female Halfling Ranger (Stalker).",
     "co": [
       {
         "n": "Margarita for Baldur's Gate: Enhanced Edition",
@@ -733,7 +736,7 @@
     "c": "EET STARTS HERE",
     "s": "EE FIXPACK",
     "u": "https://github.com/K4thos/EET/releases",
-    "no": "EET CORE",
+    "no": "EET core. Use RC 12.2 for game version 2.5, newest master for 2.6. Do NOT install EET_End immediately after — install all other mods first.",
     "a": "K4thos",
     "rq": "BGEE, SoD, BG2EE, DLC Merger",
     "ph": [
@@ -2498,6 +2501,7 @@
     "t": "bgee_ai_denoised_areas",
     "n": "BG:EE AI Denoised Areas",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
+    "no": "Slightly improves area background image quality. Alternative: Baldur's Gate Graphic Overhaul (more comprehensive).",
     "co": [
       {
         "n": "BGEE_AI_Denoised_Areas",
@@ -2524,6 +2528,7 @@
     "t": "bg2ee_ai_denoised_areas",
     "n": "BG2:EE AI Denoised Areas",
     "c": "GRAPHICAL AND SOUND OVERWRITE MODS",
+    "no": "Slightly improves area background image quality. Alternative: Baldur's Gate Graphic Overhaul (more comprehensive).",
     "co": [
       {
         "n": "BG2EE_AI_Denoised_Areas",
@@ -5061,7 +5066,7 @@
     "c": "QUEST MODS BG1",
     "s": "Quest packs BG1",
     "u": "https://github.com/Spellhold-Studios/DSotSC",
-    "no": "Major BG1 quest expansion",
+    "no": "Major BG1 quest expansion with 7 recruitable NPCs. Split install: non-spell components before Breagar/Mercenaries/NTotSC, spell components after Spell Revisions & IWDification.",
     "a": "Various",
     "co": [
       {
@@ -5335,6 +5340,7 @@
     "t": "ajocmod",
     "n": "Loron's Return",
     "c": "QUEST MODS BG1",
+    "no": "Adds creatures, items, and quests to BG2. Roxanne's EET version. Install after Bank of Baldur's Gate.",
     "co": [
       {
         "n": "Loron's Return (Ajocmod)",
@@ -5360,6 +5366,7 @@
     "t": "vaulteet",
     "n": "The Vault",
     "c": "QUEST MODS BG1",
+    "no": "Adds items and tactical challenges to BG1. Find the vault on Bear River (north of Gnoll Stronghold) island. Roxanne's EET update.",
     "co": [
       {
         "n": "The Vault (Ikki's rework for EET compatibility)",
@@ -5392,6 +5399,7 @@
     "t": "bank_of_baldurs_gate",
     "n": "Bank of Baldur's Gate",
     "c": "QUEST MODS BG1",
+    "no": "Deposit gold in BG1 and retrieve it in BG2. Requires EET and a way to return inside Baldur's Gate city.",
     "co": [
       {
         "n": "Bank of Baldur's Gate",
@@ -5417,6 +5425,7 @@
     "t": "bonehilleet",
     "n": "Secret of Bonehill",
     "c": "QUEST MODS BG1",
+    "no": "Adapts the Isle of Lendore tabletop modules (L1 & L2) for BG1. Roxanne's EET update. May have issues on game version 2.6.",
     "co": [
       {
         "n": "Secret of BoneHill (EET)",
@@ -38348,7 +38357,7 @@
         "m": "Added from Infinity Insanity WeiDU logs"
       }
     ],
-    "no": "Incompatible with HTAM",
+    "no": "Adds mundane BG1 items (rope, dice game, etc.). Incompatible with HTAM. EET-compatible version available on GitHub.",
     "ph": [
       "BG1",
       "SoD",
