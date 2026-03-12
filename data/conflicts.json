@@ -3116,6 +3116,26 @@
       "mod": "faiths_and_powers",
       "after": "TomeAndBlood",
       "reason": "Install Faiths and Powers after Tome and Blood per FnP documentation"
+    },
+    {
+      "mod": "A7-MultiKits",
+      "after": "ArtisansKitpack",
+      "reason": "Scans installed kits at install time; must come after all kit mods so their kits are picked up"
+    },
+    {
+      "mod": "A7-MultiKits",
+      "after": "faiths_and_powers",
+      "reason": "Scans installed kits at install time; must come after Faiths and Powers"
+    },
+    {
+      "mod": "A7-MultiKits",
+      "after": "TomeAndBlood",
+      "reason": "Scans installed kits at install time; must come after Tome and Blood"
+    },
+    {
+      "mod": "A7-MultiKits",
+      "before": "dw_talents",
+      "reason": "Must be installed before Talents of Faerun, which has overlapping multiclass components"
     }
   ],
   "essentials": [

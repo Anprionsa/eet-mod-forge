@@ -46301,6 +46301,43 @@
     "no": "Casters can also make green protection scrolls that, by default, anyone can use - such as Protection from Undead or Protection from Fire."
   },
   {
+    "i": 678,
+    "t": "A7-MultiKits",
+    "n": "Multiclass Kits",
+    "c": "KIT MODS",
+    "s": "Multiclass kit combinations from installed kits",
+    "u": "https://github.com/Argent77/A7-MultiKits",
+    "a": "Argent77",
+    "ph": ["BG1", "SoD", "SoA", "ToB"],
+    "no": "Generates true multiclass kit combinations from all single-class kits installed at the time of installation. Must be installed AFTER all other kit mods (Faiths and Powers, Tome and Blood, Artisan's Kitpack, FnP Multiclass, etc.) so their kits are detected. Exception: install BEFORE Talents of Faerun, which has its own overlapping multiclass components. For each class pair, choose either 'All combinations' (auto) or 'Choose manually' (interactive) — not both.",
+    "cl": [
+      {"d": "2026-03-12", "m": "Added from research; v1.1 released 2025-10-24"}
+    ],
+    "co": [
+      {"n": "Fighter / Mage — All combinations", "x": 1, "cn": 10, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 10, "wq": "guessed"},
+      {"n": "Fighter / Mage — Choose manually", "x": 1, "cn": 11, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 11, "wq": "guessed"},
+      {"n": "Fighter / Cleric — All combinations", "x": 1, "cn": 20, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 20, "wq": "guessed"},
+      {"n": "Fighter / Cleric — Choose manually", "x": 1, "cn": 21, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 21, "wq": "guessed"},
+      {"n": "Fighter / Thief — All combinations", "x": 1, "cn": 30, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 30, "wq": "guessed"},
+      {"n": "Fighter / Thief — Choose manually", "x": 1, "cn": 31, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 31, "wq": "guessed"},
+      {"n": "Fighter / Mage / Thief — All combinations", "x": 1, "cn": 40, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 40, "wq": "guessed"},
+      {"n": "Fighter / Mage / Thief — Choose manually", "x": 1, "cn": 41, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 41, "wq": "guessed"},
+      {"n": "Mage / Thief — All combinations", "x": 1, "cn": 50, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 50, "wq": "guessed"},
+      {"n": "Mage / Thief — Choose manually", "x": 1, "cn": 51, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 51, "wq": "guessed"},
+      {"n": "Cleric / Mage — All combinations", "x": 1, "cn": 60, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 60, "wq": "guessed"},
+      {"n": "Cleric / Mage — Choose manually", "x": 1, "cn": 61, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 61, "wq": "guessed"},
+      {"n": "Cleric / Thief — All combinations", "x": 1, "cn": 70, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 70, "wq": "guessed"},
+      {"n": "Cleric / Thief — Choose manually", "x": 1, "cn": 71, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 71, "wq": "guessed"},
+      {"n": "Fighter / Druid — All combinations", "x": 1, "cn": 80, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 80, "wq": "guessed"},
+      {"n": "Fighter / Druid — Choose manually", "x": 1, "cn": 81, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 81, "wq": "guessed"},
+      {"n": "Fighter / Mage / Cleric — All combinations", "x": 1, "cn": 90, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 90, "wq": "guessed"},
+      {"n": "Fighter / Mage / Cleric — Choose manually", "x": 1, "cn": 91, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 91, "wq": "guessed"},
+      {"n": "Cleric / Ranger — All combinations", "x": 1, "cn": 100, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 100, "wq": "guessed"},
+      {"n": "Cleric / Ranger — Choose manually", "x": 1, "cn": 101, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 101, "wq": "guessed"},
+      {"n": "User-defined kits (via A7-MultiKits.ini)", "x": 1, "cn": 200, "wf": "A7-MultiKits", "wp": "A7-MultiKits\\A7-MultiKits.TP2", "wc": 200, "wq": "guessed"}
+    ]
+  },
+  {
     "i": 679,
     "t": "zgtweaks",
     "n": "ZG Tweaks",
