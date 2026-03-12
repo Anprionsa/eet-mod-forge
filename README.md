@@ -2,13 +2,13 @@
 
 **Master install order builder for Baldur's Gate: Enhanced Edition Trilogy**
 
-Browse 635 mods and 4,000+ components. Build a WeiDU.log. Export for [mod_installer](https://github.com/dark0dave/mod_installer) or Project Infinity. Analyze debug logs. Check for updates.
+Browse 636 mods and 4,000+ components. Build a WeiDU.log. Export for [mod_installer](https://github.com/dark0dave/mod_installer) or Project Infinity. Analyze debug logs. Check for updates.
 
 > [**Launch the app →**](https://anprionsa.github.io/eet-mod-forge/)
 
 ## What it does
 
-- **Browse the full EET mod catalog** — 635 mods organized by install order across 21 categories (Pre-EET through Post-EET), with search, game phase filters (BG1/SoD/SoA/ToB), and author filtering.
+- **Browse the full EET mod catalog** — 636 mods organized by install order across 21 categories (Pre-EET through Post-EET), with search, game phase filters (BG1/SoD/SoA/ToB), and author filtering.
 
 - **Build a WeiDU.log** — Select components with checkboxes, then export a valid `WeiDU.log` and `WeiDU-BGEE.log` pair. The format is compatible with [mod_installer](https://github.com/dark0dave/mod_installer) (`eet --bg1-log-file WeiDU-BGEE.log --bg2-log-file WeiDU.log`).
 
@@ -18,7 +18,7 @@ Browse 635 mods and 4,000+ components. Build a WeiDU.log. Export for [mod_instal
 
 - **Essential auto-selection** — Selecting EET Core automatically selects all essential mods (DLC Merger, EE Fixpack, EET End). Dual-install mods like EE Fixpack are exported to both WeiDU logs.
 
-- **Conflict detection** — Real-time alerts when selected mods conflict, with component-level detail where available.
+- **Conflict detection** — 299 conflict rules and 116 dependency rules sourced from community data. Real-time alerts when selected mods conflict, with component-level detail where available.
 
 - **Split mod navigation** — Mods that span multiple install positions show SPLIT badges with one-click navigation between parts.
 
@@ -41,6 +41,7 @@ The catalog is built by merging five sources:
 | WeiDU.log | Actual installed components with real tp2 paths and versions |
 | [EET Compatibility List](https://k4thos.github.io/EET-Compatibility-List/) | Minimum versions and placement requirements |
 | [Infinity Insanity Guide](https://docs.google.com/document/d/1hy38KD0bS2qJCaOeWz0F-50z7GkZcCH7QWjDsheKPrA/edit) | 170+ additional mods, conflict annotations, and mod URLs from Endarire's mega-install |
+| [EE-Mod-Setup](https://github.com/bujiasbitwise-contributions/EE-Mod-Setup) | 168 component-level conflict rules and 105 dependency rules from the EET Game.ini config |
 
 ## Repo structure
 
@@ -58,6 +59,10 @@ data/
 tools/
   build_data.py        # Full data pipeline (parse sources → JSON)
   scan_versions.py     # GitHub API scanner for Actions
+  extract_ii_notes.py  # Infinity Insanity docx → mod notes extraction
+  apply_ii_notes.py    # Apply extracted notes to mods.json
+  extract_eemodsetup.py # EE-Mod-Setup Game.ini → conflict/dependency extraction
+  apply_eemodsetup.py  # Apply extracted rules to conflicts.json
 
 .github/workflows/
   update-versions.yml  # Weekly scheduled version scan
@@ -263,12 +268,19 @@ This regenerates all `data/*.json` files.
 
 - **Install order guide**: [install-EET-4.txt](https://www.scribd.com/document/777087788/install-EET-4) — the most comprehensive EET install order with 9,380 lines of component entries and compatibility notes
 - **EET Mod Install Order Guide**: [Google Sheets](https://docs.google.com/spreadsheets/d/1tt4f-rKqkbk8ds694eJ1YcOjraZ2pISkkobqZ5yRcvI/edit?gid=676921267#gid=676921267) — the community-maintained spreadsheet that inspired this project and provided mod-level metadata
-- **Infinity Insanity**: Endarire (Greg Campbell) — the [Infinity Insanity Guide](https://docs.google.com/document/d/1hy38KD0bS2qJCaOeWz0F-50z7GkZcCH7QWjDsheKPrA/edit) (Unreleased) provided WeiDU logs, conflict data, and mod URLs that contributed 170+ mod entries to the catalog
+- **Infinity Insanity**: Endarire (Greg Campbell) — the [Infinity Insanity Guide](https://docs.google.com/document/d/1hy38KD0bS2qJCaOeWz0F-50z7GkZcCH7QWjDsheKPrA/edit) (Unreleased) provided WeiDU logs, conflict data, and mod URLs that contributed 170+ mod entries to the catalog, plus install order notes for 167 mods
+- **EE-Mod-Setup**: [bujiasbitwise-contributions](https://github.com/bujiasbitwise-contributions/EE-Mod-Setup) — component-level conflict and dependency data from the EET Game.ini configuration
 - **EET**: [K4thos](https://github.com/Gibberlings3/EET) and the Gibberlings Three community
 - **mod_installer**: [dark0dave](https://github.com/dark0dave/mod_installer) — open source WeiDU log-based installer
 - **Mod authors**: The hundreds of people who build and maintain BG mods across Gibberlings3, Spellhold Studios, Weaselmods, Artisan's Corner, Pocket Plane Group, and beyond
 
 ## Changelog
+
+### v1.4.0 (2026-03-11)
+- Bulk note enrichment — 167 mods enriched with install order directives, NPC info, warnings, and component recommendations extracted from the Infinity Insanity guide (518 of 636 mods now have notes)
+- Conflict data expansion — extracted 168 component-level conflict rules and 105 dependency rules from EE-Mod-Setup Game.ini (conflicts.json now has 299 conflicts and 116 dependencies, up from 97 and 11)
+- Cleaned up 69 existing conflict entries that used display names instead of tp2 names for more reliable matching
+- Added extraction tools: `extract_ii_notes.py`, `apply_ii_notes.py`, `extract_eemodsetup.py`, `apply_eemodsetup.py`
 
 ### v1.3.0 (2026-03-11)
 - Data accuracy sweep — corrected game phases, categories, and authors for 10 mods based on community feedback
