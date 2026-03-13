@@ -22,8 +22,8 @@
     {
       "a": "LeUI-BG1EE",
       "b": "EEUITweaks",
-      "severity": "hard",
-      "reason": "UI overhaul mods are mutually exclusive",
+      "severity": "partial",
+      "reason": "Lefreut's skin conflicts with EEUITweaks Main Component; utility tweaks are compatible",
       "comp_a": "BG1EE skin",
       "comp_b": "Main Component"
     },
@@ -42,8 +42,8 @@
     {
       "a": "LeUI-SoD",
       "b": "EEUITweaks",
-      "severity": "hard",
-      "reason": "UI overhaul mods are mutually exclusive",
+      "severity": "partial",
+      "reason": "Lefreut's skin conflicts with EEUITweaks Main Component; utility tweaks are compatible",
       "comp_a": "SoD skin",
       "comp_b": "Main Component"
     },
@@ -56,8 +56,8 @@
     {
       "a": "LeUI",
       "b": "EEUITweaks",
-      "severity": "hard",
-      "reason": "UI overhaul mods are mutually exclusive",
+      "severity": "partial",
+      "reason": "Lefreut's skin conflicts with EEUITweaks Main Component; utility tweaks are compatible",
       "comp_a": "BG2EE skin",
       "comp_b": "Main Component"
     },
@@ -276,13 +276,13 @@
     {
       "a": "cowledmenace",
       "b": "Item_Pack",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Unofficial Item Pack main component conflicts"
     },
     {
       "a": "randomiser",
       "b": "candlekeep_revisited",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Randomiser Mode 1 clashes with Skip Candlekeep"
     },
     {
@@ -438,7 +438,7 @@
     {
       "a": "shadowadept",
       "b": "mih_eq",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Incompatible (per Infinity Insanity install notes)"
     },
     {
@@ -854,7 +854,7 @@
     {
       "a": "eet",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "ToB-style NPCs tweak reported incompatible with EET (NPCs have ToB experience levels in BG1)",
       "source": "eemodsetup",
       "comp_b": "ToB-Style NPCs; #4010"
@@ -952,7 +952,7 @@
     {
       "a": "rr",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Weapon Proficiency conflict 1",
       "source": "eemodsetup",
       "comp_a": "#0; #6",
@@ -1012,7 +1012,7 @@
     {
       "a": "TomeAndBlood",
       "b": "npckit",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Mage specialist kit tweaks conflict",
       "source": "eemodsetup",
       "comp_a": "#5",
@@ -1083,7 +1083,7 @@
     {
       "a": "cdtweaks",
       "b": "tb#tweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "APR progression and/or Grandmastery rule conflicts",
       "source": "eemodsetup",
       "comp_a": "#2210, #2211, #2440",
@@ -1101,7 +1101,7 @@
     {
       "a": "KLATU",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Alter effects of CHA stat (store prices)",
       "source": "eemodsetup",
       "comp_a": "#2180; #2000; #2010",
@@ -1137,7 +1137,7 @@
     {
       "a": "EET_Tweaks",
       "b": "atweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Replace Baseline XP Table for Picking Locks, Disarming Traps and Learning Spells",
       "source": "eemodsetup",
       "comp_a": "BG1 values (default), BG2 values, Vanilla friendly progressive, Disabled, Custom value; Increase to 150%, Decrease to 75%, Decrease to 50%, Decrease to 25%, Decrease to 10%, Disable, Custom value",
@@ -1146,7 +1146,7 @@
     {
       "a": "iwdification",
       "b": "a7-totlm-bg2ee",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Different sets of IWD spells cannot be installed together",
       "source": "eemodsetup",
       "comp_a": "#30, #40, #50",
@@ -1225,7 +1225,7 @@
     {
       "a": "ImoenRomance",
       "b": "Ascension",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Imoen Romance dialogues block ToB final",
       "source": "eemodsetup",
       "comp_b": "Rewritten Final Chapter of Throne of Bhaal, Balthazar can be redeemed, Improved Sarevok-Player Interactions, Improved Imoen-Player Interactions in Throne of Bhaal, #60, #61"
@@ -1255,7 +1255,7 @@
     {
       "a": "ImoenRomance",
       "b": "iepbanters",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Imoen Romance dialogues block ToB final",
       "source": "eemodsetup",
       "comp_b": "#2"
@@ -1368,7 +1368,7 @@
     {
       "a": "SotSC",
       "b": "TheBeaurinLegacy",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Conflicting use of areas/game resources",
       "source": "eemodsetup"
     },
@@ -1382,7 +1382,7 @@
     {
       "a": "SotSC",
       "b": "SirinesCall",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Conflicting use of areas/game resources",
       "source": "eemodsetup"
     },
@@ -1432,7 +1432,7 @@
     {
       "a": "SotSC",
       "b": "bg1npc",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Conflicting use of areas/game resources",
       "source": "eemodsetup"
     },
@@ -1447,7 +1447,7 @@
     {
       "a": "stratagems",
       "b": "hiddenadventure",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Conflicting use of game resources",
       "source": "eemodsetup",
       "comp_b": "#9"
@@ -1455,7 +1455,7 @@
     {
       "a": "bg1npc",
       "b": "bg1ub",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "BG1NPC includes Finishable Kagain Caravan Quest",
       "source": "eemodsetup",
       "comp_a": "#10; Speed: 1 hour real time (standard) minimum between LoveTalks; #130, #131",
@@ -1472,7 +1472,7 @@
     {
       "a": "ImoenRomance",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
       "source": "eemodsetup",
       "comp_b": "#3140, #3141"
@@ -1480,7 +1480,7 @@
     {
       "a": "deArnise",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Imoen romance, Nalia romances, Tashia and Er'vonyrah conflict with \"Faster chapter cutscenes and dreams\" tweak",
       "source": "eemodsetup",
       "comp_b": "#3140, #3141; #3183",
@@ -1505,7 +1505,7 @@
     {
       "a": "ub",
       "b": "Paina",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Select one spider hive mod",
       "source": "eemodsetup",
       "comp_a": "The Pai'Na/Spider's Bane Quest"
@@ -1513,7 +1513,7 @@
     {
       "a": "isra_bg2",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "CDTweaks romance cheats create stutter for mod NPCs",
       "source": "eemodsetup",
       "comp_a": "Isra for BGII",
@@ -1522,7 +1522,7 @@
     {
       "a": "Sirene_BG2",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "CDTweaks romance cheats create stutter for mod NPCs",
       "source": "eemodsetup",
       "comp_b": "#3183"
@@ -1530,7 +1530,7 @@
     {
       "a": "TyrisFlare",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "CDTweaks romance cheats create stutter for mod NPCs",
       "source": "eemodsetup",
       "comp_a": "Tyris Flare NPC",
@@ -1548,7 +1548,7 @@
     {
       "a": "xan",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "CDTweaks romance cheats create stutter for mod NPCs",
       "source": "eemodsetup",
       "comp_b": "#3183; #4130",
@@ -1557,7 +1557,7 @@
     {
       "a": "adrian",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "CDTweaks romance cheats create stutter for mod NPCs",
       "source": "eemodsetup",
       "comp_b": "#3183"
@@ -1649,7 +1649,7 @@
     {
       "a": "d0questpack",
       "b": "Fade",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Aran story conflict",
       "source": "eemodsetup",
       "comp_a": "Additional Shadow Thieves Content"
@@ -1665,7 +1665,7 @@
     {
       "a": "atweaks",
       "b": "stratagems",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"disable quickslot items for Simulacra and Projected Images\" tweak",
       "source": "eemodsetup",
       "comp_a": "#205",
@@ -1674,7 +1674,7 @@
     {
       "a": "atweaks",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one tweak for container storage capacity",
       "source": "eemodsetup",
       "comp_a": "#500, #502",
@@ -1683,7 +1683,7 @@
     {
       "a": "KLATU",
       "b": "TomeAndBlood",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one tweak for allowing arcane casting with armor",
       "source": "eemodsetup",
       "comp_a": "#2140",
@@ -1692,7 +1692,7 @@
     {
       "a": "EET_Tweaks",
       "b": "divine_remix",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"add Priest (or Battleguard) of Tempus kit\"",
       "source": "eemodsetup",
       "comp_a": "#4000",
@@ -1701,7 +1701,7 @@
     {
       "a": "stratagems",
       "b": "bg1npc",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"NPCs can be sent to wait in an inn\"",
       "source": "eemodsetup",
       "comp_a": "#4120",
@@ -1710,7 +1710,7 @@
     {
       "a": "cdtweaks",
       "b": "randomiser",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"Cespenar can forge Shadows of Amn items\" tweak",
       "source": "eemodsetup",
       "comp_a": "#1230",
@@ -1719,7 +1719,7 @@
     {
       "a": "stratagems",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"Allow player to choose NPC proficiencies and skills\" / \"TOB-style NPCs\" tweak",
       "source": "eemodsetup",
       "comp_a": "Improved NPC customization and management; #5020; #5030; #4030",
@@ -1745,7 +1745,7 @@
     {
       "a": "d0questpack",
       "b": "d0tweak",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"Add Drow Innate Abilities\"",
       "source": "eemodsetup",
       "comp_a": "#1, #2",
@@ -1754,7 +1754,7 @@
     {
       "a": "bg1npc",
       "b": "banterpack",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one Shadows of Amn Banter Accelerator",
       "source": "eemodsetup",
       "comp_a": "#100",
@@ -1869,7 +1869,7 @@
     {
       "a": "a7-banteraccelerator",
       "b": "bg1npc",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose one \"Banter Timing\" tweak",
       "source": "eemodsetup",
       "comp_b": "#110, #111, #112, #113, #114"
@@ -1931,7 +1931,7 @@
     {
       "a": "stratagems",
       "b": "randomiser",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Item Randomiser Mode 1 needs time in starting area",
       "source": "eemodsetup",
       "comp_a": "#4146",
@@ -1940,7 +1940,7 @@
     {
       "a": "EET_Tweaks",
       "b": "TomeAndBlood",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Familiar penalty conflict",
       "source": "eemodsetup",
       "comp_a": "#3020, #3021, #3022",
@@ -2002,7 +2002,7 @@
     {
       "a": "divine_remix",
       "b": "BardicWonders",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "HLAs for Clerics, Paladins, Druids, Rangers might conflict",
       "source": "eemodsetup",
       "comp_a": "Cleric Remix, Druid Remix"
@@ -2028,7 +2028,7 @@
     {
       "a": "divine_remix",
       "b": "cdtweaks",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Alter Druid spell progression",
       "source": "eemodsetup",
       "comp_a": "Druid Remix; Cleric Remix",
@@ -2037,7 +2037,7 @@
     {
       "a": "stratagems",
       "b": "d0questpack",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Smarter Mages",
       "source": "eemodsetup",
       "comp_a": "#6030",
@@ -2046,7 +2046,7 @@
     {
       "a": "Ascension",
       "b": "ub",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "New Ascension has separate and better Restored Bhaalspawn Powers component",
       "source": "eemodsetup",
       "comp_a": "#40; Rewritten Final Chapter of Throne of Bhaal, Improved Sarevok-Player Interactions",
@@ -2055,7 +2055,7 @@
     {
       "a": "Ascension",
       "b": "randomiser",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Make Gromnir a proper Barbarian is redundant if Ascension is installed",
       "source": "eemodsetup",
       "comp_a": "Rewritten Final Chapter of Throne of Bhaal",
@@ -2064,7 +2064,7 @@
     {
       "a": "Turnabout",
       "b": "ub",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Sarevok's Remorse conflicts with Turnabout",
       "source": "eemodsetup",
       "comp_b": "Sarevok's Remorse"
@@ -2072,7 +2072,7 @@
     {
       "a": "YoshimosRemorse",
       "b": "ub",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Sarevok's Remorse conflicts with Yoshimo",
       "source": "eemodsetup",
       "comp_b": "Sarevok's Remorse"
@@ -2089,7 +2089,7 @@
     {
       "a": "polytweak",
       "b": "npc_tweak",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose class/kit for Cernd",
       "source": "eemodsetup",
       "comp_a": "Cernd; Nalia",
@@ -2107,7 +2107,7 @@
     {
       "a": "npckit",
       "b": "polytweak",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose class/kit for Minsc",
       "source": "eemodsetup",
       "comp_a": "#2300",
@@ -2125,7 +2125,7 @@
     {
       "a": "npckit",
       "b": "npc_tweak",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Choose class/kit for Nalia",
       "source": "eemodsetup",
       "comp_a": "#2500, #2510, #2511, #2512, #2513, #2514, #2515, #2516, #2517",
@@ -2143,7 +2143,7 @@
     {
       "a": "EET_Tweaks",
       "b": "bg1npc",
-      "severity": "hard",
+      "severity": "partial",
       "reason": "Patch joinable NPCs to use the same portrait filenames for BG1 and BG2",
       "source": "eemodsetup",
       "comp_a": "BG1",
@@ -2208,7 +2208,7 @@
     {
       "mod": "EET",
       "requires": "A7",
-      "type": "hard",
+      "type": "soft",
       "reason": "EET requires DLC Merger"
     },
     {
@@ -2232,7 +2232,7 @@
     {
       "mod": "garrick-tt",
       "requires": "bg1npc_project",
-      "type": "hard",
+      "type": "soft",
       "reason": "Requires BG1 NPC Project"
     },
     {
@@ -2274,7 +2274,7 @@
     {
       "mod": "eet",
       "requires": "EET_END",
-      "type": "hard",
+      "type": "soft",
       "reason": "EET needs EET_End",
       "source": "eemodsetup"
     },
@@ -2295,7 +2295,7 @@
     {
       "mod": "EEUITweaks",
       "requires": "EET_gui",
-      "type": "hard",
+      "type": "soft",
       "reason": "EEUITweaks",
       "source": "eemodsetup"
     },
@@ -2379,14 +2379,14 @@
     {
       "mod": "innershade",
       "requires": "bp-bgt-worldmap",
-      "type": "hard",
+      "type": "soft",
       "reason": "Worldmap optional",
       "source": "eemodsetup"
     },
     {
       "mod": "eilistraee",
       "requires": "bp-bgt-worldmap",
-      "type": "hard",
+      "type": "soft",
       "reason": "Worldmap optional",
       "source": "eemodsetup"
     },
@@ -2407,7 +2407,7 @@
     {
       "mod": "whitequeen",
       "requires": "bp-bgt-worldmap",
-      "type": "hard",
+      "type": "soft",
       "reason": "Worldmap optional",
       "source": "eemodsetup"
     },
@@ -2785,7 +2785,7 @@
     {
       "mod": "eet",
       "requires": "randomiser",
-      "type": "hard",
+      "type": "soft",
       "reason": "Prevent Watcher's Keep statues from disappearing in case items were randomly placed on them by this mod",
       "source": "eemodsetup"
     },
